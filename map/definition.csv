@@ -1,8 +1,21 @@
 province;red;green;blue;x;x
-1;128;34;64;Schwys;x
-2;0;36;128;Östergötland;x
-3;128;38;192;Småland;x
-4;0;40;255;Bergslagen;x
+1;128;34;64;Aurora;x
+2;0;36;128;Ignis;x
+3;128;38;192;Greenleaf;x
+4;0;40;255;Fontaine;x
+5;128;42;0;Violight;x
+6;0;44;64;Chrysalia;x
+7;129;46;128;Pugilis;x
+8;1;48;192;Illusio;x
+9;129;50;255;Terrera;x
+10;1;52;0;Cragspur;x
+11;129;54;64;Viperia;x
+12;1;56;128;Yaksha;x
+13;129;58;192;Avia;x
+14;2;60;255;Valora;x
+15;130;62;0;Spectra;x
+16;2;64;64;Nixtorm;x
+17;130;66;128;Dragnor;x
 1000;225;223;29;Wasteland;x
 1250;1;200;200;Ocean 1;x
 1251;2;200;250;Ocean 2;x
@@ -12,29 +25,30 @@ province;red;green;blue;x;x
 1255;6;200;250;Ocean 6;x
 1256;7;220;250;Ocean 7;x
 1257;8;250;250;Ocean 8;x
-1258;9;200;200;Ã–resund;
-1259;10;200;250;Kattegat;
-1260;11;220;250;Peipsi JÃ¤rv;
-1261;12;250;250;Ladoga;
-1262;13;200;200;Onega;
-1263;14;200;250;Barents Sea;
-1264;15;220;250;Lofoten Sea;
-1265;16;250;250;Northern Norwegian Sea;
-1266;17;200;200;Southern Norwegian Sea;
-1267;18;200;250;Skagerrack;
-1268;19;220;250;Helgoland Bight;
-1269;20;250;250;Coast of Holland;
-1270;21;200;200;Dogger Bank;
-1271;22;200;250;Straits of Dover;
-1272;23;220;250;The Channel;
-1274;25;200;200;Coast of Britanny;
-1275;26;200;250;Quiberon Bay;
-1276;27;220;250;Cote D'Argent;
-1277;28;250;250;Bay of Biscay;
-1278;29;200;200;Cantabrian Sea;
-1279;30;200;250;Tyne;
-1280;31;220;250;Firth of Forth;
-1281;32;250;250;The North Sea;
+1258;9;200;200;Ocean 9;x
+1259;10;200;250;Ocean 10;x
+1260;11;220;250;Ocean 11;x
+1261;12;250;250;Ocean 12;x
+1262;13;200;200;Ocean 13;x
+1263;14;200;250;Ocean 14;x
+1264;15;220;250;Ocean 15;x
+1265;16;250;250;Ocean 16;x
+1266;17;200;200;Ocean 17;x
+1267;18;200;250;Ocean 18;x
+1268;19;220;250;Ocean 19;x
+1269;20;250;250;Ocean 20;x
+1270;21;200;200;Ocean 21;x
+1271;22;200;250;Ocean 22;x
+1272;23;220;250;Ocean 23;x
+1273;24;250;250;Ocean 24;x
+1274;25;200;200;Ocean 25;x
+1275;26;200;250;Ocean 26;x
+1276;27;220;250;Ocean 27;x
+1277;28;250;250;Ocean 28;x
+1278;29;200;200;Ocean 29;x
+1279;30;200;250;Ocean 30;x
+1280;31;220;250;Ocean 31;x
+1281;32;250;250;Ocean 32;x
 1282;33;200;200;Moray Firth;
 1283;34;200;250;North Channel;
 1284;35;220;250;Irish Sea;

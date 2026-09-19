@@ -1,16 +1,18 @@
-#1 - Schwyz
+#4 - Lucca
 
-owner = SWI
-controller = SWI
-culture = swiss
+owner = LUC
+controller = LUC
+add_core = LUC
+culture = tuscan
 religion = catholic
-capital = "Schwyz"
-trade_goods = iron
 hre = yes
-base_tax = 4 
-base_production = 4
+base_tax = 6
+base_production = 6
+trade_goods = cloth
 base_manpower = 2
-is_city = yes
-add_core = SWI
+capital = "Lucca"
+is_city = yes # Estimated
+extra_cost = 8
+center_of_trade = 1
 
 discovered_by = western
