@@ -21,6 +21,22 @@ ocean_area = {
 # France					 		   #
 ########################################
 
-switzerland_area = {
+southwest_ransei_area = {
 	1 2 3 4
+}
+
+northwest_ransei_area = {
+	5 6 7
+}
+
+central_ransei_area = {
+	8 9
+}
+
+southeast_ransei_area = {
+	10 11 12 13
+}
+
+northeast_ransei_area = {
+	14 15 16 17
 }

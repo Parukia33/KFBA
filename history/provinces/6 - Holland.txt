@@ -1,0 +1,18 @@
+#6 - Holand
+
+owner = HOL
+controller = HOL
+add_core = HOL
+capital = "Amsterdam"
+is_city = yes
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 4
+extra_cost = 16
+center_of_trade = 2
+
+discovered_by = western
