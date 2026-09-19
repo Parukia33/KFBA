@@ -1,4 +1,4 @@
-#50 - Brandenburg
+#17 - Brandenburg
 
 owner = BRA
 controller = BRA
@@ -11,7 +11,7 @@ base_production = 4
 trade_goods = cloth
 base_manpower = 4
 fort_15th = yes
-capital = "Berlin-Cölln"
+capital = "Berlin-CÃ¶lln"
 is_city = yes
 extra_cost = 8
 center_of_trade = 1
