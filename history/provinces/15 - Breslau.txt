@@ -1,0 +1,17 @@
+#15 - Breslau (Breslau+Brieg+Öls+Wartenberg+Wohlau/Steinau)
+
+owner = OPL
+controller = OPL
+culture = schlesian
+religion = catholic
+capital = "Breslau"
+trade_goods = cloth
+hre = yes
+base_tax = 5 
+base_production = 5
+is_city = yes 
+base_manpower = 3
+add_core = OPL
+discovered_by = western
+extra_cost = 8
+center_of_trade = 1
