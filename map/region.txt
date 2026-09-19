@@ -1,0 +1,34 @@
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+##########
+# RANSEI #
+##########
+
+western_ransei_region = {
+	areas = {
+		switzerland_area
+	}
+}
+
+central_ransei_region = {
+	areas = {
+		#switzerland_area
+	}
+}
+
+eastern_ransei_region = {
+	areas = {
+		#switzerland_area
+	}
+}
+
+#Sea Regions
+ocean_region = {
+	areas = {
+		ocean_area
+	}
+}

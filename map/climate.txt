@@ -1,0 +1,55 @@
+#Example: Large parts of Africa and south east Asia
+tropical = {
+	#Ransei
+	#1
+}
+
+arid = {
+	#Ransei
+	#1
+}
+
+arctic = {
+	#Ransei
+	#1
+}
+
+#Example: Most of Europe north of med.
+mild_winter = {
+	#Ransei
+  	#1
+}
+
+#Example: Inland Europe & Scandinavia
+normal_winter = {
+	#Ransei
+	#1
+}
+
+#Example: Russia & Lappland
+severe_winter = {
+	#Ransei
+	#1
+}
+
+impassable = {
+	#Ransei
+	2
+}
+
+mild_monsoon = {
+	#Ransei
+	#1
+}
+
+normal_monsoon = {
+	#Ransei
+	#1
+}
+
+severe_monsoon = {
+	#Ransei
+	#1
+}
+
+equator_y_on_province_image = 656

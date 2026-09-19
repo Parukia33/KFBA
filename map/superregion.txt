@@ -1,0 +1,18 @@
+# A region can only belong to one super region.
+
+ransei_superregion = {
+	restrict_charter		# harder to get TC here.
+	
+	western_ransei_region
+	central_ransei_region
+	eastern_ransei_region
+}
+
+new_world_superregion = {
+}
+
+# Sea super regions are used by AI to plan naval bases (it wants at least one fleet in each it has non-home presence if possible).
+
+ocean_superregion = {
+	ocean_region
+}

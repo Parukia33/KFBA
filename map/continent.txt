@@ -1,0 +1,14 @@
+ransei = {
+	1
+	
+	#Wasteland
+	1000
+}
+
+island_check_provinces = {
+	1 # Aurora - Ransei
+}
+
+# Used for RNW
+new_world = {
+}

@@ -1,0 +1,26 @@
+# A province can only belong to one area!
+
+#Sea Areas:
+#No restriction on size.
+
+ocean_area = {
+	3
+}
+
+#Lakes:
+#Listed by themselves in order to be easier to remove if needed.
+
+#central_asian_lakes_area = {
+#	1326 1327 1653 1654 1888
+#}
+
+#Land Areas:
+# A land area is 3 - 10 provinces
+
+########################################
+# France					 		   #
+########################################
+
+switzerland_area = {
+	1
+}
