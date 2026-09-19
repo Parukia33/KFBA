@@ -1,6 +1,16 @@
 ﻿l_english:
  PROV1:1 "Aurora"
- PROV2:1 "Wasteland"
- PROV3:1 "Ocean"
+ PROV2:1 "Ignis"
+ PROV3:1 "Greenleaf"
+ PROV4:1 "Fontaine"
+ PROV1000:1 "Wasteland"
+ PROV1250:1 "Ocean"
+ PROV1251:1 "Ocean"
+ PROV1252:1 "Ocean"
+ PROV1253:1 "Ocean"
+ PROV1254:1 "Ocean"
+ PROV1255:1 "Ocean"
+ PROV1256:1 "Ocean"
+ PROV1257:1 "Ocean"
  
  ocean_area:1 "Ocean Area"
