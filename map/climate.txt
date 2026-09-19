@@ -34,7 +34,7 @@ severe_winter = {
 
 impassable = {
 	#Ransei
-	2
+	1000
 }
 
 mild_monsoon = {

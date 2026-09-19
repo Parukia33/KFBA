@@ -4,7 +4,7 @@
 #No restriction on size.
 
 ocean_area = {
-	3
+	1250 1251 1252 1253 1254 1255 1256 1257
 }
 
 #Lakes:
@@ -22,5 +22,5 @@ ocean_area = {
 ########################################
 
 switzerland_area = {
-	1
+	1 2 3 4
 }
