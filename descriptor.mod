@@ -4,5 +4,4 @@ tags={
 }
 name="Kaiser Frederick III's Bizarre Adventure"
 supported_version="v1.37.5.0"
-replace_path="history/countries"
 replace_path="history/provinces"
