@@ -1,0 +1,19 @@
+#11 - Ostmarch
+
+owner = HAB
+controller = HAB
+add_core = HAB
+culture = austrian
+religion = catholic
+base_tax = 3
+base_production = 3
+trade_goods = wine
+base_manpower = 4
+capital = "Krems" 
+is_city = yes
+hre = yes
+fort_15th = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western

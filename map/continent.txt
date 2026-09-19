@@ -1,12 +1,12 @@
 ransei = {
-	1 2 3 4
+	1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
 	
 	#Wasteland
 	1000
 }
 
 island_check_provinces = {
-	1 # Aurora - Ransei
+	8 # Illusio - Ransei
 }
 
 # Used for RNW

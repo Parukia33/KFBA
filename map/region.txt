@@ -10,19 +10,21 @@ random_new_world_region = {
 
 western_ransei_region = {
 	areas = {
-		switzerland_area
+		southwest_ransei_area
+		northwest_ransei_area
 	}
 }
 
 central_ransei_region = {
 	areas = {
-		#switzerland_area
+		central_ransei_area
 	}
 }
 
 eastern_ransei_region = {
 	areas = {
-		#switzerland_area
+		southeast_ransei_area
+		northeast_ransei_area
 	}
 }
 
