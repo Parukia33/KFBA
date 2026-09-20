@@ -1,0 +1,14 @@
+bookmark =
+{
+	name = "A_WORLD_AFTER_DARKNESS"
+	desc = "A_WORLD_AFTER_DARKNESS_DESC"
+	date = 1445.1.1
+	
+	center = 9
+	default = yes
+	
+	country = HAB
+	country = BRA
+	
+	easy_country = HAB
+}
