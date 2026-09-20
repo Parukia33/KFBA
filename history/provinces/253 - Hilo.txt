@@ -1,0 +1,19 @@
+
+
+owner = H04
+controller = H04
+add_core = H04
+culture = polynesian
+religion = hoomana_kapu
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = gems
+base_manpower = 3
+fort_15th = no
+capital = "Hilo"
+is_city = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = polynesian_tech

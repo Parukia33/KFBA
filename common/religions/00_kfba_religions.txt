@@ -19,7 +19,7 @@ hawaiian = {
 		flag_emblem_index_range = { 1 4 }
 
 		color = { 63 0 255 }
-		icon = 14
+		icon = 11
 		country = {
 			development_cost = -0.1
 			tolerance_own = 2
@@ -622,7 +622,7 @@ kamuy = {
 	flag_emblem_index_range = { 83 96 }
 	
 	kamuy_nomi = {
-		icon = 27
+		icon = 12
 		color = { 53 94 59 }
 		country = {
 			tolerance_heathen = 2

@@ -1,0 +1,19 @@
+
+
+owner = H10
+controller = H10
+add_core = H10
+culture = polynesian
+religion = hoomana_kapu
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 3
+fort_15th = no
+capital = "Lahaina"
+is_city = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = polynesian_tech
