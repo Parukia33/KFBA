@@ -5,7 +5,7 @@
 hawaiian = {
 	can_form_personal_unions = yes
 	
-	center_of_religion = 100 # Lahaina
+	center_of_religion = 259 # Lahaina
 
 	# Flag emblem values - Used for Dynamic Setup of Random Nations.
 	# Emblem texture: game/gfx/interface/client_state_symbols_large.dds
@@ -613,10 +613,12 @@ hawaiian = {
 	}
 	
 	harmonized_modifier = harmonized_zoroastrian_group
-	
+	}
 }
 
 kamuy = {
+
+	# center_of_religion = 100 # Sapporo
 
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = { 83 96 }
