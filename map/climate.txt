@@ -34,6 +34,8 @@ severe_winter = {
 
 impassable = {
 	#Ransei
+	24 25 29 43
+	
 	1000
 }
 

@@ -5,6 +5,7 @@ tags={
 name="Kaiser Frederick III's Bizarre Adventure"
 supported_version="v1.37.5.0"
 replace_path="common/bookmarks"
+replace_path="common/province_names"
 replace_path="events"
 replace_path="missions"
 replace_path="decisions"
