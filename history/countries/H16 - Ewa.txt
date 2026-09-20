@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = kapu_system
+government_rank = 2
+primary_culture = polynesian
+religion = hoomana_kapu
+technology_group = polynesian_tech
+capital = 265 #Oahu
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Kalani"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
