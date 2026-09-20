@@ -1,0 +1,18 @@
+
+
+owner = H09
+controller = H09
+add_core = H09
+culture = polynesian
+religion = hoomana_kapu
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = sugar
+base_manpower = 3
+fort_15th = no
+capital = "Wailuku"
+is_city = yes
+extra_cost = 8
+
+discovered_by = polynesian_tech

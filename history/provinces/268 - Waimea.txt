@@ -1,0 +1,18 @@
+
+
+owner = H19
+controller = H19
+add_core = H19
+culture = polynesian
+religion = hoomana_kapu
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = dyes
+base_manpower = 3
+fort_15th = no
+capital = "Waimea"
+is_city = yes
+extra_cost = 8
+
+discovered_by = polynesian_tech

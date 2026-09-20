@@ -1,0 +1,18 @@
+
+
+owner = H07
+controller = H07
+add_core = H07
+culture = polynesian
+religion = hoomana_kapu
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = sugarcane
+base_manpower = 3
+fort_15th = no
+capital = "Hamakua"
+is_city = yes
+extra_cost = 8
+
+discovered_by = polynesian_tech

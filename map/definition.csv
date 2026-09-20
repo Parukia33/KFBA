@@ -16,6 +16,27 @@ province;red;green;blue;x;x
 15;130;62;0;Spectra;x
 16;2;64;64;Nixtorm;x
 17;130;66;128;Dragnor;x
+250;35;148;0;Puna;x
+251;163;150;64;Kau;x
+252;36;152;128;Kona;x
+253;164;154;192;Hilo;x
+254;36;156;255;Kohala;x
+255;164;158;0;Hana;x
+256;36;32;64;Hamakua;x
+257;164;34;128;Kula;x
+258;36;36;192;Wailuku;x
+259;165;38;255;Lahaina;x
+260;37;40;0;Kahoolawe;x
+261;165;42;64;Lanai;x
+262;37;44;128;Molokai;x
+263;165;46;192;Koolau;x
+264;37;48;255;Honolulu;x
+265;165;50;0;Ewa;x
+266;38;52;64;Waianae;x
+267;166;54;128;Kawaihau;x
+268;38;56;192;Waimea;x
+269;166;58;255;Napali;x
+270;38;60;0;Niihau;x
 1000;225;223;29;Wasteland;x
 1250;1;200;200;Ocean 1;x
 1251;2;200;250;Ocean 2;x

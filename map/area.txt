@@ -41,3 +41,28 @@ southeast_ransei_area = {
 northeast_ransei_area = {
 	14 15 16 17
 }
+
+########################################
+# Hawaii					 		   #
+########################################
+
+big_island_area = {
+	250 251 252 253 254
+}
+
+maui_area = {
+	255 256 257 258 259
+}
+
+central_hawaii_area = {
+	260 261 262
+}
+
+oahu_area = {
+	263 264 265 266
+}
+
+northwest_hawaii_area = {
+	267 268 269 270
+}
+    

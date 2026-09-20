@@ -1,0 +1,18 @@
+
+
+owner = H05
+controller = H05
+add_core = H05
+culture = polynesian
+religion = hoomana_kapu
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+fort_15th = no
+capital = "Kohala"
+is_city = yes
+extra_cost = 8
+
+discovered_by = polynesian_tech

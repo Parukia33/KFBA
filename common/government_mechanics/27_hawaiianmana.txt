@@ -14,23 +14,23 @@ hawaiian_mana = {
 					advisor_cost = -0.1
 					manpower_recovery_speed = 0.20
 					stability_cost_modifier = -0.20
-					monthly_militarized_society = -0.5
+					monthly_mana = -0.5
 				}
 			}
 		}
 	}
 	
 	interactions = {
-		boost_militarization = {
+		cultivate_mana = {
 			gui = militarization_gov_mech
-			cost_type = militarized_society
+			cost_type = mana
 			center = no
 			trigger = {
 				adm_power_cost = 50
 				not = {
 					has_government_power = {
-						mechanic_type = militarization_mechanic
-						power_type = militarized_society
+						mechanic_type = hawaiian_mana
+						power_type = mana
 						value = 100
 					}
 				}
@@ -38,8 +38,8 @@ hawaiian_mana = {
 			effect = { 
 				adm_power_cost = 50
 				add_government_power = {
-					mechanic_type = militarization_mechanic
-					power_type = militarized_society
+					mechanic_type = hawaiian_mana
+					power_type = mana
 					value = 10
 				}
 			}
@@ -49,8 +49,8 @@ hawaiian_mana = {
 				modifier = {
 					factor = 0
 					has_government_power = {
-						mechanic_type = militarization_mechanic
-						power_type = militarized_society
+						mechanic_type = hawaiian_mana
+						power_type = mana
 						value = 90
 					}
 				}
