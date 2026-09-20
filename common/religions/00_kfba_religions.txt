@@ -32,6 +32,7 @@ hawaiian = {
 			local_missionary_strength = -0.02
 		}
 		
+		misguided_heretic = yes
 		heretic = { AIA }
 		
 		gurus = {
@@ -606,12 +607,13 @@ hawaiian = {
 						cost = 50
 
 						drill_gain_modifier = 0.5
-					}
+					} }
 				}
 			}
-
 	}
-	
+
+
+	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_zoroastrian_group
 	}
 }
@@ -632,6 +634,7 @@ kamuy = {
 		}
 		fervor = yes
 		can_have_secondary_religion = yes
+		misguided_heretic = yes
 		heretic = { ONKAMI }
 	}
 	
