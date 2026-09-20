@@ -1,0 +1,32 @@
+government = republic
+add_government_reform = venice_merchants_reform
+mercantilism = 25
+primary_culture = venetian
+religion = catholic
+add_accepted_culture = greek
+add_accepted_culture = dalmatian
+technology_group = western
+capital = 28 #Brescia
+national_focus = DIP
+add_army_professionalism = 0.05
+
+1423.4.5 = {
+	monarch = {
+		name = "Interregnum"
+		adm = 4
+		dip = 4
+		mil = 4
+		regent = yes
+	}
+	if = {
+		limit = {
+			has_dlc = "Winds of Change"
+			ai = no
+		}
+		add_government_power = {
+			mechanic_type = council_of_ten
+			power_type = authority_power
+			value = 90
+		}
+	}
+}

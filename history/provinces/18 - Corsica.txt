@@ -1,0 +1,16 @@
+#18 - Corsica
+
+owner = GEN
+controller = GEN
+culture = sardinian
+religion = catholic
+capital = "Bastia"
+hre = yes
+base_tax = 3 
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 2
+is_city = yes
+add_core = GEN
+
+discovered_by = western
