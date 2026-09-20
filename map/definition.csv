@@ -46,6 +46,16 @@ province;red;green;blue;x;x
 45;134;122;0;Bressia;x
 46;6;124;64;Geneva;x
 47;134;126;128;Savoie;x
+48;6;128;192;Siena;x
+49;135;130;255;Arezzo;x
+50;7;132;0;Firenze;x
+51;135;134;64;Pisa;x
+52;7;136;128;Modena;x
+53;135;138;192;Ferrara;x
+54;7;140;255;Mantua;x
+55;135;142;0;Parma;x
+56;8;144;64;Cremona;x
+57;136;146;128;Milan;x
 250;35;148;0;Puna;x
 251;163;150;64;Kau;x
 252;36;152;128;Kona;x

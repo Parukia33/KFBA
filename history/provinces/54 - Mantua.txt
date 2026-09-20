@@ -1,0 +1,19 @@
+#54 - Mantua
+ 
+owner = MAN
+controller = MAN
+add_core = MAN
+culture = romagnan 
+religion = catholic 
+hre = yes 
+base_tax = 8 
+base_production = 8    
+trade_goods = livestock
+base_manpower = 3    
+fort_15th = yes
+capital = "Mantova" 
+is_city = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western

@@ -32,6 +32,7 @@ hawaiian = {
 			local_missionary_strength = -0.02
 		}
 		
+		misguided_heretic = yes
 		heretic = { AIA }
 		
 		gurus = {
@@ -606,19 +607,18 @@ hawaiian = {
 						cost = 50
 
 						drill_gain_modifier = 0.5
-					}
+					} }
 				}
 			}
-
 	}
-	
+
+
+	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_zoroastrian_group
 	}
 }
 
-kamuy = {
-
-	# center_of_religion = 100 # Sapporo
+pagan = {
 
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = { 83 96 }
@@ -632,6 +632,7 @@ kamuy = {
 		}
 		fervor = yes
 		can_have_secondary_religion = yes
+		misguided_heretic = yes
 		heretic = { ONKAMI }
 	}
 	
