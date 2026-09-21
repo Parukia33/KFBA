@@ -1,3 +1,87 @@
 ﻿l_english:
  A_WORLD_AFTER_DARKNESS:0 "A World After Darkness"
  A_WORLD_AFTER_DARKNESS_DESC:0 "A world after darkness."
+
+ H01: "Puna"
+ HO1_ADJ: "Puna"
+ H01_ADJ2: "Puna"
+
+ H02: "Ka'u"
+ HO2_ADJ: "Ka'u"
+ H02_ADJ2: "Ka'u"
+
+ H03: "Kona"
+ HO3_ADJ: "Kona"
+ H03_ADJ2: "Kona"
+
+ H04: "Hilo"
+ HO4_ADJ: "Hilo"
+ H04_ADJ2: "Hilo"
+
+ H05: "Kohala"
+ HO5_ADJ: "Kohala"
+ H05_ADJ2: "Kohala"
+
+ H06: "Hana"
+ HO6_ADJ: "Hana"
+ H06_ADJ2: "Hana"
+
+ H07: "Hamakua"
+ HO7_ADJ: "Hamakua"
+ H07_ADJ2: "Hamakua"
+
+ H08: "Kula"
+ HO8_ADJ: "Kula"
+ H08_ADJ2: "Kula"
+
+ H09: "Wailuku"
+ HO9_ADJ: "Wailuku"
+ H09_ADJ2: "Wailuku"
+
+ H10: "Lahaina"
+ H10_ADJ: "Lahaina"
+ H10_ADJ2: "Lahaina"
+
+ H11: "Kaho'olawe"
+ H11_ADJ: "Kaho'olawe"
+ H11_ADJ2: "Kaho'olawe"
+
+ H12: "Lana'i"
+ H12_ADJ: "Lana'i"
+ H12_ADJ2: "Lana'i"
+
+ H13: "Moloka'i"
+ H13_ADJ: "Moloka'i"
+ H13_ADJ2: "Moloka'i"
+
+ H14: "Ko'olau"
+ H14_ADJ: "Ko'olau"
+ H14_ADJ2: "Ko'olau"
+
+ H15: "Honolulu"
+ H15_ADJ: "Honolulu"
+ H15_ADJ2: "Honolulu"
+
+ H16: "'Ewa"
+ H16_ADJ: "'Ewa"
+ H16_ADJ2: "'Ewa"
+
+ H17: "Wai'anae"
+ H17_ADJ: "Wai'anae"
+ H17_ADJ2: "Wai'anae"
+
+ H18: "Kawaihau"
+ H18_ADJ: "Kawaihau"
+ H18_ADJ2: "Kawaihau"
+
+ H19: "Waimea"
+ H19_ADJ: "Waimea"
+ H19_ADJ2: "Waimea"
+
+ H20: "Napali"
+ H20_ADJ: "Napali"
+ H20_ADJ2: "Napali"
+
+ H21: "Ni'ihau"
+ H21_ADJ: "Ni'ihau"
+ H21_ADJ2: "Ni'ihau"
