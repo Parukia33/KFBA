@@ -1,10 +1,10 @@
 government = monarchy
-add_government_reform = indep_daimyo
+add_government_reform = shogunate
 government_rank = 1
 primary_culture = japanese
 religion = animism
 technology_group = chinese
-#capital = 243	# Suo
+capital = 228	# Suo
 
 1445.1.1 = { 
 	monarch = {

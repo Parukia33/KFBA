@@ -7,8 +7,8 @@ add_accepted_culture = pontic_greek
 add_accepted_culture = greek
 religion = catholic
 technology_group = western
-capital = 101	# Genova
-fixed_capital = 101 # Cannot move capital away from this province & no power cost to move to it
+capital = 19	# Genova
+fixed_capital = 19 # Cannot move capital away from this province & no power cost to move to it
 
 1443.1.1 = {
 	monarch = {
