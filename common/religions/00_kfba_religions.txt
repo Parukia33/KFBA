@@ -653,13 +653,13 @@ christian = {
 
 	
 	
-	frattricelli = {
+	fraticelli = {
 		color = { 204 204 0 }
 		icon = 1
-		allowed_conversion = {
+		# allowed_conversion = {
 			#reformed
 			#protestant
-		}
+		# }
 		country = {
 			prestige = 0.75
 			build_cost = -0.1
@@ -670,7 +670,7 @@ christian = {
 		}
 		
 		on_convert = {
-			change_religion = frattricelli
+			change_religion = fraticelli
 			add_prestige = -100
 			
 			remove_country_modifier = the_test_act
@@ -940,7 +940,7 @@ christian = {
 		# }
 	}
 	
-	waldesians = {
+	waldensian = {
 		color = { 244 55 9 }
 		icon = 22
 
