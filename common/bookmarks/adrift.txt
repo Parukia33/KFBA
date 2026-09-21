@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "Adrift"
+	desc = "Adrift_DESC"
+	date = 1445.1.1
+	
+	center = 264
+	
+	country = H04
+	country = H08
+    country = H10
+    country = H16
+    country = H19
+	
+	easy_country = H19
+    easy_country = H10
+    easy_country = H08
+}

@@ -8,13 +8,17 @@ hawaiian_mana = {
 	powers = {
 		mana = {
 			max = 100
+			 reset_on_new_ruler = no
 			base_monthly_growth = 0
+			monarch_power = adm
+			monarch_power = mil
+			monarch_power = dip
 			scaled_modifier = {
 				modifier = {
 					advisor_cost = -0.1
 					manpower_recovery_speed = 0.20
 					stability_cost_modifier = -0.20
-					monthly_mana = -0.5
+					monthly_mana = -5
 				}
 			}
 		}

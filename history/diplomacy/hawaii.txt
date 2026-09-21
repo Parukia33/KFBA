@@ -1,0 +1,23 @@
+# Lahaina Lanai PU
+union = {
+	first = H10
+	second = H12
+	start_date = 1444.10.29
+	end_date = 1815.6.9
+}
+
+# Niihau Waimea PU
+union = {
+	first = H19
+	second = H21
+	start_date = 1444.10.29
+	end_date = 1815.6.9
+}
+
+# Kahoolawe Kula PU
+union = {
+	first = H08
+	second = H11
+	start_date = 1444.10.29
+	end_date = 1815.6.9
+}
