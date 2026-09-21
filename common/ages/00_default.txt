@@ -238,7 +238,8 @@ age_of_discovery = {
 	start = 1530
 	
 	can_start = {
-		is_religion_enabled = protestant
+		# is_religion_enabled = protestant
+		is_institution_enabled = new_world_i
 	}
 	
 	religious_conflicts = yes

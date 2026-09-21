@@ -8,8 +8,8 @@ union = {
 
 # Niihau Waimea PU
 union = {
-	first = H21
-	second = H19
+	first = H19
+	second = H21
 	start_date = 1444.10.29
 	end_date = 1815.6.9
 }
