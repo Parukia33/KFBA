@@ -19,7 +19,7 @@ hawaiian = {
 		flag_emblem_index_range = { 1 4 }
 
 		color = { 63 0 255 }
-		icon = 11
+		icon = 26
 		country = {
 			development_cost = -0.1
 			tolerance_own = 2
@@ -650,12 +650,10 @@ christian = {
 	# Can be overridden per religion.
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
-
-	
 	
 	fraticelli = {
 		color = { 204 204 0 }
-		icon = 1
+		icon = 2
 		# allowed_conversion = {
 			#reformed
 			#protestant
@@ -942,7 +940,7 @@ christian = {
 	
 	waldensian = {
 		color = { 244 55 9 }
-		icon = 22
+		icon = 3
 
 		allowed_center_conversion = {
 			catholic

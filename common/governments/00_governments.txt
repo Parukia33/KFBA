@@ -1049,7 +1049,7 @@ tribal = {
 				stateless_society
 				sacred_kingdom
 				feudal_tribe
-				kapu_system
+				kapu_system_reform
 				kotan
 			}
 		}

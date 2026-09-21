@@ -128,12 +128,12 @@ feudal_tribe = {
 	}
 }
 
-kapu_system = {
+kapu_system_reform = {
 	icon = "tribal_council"
 	allow_normal_conversion = no
 	potential = {
-		culture = polynesian
-		has_reform = kapu_system
+		primary_culture = polynesian
+		has_reform = kapu_system_reform
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
