@@ -1,0 +1,15 @@
+#241 - Iyo
+
+owner = ALP
+controller = ALP
+culture = japanese
+religion = animism
+capital = "Yuzuki"
+trade_goods = copper
+hre = no
+base_tax = 3
+base_manpower = 2
+base_production = 2
+is_city = yes
+add_core = ALP
+discovered_by = chinese

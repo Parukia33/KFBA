@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = japanese
+religion = animism
+technology_group = chinese
+#capital = 243	# Suo
+
+1445.1.1 = { 
+	monarch = {
+		name = "Unknown"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

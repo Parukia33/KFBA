@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = kyushuan
+religion = shinto
+technology_group = chinese
+capital = 245	# Bungo
+
+1445.1.1 = {
+	monarch = {
+		name = "Chikatsuna"
+		dynasty = "Otomo"
+		birth_date = 1430.1.1
+#		death_date = 1459.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = charismatic_negotiator_personality
+}

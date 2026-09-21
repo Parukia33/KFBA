@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = kyushuan
+religion = shinto
+technology_group = chinese
+capital = 248	# Satsuma
+
+1425.1.1 = { 
+	monarch = {
+		name = "Tadakuni"
+		dynasty = "Shimazu"
+		birth_date = 1403.5.22
+#		death_date = 1470.2.21
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = incorruptible_personality
+}
+	
+1432.11.27 = {
+	heir = {
+		name = "Tatsuhisa"
+		monarch_name = "Tatsuhisa"
+		dynasty = "Shimazu"
+		birth_date = 1432.11.27
+		death_date = 1474.4.26
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
