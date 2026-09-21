@@ -661,13 +661,12 @@ christian = {
 			#protestant
 		}
 		country = {
-			tolerance_own = 1
-			global_heathen_missionary_strength = 0.01
+			prestige = 0.75
+			build_cost = -0.1
 		}
 		
 		country_as_secondary = {
-			diplomatic_reputation = 1
-			advisor_pool = 1
+			build_cost = -0.1
 		}
 		
 		on_convert = {
