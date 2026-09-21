@@ -1,0 +1,16 @@
+#249 - Tsushima
+
+owner = SOO
+controller = SOO
+culture = kyushuan
+religion = shinto
+capital = "Tsushima"
+trade_goods = chinaware
+hre = no
+base_tax = 2
+base_manpower = 1
+base_production = 1
+is_city = yes
+add_core = SOO
+
+discovered_by = chinese

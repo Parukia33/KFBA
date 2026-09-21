@@ -10,6 +10,124 @@ tribe_mechanic = {
 	}
 }
 
+tribal_despotism = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		core_creation = -0.1
+	}
+	legacy_equivalent = tribal_despotism_legacy
+	ai = {
+		factor = 1
+	}
+}
+
+tribal_kingdom = {
+	icon = "indian_crown"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = tribal_kingdom_legacy
+	modifiers = {
+		vassal_income = 0.2
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+stateless_society = {
+	icon = "fist_in_air"
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	modifiers = {
+		governing_capacity_modifier = -0.99
+		defensiveness = 0.75
+		land_morale = 0.15
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = -1
+			num_of_cities = 2
+		}
+	}
+}
+
+sacred_kingdom = {
+	icon = "divine_guidance_reform"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		has_dlc = "Origins"
+		religion_group = pagan
+	}
+	trigger = {
+		OR = {
+			NOT = { has_institution = enlightenment }	#Why should any enlightened person ever want to support this system?
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = sacred_kingdom
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	nation_designer_trigger = {
+		religion_group = pagan
+	}
+	legacy_equivalent = sacred_kingdom_legacy
+	maintain_dynasty = yes
+	
+	removed_effect = {
+		if = {
+			limit = {
+				NOT = { has_institution = enlightenment }
+			}
+			add_stability = -2
+		}
+	}
+
+	modifiers = {
+		tolerance_own = 2
+		max_absolutism = 25
+		legitimacy = 0.5
+	}
+}
+
+feudal_tribe = {
+	icon = "tribal_civil_society"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+	legacy_equivalent = feudal_tribe_legacy
+	lock_level_when_selected = yes
+	potential = {
+	}
+	trigger = {
+	}
+	modifiers = {
+		vassal_income = 0.1
+		global_tax_modifier = 0.1
+	}
+
+	conditional = {
+		allow = { 
+			has_dlc = "Mandate of Heaven"
+		}
+		custom_attributes = {
+			has_tributaries = yes
+		}
+	}
+
+	ai = {
+		factor = 0
+	}
+}
+
 kapu_system = {
 	icon = "tribal_council"
 	allow_normal_conversion = no

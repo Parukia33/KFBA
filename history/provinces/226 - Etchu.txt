@@ -1,0 +1,17 @@
+#226 - Etchu
+
+owner = ALP
+controller = ALP
+culture = togoku
+religion = animism
+capital = "Kanazawa"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = ALP
+fort_15th = yes #Nanao Castle
+
+discovered_by = chinese

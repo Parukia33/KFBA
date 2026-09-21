@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = kyushuan
+religion = shinto
+technology_group = chinese
+capital = 246	# Higo
+
+1444.3.27 = { 
+	monarch = {
+		name = "Mochitomo"
+		dynasty = "Kikuchi"
+		birth_date = 1409.1.1
+#		death_date = 1446.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	clear_scripted_personalities = yes
+	add_ruler_personality = charismatic_negotiator_personality
+	}
+	
+1444.3.27 = {
+	heir = {
+		name = "Tamekuni"
+		monarch_name = "Tamekuni"
+		dynasty = "Kikuchi"
+		birth_date = 1430.1.1
+		death_date = 1488.1.1
+		claim = 90
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

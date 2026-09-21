@@ -1,0 +1,16 @@
+#237 - Aki
+
+owner = ALP
+controller = ALP
+culture = japanese
+religion = animism
+capital = "Tomo"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_manpower = 3
+base_production = 4
+is_city = yes
+add_core = ALP
+
+discovered_by = chinese

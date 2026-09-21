@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = kyushuan
+religion = shinto
+technology_group = chinese
+capital = 247	# Hyuga
+
+1444.6.26 = { 
+	monarch = {
+		name = "Suketaka" #1409.1.1-1485.6.10
+		dynasty = "Ito"
+		birth_date = 1409.1.1
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = tactical_genius_personality
+}

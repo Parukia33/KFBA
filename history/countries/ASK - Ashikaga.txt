@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = indep_daimyo
+primary_culture = japanese
+add_accepted_culture = togoku
+religion = shinto
+technology_group = chinese
+capital = 215	# Sagami
+
+1443.8.16 = {
+	monarch = {
+		name = "Interregnum"
+		regent = yes
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

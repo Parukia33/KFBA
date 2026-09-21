@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = kyushuan
+religion = shinto
+technology_group = chinese
+capital = 244	# Hizen
+
+1441.1.1 = {
+	monarch = {
+		name = "Noriyori" 
+		dynasty = "Shoni"
+		adm = 2
+		dip = 2
+		mil = 1
+		}
+}

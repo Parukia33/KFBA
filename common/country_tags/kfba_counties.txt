@@ -1,5 +1,8 @@
-# Hawaii
+#Japan
+ALP = "countries/Alph.txt"
 
+
+#Hawaii
 H01 = "countries/Puna.txt"
 H02 = "countries/Kau.txt"
 H03 = "countries/Kona.txt"
