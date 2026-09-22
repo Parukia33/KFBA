@@ -1,0 +1,20 @@
+#204 - Tokachi
+
+latent_trade_goods = {
+	coal
+}
+
+owner = ANU
+controller = ANU
+add_core = ANU
+is_city = yes
+culture = ainu
+religion = kamuy_nomi
+capital = "Tokachi"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = chinese
