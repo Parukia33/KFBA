@@ -1,0 +1,77 @@
+hawaiian_mana = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 10
+	available = {
+		has_dlc = "Rights of Man"
+	}
+
+	powers = {
+		mana = {
+			max = 100
+			 reset_on_new_ruler = no
+			base_monthly_growth = 0
+			monarch_power = adm
+			monarch_power = mil
+			monarch_power = dip
+			development_scaled_monthly_growth = 1
+			scaled_modifier = {
+				modifier = {
+					advisor_cost = -0.1
+					manpower_recovery_speed = 0.20
+					prestige = 1.5
+					monthly_mana = -5
+				}
+			}
+		}
+	}
+	
+	interactions = {
+		cultivate_mana = {
+			gui = militarization_gov_mech
+			cost_type = mana
+			center = no
+			trigger = {
+				adm_power_cost = 50
+				not = {
+					has_government_power = {
+						mechanic_type = hawaiian_mana
+						power_type = mana
+						value = 100
+					}
+				}
+			}
+			effect = { 
+				adm_power_cost = 50
+				add_government_power = {
+					mechanic_type = hawaiian_mana
+					power_type = mana
+					value = 10
+				}
+			}
+			cooldown_years = 0
+			ai_chance = {
+				factor = 10
+				modifier = {
+					factor = 0
+					has_government_power = {
+						mechanic_type = hawaiian_mana
+						power_type = mana
+						value = 90
+					}
+				}
+				modifier = {
+					factor = 0
+					neighbors_tech_discount = 0.05
+				}
+				modifier = {
+					factor = 0
+					not = { mil_power_cost = 500 }
+				}
+				modifier = {
+					factor = 10
+					is_at_war = no
+				}
+			}
+		}
+	}
+}
