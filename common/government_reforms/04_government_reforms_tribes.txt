@@ -145,6 +145,7 @@ kapu_system_reform = {
 		range = 0.2
 		reduced_liberty_desire = 20
 		stability_cost_modifier = -0.33
+		governing_capacity_modifier = -0.5
 	}
 	government_abilities = {
 			hawaiian_mana
