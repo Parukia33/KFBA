@@ -3,7 +3,7 @@
 owner = IMG
 controller = IMG
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Sunpu"
 trade_goods = tea
 hre = no

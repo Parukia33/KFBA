@@ -3,7 +3,7 @@
 owner = TKD
 controller = TKD
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Kofu"
 trade_goods = livestock
 hre = no

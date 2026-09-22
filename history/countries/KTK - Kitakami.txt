@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+primary_culture = alphan
+religion = animism
+technology_group = chinese
+capital = 203	# Kitakami
+
+1445.1.1 = { 
+	monarch = {
+		name = "Unknown"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

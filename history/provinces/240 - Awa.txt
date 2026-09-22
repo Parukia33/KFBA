@@ -2,7 +2,7 @@
 
 owner = ALP
 controller = ALP
-culture = japanese
+culture = braillian
 religion = animism
 capital = "Tokushima"
 trade_goods = fish

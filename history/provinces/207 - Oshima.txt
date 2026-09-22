@@ -1,7 +1,7 @@
 #207 - Oshima
 
-culture = togoku
-religion = shinto
+culture = ezo
+religion = mahayana
 capital = "Katsuyama"
 trade_goods = fish
 hre = no

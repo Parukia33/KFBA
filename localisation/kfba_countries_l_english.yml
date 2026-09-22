@@ -1,89 +1,75 @@
 ﻿l_english:
- 
  ALP:0 "Alphbrail Empire"
  ALP_ADJ:0 "Alphbrailian"
- ALP_ADJ2:0 "Alphbrailian"
+ 
+ ABC:0 "Alphabet"
+ ABC_ADJ:0 "Alphabetian"
+ 
+ BLL:0 "Braille"
+ BLL_ADJ:0 "Braillian"
+ 
+ KTK:0 "Kitakami"
+ KTK_ADJ:0 "Kitakamian"
  
  H01:0 "Puna"
  H01_ADJ:0 "Puna"
- H01_ADJ2:0 "Puna"
 
  H02:0 "Ka'u"
  H02_ADJ:0 "Ka'u"
- H02_ADJ2:0 "Ka'u"
 
  H03:0 "Kona"
  H03_ADJ:0 "Kona"
- H03_ADJ2:0 "Kona"
 
  H04:0 "Hilo"
  H04_ADJ:0 "Hilo"
- H04_ADJ2:0 "Hilo"
 
  H05:0 "Kohala"
  H05_ADJ:0 "Kohala"
- H05_ADJ2:0 "Kohala"
 
  H06:0 "Hana"
  H06_ADJ:0 "Hana"
- H06_ADJ2:0 "Hana"
 
  H07:0 "Hamakua"
  H07_ADJ:0 "Hamakua"
- H07_ADJ2:0 "Hamakua"
 
  H08:0 "Kula"
  H08_ADJ:0 "Kula"
- H08_ADJ2:0 "Kula"
 
  H09:0 "Wailuku"
  H09_ADJ:0 "Wailuku"
- H09_ADJ2:0 "Wailuku"
 
  H10:0 "Lahaina"
  H10_ADJ:0 "Lahaina"
- H10_ADJ2:0 "Lahaina"
 
  H11:0 "Kaho'olawe"
  H11_ADJ:0 "Kaho'olawe"
- H11_ADJ2:0 "Kaho'olawe"
 
  H12:0 "Lana'i"
  H12_ADJ:0 "Lana'i"
- H12_ADJ2:0 "Lana'i"
 
  H13:0 "Moloka'i"
  H13_ADJ:0 "Moloka'i"
- H13_ADJ2:0 "Moloka'i"
 
  H14:0 "Ko'olau"
  H14_ADJ:0 "Ko'olau"
- H14_ADJ2:0 "Ko'olau"
 
  H15:0 "Honolulu"
  H15_ADJ:0 "Honolulu"
- H15_ADJ2:0 "Honolulu"
 
  H16:0 "'Ewa"
  H16_ADJ:0 "'Ewa"
- H16_ADJ2:0 "'Ewa"
 
  H17:0 "Wai'anae"
  H17_ADJ:0 "Wai'anae"
- H17_ADJ2:0 "Wai'anae"
 
  H18:0 "Kawaihau"
  H18_ADJ:0 "Kawaihau"
- H18_ADJ2:0 "Kawaihau"
 
  H19:0 "Waimea"
  H19_ADJ:0 "Waimea"
- H19_ADJ2:0 "Waimea"
 
  H20:0 "Napali"
  H20_ADJ:0 "Napali"
- H20_ADJ2:0 "Napali"
 
  H21:0 "Ni'ihau"
  H21_ADJ:0 "Ni'ihau"
- H21_ADJ2:0 "Ni'ihau"

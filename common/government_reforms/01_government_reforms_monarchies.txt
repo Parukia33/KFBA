@@ -253,7 +253,7 @@ shogunate = {
 	nation_designer_trigger = {
 		culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		capital_scope = { region = nippon_region }
 		owns = 228
 	}
 	legacy_equivalent = shogunate_legacy
@@ -301,7 +301,7 @@ daimyo = {
 	nation_designer_trigger = {
 		culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		capital_scope = { region = nippon_region }
 	}
 	modifiers = {
 		land_morale = 0.1
@@ -428,11 +428,11 @@ indep_daimyo = {
 		OR = {
 			AND = {
 				OR = {
-					#overlord = { NOT = { has_reform = shogunate } }
+					overlord = { NOT = { has_reform = shogunate } }
 					is_subject = no
 					is_subject_of_type = tributary_state
 				}
-				capital_scope = { region = japan_region }
+				capital_scope = { region = nippon_region }
 				culture_group = japanese_g
 			}
 			AND = {
@@ -446,7 +446,7 @@ indep_daimyo = {
 	nation_designer_trigger = {
 		culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		capital_scope = { region = nippon_region }
 	}
 	legacy_equivalent = indep_daimyo_legacy
 	maintain_dynasty = yes

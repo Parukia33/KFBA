@@ -2,7 +2,7 @@
 
 owner = ALP
 controller = ALP
-culture = togoku
+culture = alphan
 religion = animism
 capital = "Aizu"
 trade_goods = grain

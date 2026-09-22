@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = animism	#Actually
+primary_culture = ryukuan
+capital = 273	#Shuri
+
+#Kings of Ryukyu (Chuzan/Zhongshan) 
+#Japanese form of names given
+1444.1.1 = {
+	monarch = {
+		name = "Shitatsu"
+		dynasty = "Sho"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

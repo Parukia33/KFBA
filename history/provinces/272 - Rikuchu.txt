@@ -1,0 +1,17 @@
+#Northern Mutsu
+
+owner = KTK
+controller = KTK
+culture = alphan
+religion = animism
+capital = "Mossui"
+trade_goods = grain
+hre = no
+base_tax = 1
+base_manpower = 1
+base_production = 1
+is_city = yes
+add_core = KTK
+
+discovered_by = chinese
+discovered_by = ANU

@@ -29,6 +29,16 @@ eastern_ransei_region = {
 }
 
 ##########
+# NIPPON #
+##########
+
+nippon_region = {
+	areas = {
+		
+	}
+}
+
+##########
 # HAWAII #
 ##########
 
@@ -42,7 +52,10 @@ hawaii_region = {
 	}
 }
 
-#Sea Regions
+#######
+# SEA #
+#######
+
 ocean_region = {
 	areas = {
 		ocean_area

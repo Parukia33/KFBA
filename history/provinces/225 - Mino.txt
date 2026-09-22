@@ -3,7 +3,7 @@
 owner = TKI
 controller = TKI
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Inabayama"
 trade_goods = paper
 hre = no

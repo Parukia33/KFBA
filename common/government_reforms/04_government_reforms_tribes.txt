@@ -134,7 +134,7 @@ kapu_system_reform = {
 	potential = {
 		OR = {
 			primary_culture = polynesian
-			has_reform = kapu_system_reform
+			#has_reform = kapu_system_reform
 			have_had_reform = kapu_system_reform
 		}
 	}
@@ -161,7 +161,7 @@ kotan_reform = {
 	potential = {
 		OR = {
 			primary_culture = ainu
-			has_reform = kotan_reform
+			#has_reform = kotan_reform
 			have_had_reform = kotan_reform
 		}
 	}
