@@ -3,7 +3,7 @@
 owner = UTN
 controller = UTN
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Utsunomiya"
 trade_goods = grain
 hre = no

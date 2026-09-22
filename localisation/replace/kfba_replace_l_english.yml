@@ -1,4 +1,6 @@
 ﻿l_english:
+ kamchatkan_g:0 "Ainu"
+ 
  PROV1:0 "Waldstatte"
  PROV2:0 "St Gallen"
  PROV3:0 "Turin"
@@ -59,7 +61,6 @@
  PROV58:0 ""
  PROV59:0 ""
  
- PROV204:0 "Tokachi"
  PROV205:0 "Shiribeshi"
  PROV206:0 "Kamikawa"
  PROV207:0 "Oshima"
@@ -126,6 +127,9 @@
  PROV268:0 "Waimea"
  PROV269:0 "Napali"
  PROV270:0 "Niihau"
+ PROV271:0 "Tokachi"
+ PROV272:0 "Kitakami"
+ PROV273:0 "Okinawa"
  PROV1000:0 "Wasteland"
  PROV1250:0 "Ocean"
  PROV1251:0 "Ocean"
@@ -159,5 +163,16 @@
  PROV1279:0 "Ocean"
  PROV1280:0 "Ocean"
  PROV1281:0 "Ocean"
- 
- ocean_area:0 "Ocean"
+ PROV1282:0 "North Hisui Sea"
+ PROV1283:0 "Hisui Coast"
+ PROV1284:0 "Kitakami Coast"
+ PROV1285:0 "Kanto Sea"
+ PROV1286:0 "Johto Channel"
+ PROV1287:0 "Hoenn Inland Sea"
+ PROV1288:0 "Ryukyu Islands"
+ PROV1289:0 "Hoenn Sea"
+ PROV1290:0 "North Hoenn Sea"
+ PROV1291:0 "Yamato Basin"
+ PROV1292:0 "Hokuriko Coast"
+ PROV1293:0 "Hisui Strait"
+ PROV1294:0 "Sevii Islands"

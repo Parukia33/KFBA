@@ -3,7 +3,7 @@
 owner = STK
 controller = STK
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Ota"
 trade_goods = fish
 hre = no

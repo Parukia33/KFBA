@@ -1,6 +1,8 @@
 #Japan
-ALP = "countries/Alph.txt"
-
+ALP = "countries/Alphabrail.txt"
+ABC = "countries/Alphabet.txt"
+BLL = "countries/Braille.txt"
+KTK = "countries/Kitakami.txt"
 
 #Hawaii
 H01 = "countries/Puna.txt"

@@ -3,7 +3,7 @@
 owner = KTB
 controller = KTB
 culture = japanese
-religion = shinto
+religion = mahayana
 capital = "Kiriyama"
 trade_goods = fish
 hre = no

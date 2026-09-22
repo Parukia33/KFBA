@@ -3,7 +3,7 @@
 owner = CBA
 controller = CBA
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Sakura"
 trade_goods = fish
 hre = no

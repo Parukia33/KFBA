@@ -3,7 +3,7 @@
 owner = ODA
 controller = ODA
 culture = togoku
-religion = shinto
+religion = mahayana
 capital = "Kiyosu"
 trade_goods = dyes
 hre = no

@@ -2,7 +2,7 @@
 
 owner = ALP
 controller = ALP
-culture = japanese
+culture = alphan
 religion = animism
 capital = "Kyoto"
 trade_goods = silk

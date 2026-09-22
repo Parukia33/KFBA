@@ -3,7 +3,7 @@
 owner = OTM
 controller = OTM
 culture = kyushuan
-religion = shinto
+religion = mahayana
 capital = "Funai"
 trade_goods = tropical_wood
 hre = no

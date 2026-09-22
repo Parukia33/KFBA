@@ -287,55 +287,7 @@ renaissance = {
 	historical_start_province = 116 # Florence
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1450
-				region = italy_region
-			}
-			
-			AND = {
-				is_year = 1450
-				continent = ransei
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				continent = asia
-				owner = {
-					NOT = { government = tribal }
-				}
-			}
-			is_year = 1780
-		}
+		always = no
 	}
 	
 	can_start = {
@@ -551,78 +503,7 @@ new_world_i = {
 	historical_start_province = 224 #Sevilla
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1500
-				continent = ransei
-				OR = {
-					owner = { has_idea = quest_for_the_new_world }
-					owner = { colony = 1 }
-				}
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1600
-				continent = ransei
-			}
-			AND = {
-				is_year = 1625
-				superregion = persia_superregion
-			}
-			AND = {
-				is_year = 1650
-				superregion = india_superregion
-			}
-			
-			
-			AND = {
-				is_year = 1650
-				superregion = china_superregion
-			}
-			
-			AND = {
-				is_year = 1650
-				superregion = east_indies_superregion
-			}
-			AND = {
-				is_year = 1700
-				superregion = africa_superregion
-			}
-			is_year = 1800
-		}
+		always = no
 	}
 	
 	can_start = {
@@ -844,78 +725,7 @@ printing_press = {
 	historical_start_province = 1876 #Frankfurt
 
 	history = {
-		OR = {
-			AND = {
-				province_id = 1876
-				is_year = 1550
-			}
-			AND = {
-				is_year = 1560
-				OR = {
-					region = central_ransei_region
-					region = western_ransei_region
-				}
-			}
-			AND = {
-				is_year = 1575
-				continent = ransei
-				development = 12
-			}
-			AND = {
-				is_year = 1600
-				continent = oceania
-			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1625
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1650
-				superregion = persia_superregion
-			}
-			AND = {
-				is_year = 1725
-				superregion = china_superregion
-			}
-			AND = {
-				is_year = 1725
-				superregion = india_superregion
-			}
-			AND = {
-				is_year = 1725
-				superregion = east_indies_superregion
-			}
-		}
+		always = no
 	}
 	
 	can_start = {
@@ -1192,68 +1002,7 @@ global_trade = {
 	historical_start_province = 97 #Holland
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1620
-				continent = ransei
-				owner = { technology_group = western }
-			}
-			
-			AND = {
-				is_year = 1660
-				continent = ransei
-			}	
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-			}
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-			}
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-			}
-			AND = {
-				is_year = 1700
-				OR = {
-					region = maghreb_region
-					region = egypt_region
-					superregion = near_east_superregion
-				}
-			}
-			
-			AND = {
-				is_year = 1720
-				has_port = yes
-				OR = {
-					superregion = india_superregion
-					superregion = persia_superregion
-					superregion = east_indies_superregion
-				}
-			}
-			AND = {
-				is_year = 1750
-				has_port = yes
-				superregion = africa_superregion
-			}
-		}
+		always = no
 	}
 	
 	can_start = {
@@ -1492,74 +1241,7 @@ manufactories = {
 	historical_start_province = 183 #Paris
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1680
-				continent = ransei
-				owner = { technology_group = western }
-			}
-			
-			AND = {
-				is_year = 1720
-				continent = japan
-			}	
-			AND = {
-				is_year = 1750
-				continent = oceania
-			}
-			AND = {
-				is_year = 1750
-				superregion = india_superregion
-			}
-			AND = {
-				is_year = 1750
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1750
-				region = maghreb_region
-			}
-			AND = {
-				is_year = 1750
-				region = egypt_region
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			
-			AND = {
-				is_year = 1780
-				superregion = persia_superregion
-			}
-			
-		}
+		always = no
 	}
 	
 	can_start = {
@@ -1999,53 +1681,7 @@ enlightenment = {
 	historical_start_province = 236 #London
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1700
-				continent = ransei
-				owner = { technology_group = western }
-			}
-			
-			AND = {
-				is_year = 1730
-				continent = japan
-			}	
-
-			AND = {
-				is_year = oceania
-				continent = europe
-			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-		}
+		always = no
 	}
 	
 	can_start = {
@@ -2383,21 +2019,7 @@ industrialization = {
 	historical_start_province = 244 #Lancashire
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 1780
-				continent = ransei
-				owner = { technology_group = western }
-			}
-			
-			AND = {
-				is_year = 1820
-				OR = {
-					owner = { technology_group = western }
-					continent = ransei
-				}
-			}
-		}
+		always = no
 	}
 	
 	can_start = {

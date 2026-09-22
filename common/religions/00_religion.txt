@@ -356,8 +356,8 @@ eastern = {
 		color = { 204 76 127 }
 		icon = 23
 		allowed_conversion = {
+			shinto
 			vajrayana
-			buddhism #Theravada
 		}
 		country = {
 			tolerance_heretic = 2
@@ -382,10 +382,45 @@ eastern = {
 		
 		uses_karma = yes
 	}
+	
+	vajrayana = {
+		color = { 204 76 76 }
+		icon = 25
+		allowed_conversion = {
+			mahayana
+			shinto
+		}
+		country = {
+			tolerance_heretic = 2
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			tolerance_own = 1
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		uses_karma = yes
+	
+		harmonized_modifier = harmonized_vajrayana
+	}
 
 	shinto = {
 		color = { 204 0 0 }
 		icon = 10
+		allowed_conversion = {
+			mahayana
+			vajrayana
+		}
 		country = {
 			land_morale = 0.1
 			tolerance_heretic = 2
@@ -397,10 +432,19 @@ eastern = {
 			discipline = 0.05
 			global_unrest = -1
 		}
-		heretic = { SHUGENDO }
-		uses_isolationism = yes
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
 		
-		harmonized_modifier = harmonized_shinto
+		heretic = { SHUGENDO }
+		uses_harmony = yes
+		
+		#harmonized_modifier = harmonized_shinto
 		
 	}
 	

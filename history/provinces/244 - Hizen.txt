@@ -3,7 +3,7 @@
 owner = SHN
 controller = SHN
 culture = kyushuan
-religion = shinto
+religion = mahayana
 capital = "Nagasaki"
 trade_goods = naval_supplies
 hre = no
