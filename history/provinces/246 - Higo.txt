@@ -3,7 +3,7 @@
 owner = KKC
 controller = KKC
 culture = kyushuan
-religion = mahayana
+religion = shinto
 capital = "Kumamoto"
 trade_goods = fish
 hre = no
