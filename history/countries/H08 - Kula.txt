@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = kapu_system_reform
-government_rank = 2
+government_rank = 1
 primary_culture = polynesian
 religion = hoomana_kapu
 technology_group = polynesian_tech
@@ -13,29 +13,5 @@ capital = 257 #Oahu
 		adm = 3
 		dip = 3
 		mil = 3
-	}
-	add_country_modifier = { 
-    name = unknown_currents
-    duration = -1  
-    desc = unknown_currents_DESC_TOOLTIP
-    hidden = no
-	}
-	add_country_modifier = { 
-    name = moo_forbid_access
-    duration = -1  
-    desc = moo_forbid_access_DESC_TOOLTIP
-    hidden = no
-	}
-	add_country_modifier = { 
-    name = warriors_afriad
-    duration = -1  
-    desc = warriors_afriad_DESC_TOOLTIP
-    hidden = no
-	}
-	add_country_modifier = { 
-    name = panic_hawaii
-    duration = -1  
-    desc = panic_hawaii_DESC_TOOLTIP
-    hidden = no
 	}
 }
