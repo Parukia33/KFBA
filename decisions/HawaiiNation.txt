@@ -8,10 +8,10 @@ country_decisions = {
 			NOT = { tag = UHW }
 			primary_culture = polynesian
 			capital_scope = {
-				area = northern_polynesia_area
+				region = hawaii_region
 				is_core = ROOT
 			}
-			northern_polynesia_area = {
+			hawaii_region = {
 				owned_by = ROOT
 			}
 			OR = {
@@ -24,8 +24,8 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 1240
-				province_id = 4935
+				province_id = 251
+				province_id = 264
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -36,12 +36,12 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			capital_scope = {
-				area = northern_polynesia_area
+				region = hawaii_region
 				is_core = ROOT
 			}
 			num_of_owned_provinces_with = {
-				value = 4
-				area = northern_polynesia_area
+				value = 21
+				region = hawaii_region
 				is_city = yes
 			}
 			NOT = { exists = UHW }

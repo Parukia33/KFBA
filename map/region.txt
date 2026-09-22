@@ -28,6 +28,20 @@ eastern_ransei_region = {
 	}
 }
 
+##########
+# HAWAII #
+##########
+
+hawaii_region = {
+	areas = {
+		big_island_area
+		maui_area
+		central_hawaii_area
+		oahu_area
+		northwest_hawaii_area
+	}
+}
+
 #Sea Regions
 ocean_region = {
 	areas = {
