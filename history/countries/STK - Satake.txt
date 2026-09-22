@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = togoku
+religion = shinto
+technology_group = chinese
+capital = 209	# Hitachi
+	
+1407.10.22 = { 
+	monarch = {
+		name = "Yoshihito"
+		dynasty = "Satake"
+		birth_date = 1400.1.1
+		adm = 1
+		dip = 1
+		mil = 2
+		}
+	clear_scripted_personalities = yes
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = lawgiver_personality		
+	}
+	
+1420.1.1 = {
+	heir = {
+		name = "Yoshitoshi"
+		monarch_name = "Yoshitoshi"
+		dynasty = "Satake"
+		birth_date = 1420.1.1
+		death_date = 1477.12.29
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

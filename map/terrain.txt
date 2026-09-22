@@ -65,8 +65,8 @@ categories =  {
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			216 223 228 231
 		}		
 	}
 	
@@ -83,8 +83,8 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9
 		
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			211 230
 		}                                      
 	}
 	
@@ -102,8 +102,8 @@ categories =  {
 		supply_limit = 5
 		
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			204 210 212 213 217 219 220 227 232 234 236 238 240 247
 		}
 	}
 
@@ -121,8 +121,8 @@ categories =  {
 		supply_limit = 6
 		
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			209 215 225 235 241 242 244 245 246
 		}
 	}
 	
@@ -142,6 +142,8 @@ categories =  {
 		terrain_override = {
 			#Ransei
 			1
+			#Nippon
+			214
 		}
 	}
 
@@ -167,8 +169,8 @@ categories =  {
 		nation_designer_cost_multiplier = 1
 		
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			205 208 218 221 222 224 226 229 233 237 239 243 248
 		}
 	}
 
@@ -203,8 +205,8 @@ categories =  {
 		supply_limit = 5
 
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			206
 		}
 	}
 	
@@ -253,8 +255,10 @@ categories =  {
 		supply_limit = 6 
 		
 		terrain_override = {
-			#Ransei
-			#1
+			#Nippon
+			207 249
+			#Hawaii
+			250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270
 		}
 	}	
 	
