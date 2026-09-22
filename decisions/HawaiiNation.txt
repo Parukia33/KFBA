@@ -23,14 +23,8 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			OR = {
-				province_id = 251
-				province_id = 264
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				is_city = no
-			}
+			region = hawaii_region
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -39,10 +33,11 @@ country_decisions = {
 				region = hawaii_region
 				is_core = ROOT
 			}
-			num_of_owned_provinces_with = {
-				value = 21
-				region = hawaii_region
-				is_city = yes
+			hawaii_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				is_state = yes
 			}
 			NOT = { exists = UHW }
 		}
@@ -54,12 +49,6 @@ country_decisions = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
-			}
-			northern_polynesia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = UHW
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

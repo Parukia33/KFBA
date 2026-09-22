@@ -1,0 +1,164 @@
+country_decisions = {
+
+	perform_appeasement_ritual_1 = {
+		major = yes
+		potential = {
+			capital_scope = {
+				region = hawaii_region
+				is_core = ROOT
+			}
+			hawaii_region = {
+				owned_by = ROOT
+			}
+            AND = {
+				has_country_modifier = unknown_currents
+				}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1	
+				}
+			}
+		}
+		allow = {
+            has_government_power = {
+				mechanic_type = hawaiian_mana
+				power_type = mana
+				value = 75
+			}
+		}
+		effect = {
+			remove_country_modifier = unknown_currents
+            add_government_power = {
+				mechanic_type = hawaiian_mana
+				power_type = mana
+				value = -75
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	perform_appeasement_ritual_2 = {
+		major = yes
+		potential = {
+			capital_scope = {
+				region = hawaii_region
+				is_core = ROOT
+			}
+			hawaii_region = {
+				owned_by = ROOT
+			}
+            AND = {
+                has_country_modifier = moo_forbid_access
+				}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1	
+				}
+			}
+		}
+		allow = {
+            has_government_power = {
+				mechanic_type = hawaiian_mana
+				power_type = mana
+				value = 75
+			}
+		}
+		effect = {
+			remove_country_modifier = moo_forbid_access
+            add_government_power = {
+	            mechanic_type = hawaiian_mana
+	            power_type = mana
+	            value = -75
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    	perform_appeasement_ritual_3 = {
+		major = yes
+		potential = {
+			capital_scope = {
+				region = hawaii_region
+				is_core = ROOT
+			}
+			hawaii_region = {
+				owned_by = ROOT
+			}
+            AND = {
+                has_country_modifier = warriors_afriad
+				}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1	
+				}
+			}
+		}
+		allow = {
+            has_government_power = {
+				mechanic_type = hawaiian_mana
+				power_type = mana
+				value = 75
+			}
+		}
+		effect = {
+			remove_country_modifier = warriors_afriad
+            add_government_power = {
+	            mechanic_type = hawaiian_mana
+	            power_type = mana
+	            value = -75
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    	perform_appeasement_ritual_4 = {
+		major = yes
+		potential = {
+			capital_scope = {
+				region = hawaii_region
+				is_core = ROOT
+			}
+			hawaii_region = {
+				owned_by = ROOT
+			}
+            AND = {
+                has_country_modifier = panic_hawaii
+				}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1	
+				}
+			}
+		}
+		allow = {
+            has_government_power = {
+				mechanic_type = hawaiian_mana
+				power_type = mana
+				value = 75
+			}
+		}
+		effect = {
+			remove_country_modifier = panic_hawaii
+            add_government_power = {
+	            mechanic_type = hawaiian_mana
+	            power_type = mana
+	            value = -75
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
