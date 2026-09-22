@@ -1,0 +1,51 @@
+namespace = kfba_flavor_uhw
+
+#########################
+#### Hawaiian Events ####
+#########################
+
+#TITLE
+country_event = {
+	id = kfba_flavor_uhw.1
+	title = "kfba_flavor_uhw.1.title"
+	desc = "kfba_flavor_uhw.1.desc"
+	picture = EP_POLYNESIAN_MARAE_eventPicture
+	
+	trigger = {
+		has_reform = kapu_system_reform
+		NOT = { has_country_flag = kfba_hawaii_setup }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	#OPTION
+	option = {
+		name = "kfba_flavor_uhw.1.a"
+		ai_chance = { 
+			factor = 1
+		}
+		add_country_modifier = { 
+			name = unknown_currents
+			duration = -1  
+			desc = kfba_hawaii_setup_DESC_TOOLTIP
+		}
+		add_country_modifier = { 
+			name = moo_forbid_access
+			duration = -1  
+			desc = kfba_hawaii_setup_DESC_TOOLTIP
+		}
+		add_country_modifier = { 
+			name = warriors_afriad
+			duration = -1  
+			desc = kfba_hawaii_setup_DESC_TOOLTIP
+		}
+		add_country_modifier = { 
+			name = panic_hawaii
+			duration = -1  
+			desc = kfba_hawaii_setup_DESC_TOOLTIP
+		}
+		set_country_flag = kfba_hawaii_setup
+	}
+}
