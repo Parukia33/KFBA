@@ -1,5 +1,5 @@
 government = tribal
-add_government_reform = kotan
+add_government_reform = kotan_reform
 government_rank = 1
 primary_culture = ainu
 religion = kamuy_nomi

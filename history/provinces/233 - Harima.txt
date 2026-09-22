@@ -3,7 +3,7 @@
 owner = ALP
 controller = ALP
 culture = japanese
-religion = shinto
+religion = animism
 capital = "Himeji"
 trade_goods = grain
 hre = no
