@@ -6,7 +6,7 @@ gen_europe = {
 	
 	potential = {
 		capital_scope = {
-			continent = europe
+			continent = ransei
 		}
 	}
 	has_country_shield = no
@@ -68,7 +68,7 @@ gen_europe_hre = {
 	
 	potential = {
 		capital_scope = {
-			continent = europe
+			continent = ransei
 		}
 		is_part_of_hre = yes
 		NOT = {
@@ -152,7 +152,7 @@ gen_europe_hre_ban = {
 	
 	potential = {
 		capital_scope = {
-			continent = europe
+			continent = ransei
 		}
 		is_part_of_hre = yes
 		NOT = {
@@ -230,7 +230,7 @@ gen_europe_hre_theocracy = {
 	ai = yes
 	potential = {
 		capital_scope = {
-			continent = europe
+			continent = ransei
 		}
 		is_part_of_hre = yes
 		NOT = {
@@ -406,7 +406,7 @@ gen_europe_hre_republic = {
 	ai = yes
 	potential = {
 		capital_scope = {
-			continent = europe
+			continent = ransei
 		}
 		is_part_of_hre = yes
 		NOT = {
