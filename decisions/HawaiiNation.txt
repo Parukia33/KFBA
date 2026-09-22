@@ -8,10 +8,10 @@ country_decisions = {
 			NOT = { tag = UHW }
 			primary_culture = polynesian
 			capital_scope = {
-				area = northern_polynesia_area
+				region = hawaii_region
 				is_core = ROOT
 			}
-			northern_polynesia_area = {
+			hawaii_region = {
 				owned_by = ROOT
 			}
 			OR = {
@@ -23,26 +23,21 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			OR = {
-				province_id = 1240
-				province_id = 4935
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				is_city = no
-			}
+			region = hawaii_region
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			capital_scope = {
-				area = northern_polynesia_area
+				region = hawaii_region
 				is_core = ROOT
 			}
-			num_of_owned_provinces_with = {
-				value = 4
-				area = northern_polynesia_area
-				is_city = yes
+			hawaii_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				is_state = yes
 			}
 			NOT = { exists = UHW }
 		}
@@ -54,12 +49,6 @@ country_decisions = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
-			}
-			northern_polynesia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = UHW
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

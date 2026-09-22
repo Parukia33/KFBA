@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = kapu_system_reform
-government_rank = 2
+government_rank = 1
 primary_culture = polynesian
 religion = hoomana_kapu
 technology_group = polynesian_tech
