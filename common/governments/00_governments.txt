@@ -1050,7 +1050,7 @@ tribal = {
 				sacred_kingdom
 				feudal_tribe
 				kapu_system_reform
-				kotan
+				kotan_reform
 			}
 		}
 		tribal_cultural_values = {

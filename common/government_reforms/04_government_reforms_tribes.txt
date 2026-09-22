@@ -132,8 +132,11 @@ kapu_system_reform = {
 	icon = "tribal_council"
 	allow_normal_conversion = no
 	potential = {
-		primary_culture = polynesian
-		has_reform = kapu_system_reform
+		OR = {
+			primary_culture = polynesian
+			has_reform = kapu_system_reform
+			have_had_reform = kapu_system_reform
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -151,22 +154,26 @@ kapu_system_reform = {
 	}
 }
 
-kotan = {
+kotan_reform = {
 	icon = "shaman"
 	allow_normal_conversion = no
 	potential = {
-		has_reform = kotan
+		OR = {
+			primary_culture = ainu
+			has_reform = kotan_reform
+			have_had_reform = kotan_reform
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = -10
-	legacy_equivalent = siberian_native_council
+	#legacy_equivalent = siberian_native_council
 	native_mechanic = no
 	allow_migration = yes
 	fixed_rank = 1
 	lock_level_when_selected = yes
 	modifiers = {
 		stability_cost_modifier = -0.33
-		global_institution_spread = 0.2
+		global_institution_spread = -0.2
 	}
 	ai = {
 		factor = 1
