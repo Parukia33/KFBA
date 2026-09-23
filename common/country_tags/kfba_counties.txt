@@ -1,3 +1,7 @@
+#Ransei
+XXX = "countries/AntiPapal.txt"
+FRT = "countries/FraticelliPapal.txt"
+
 #Japan
 ALP = "countries/Alphabrail.txt"
 ABC = "countries/Alphabet.txt"
