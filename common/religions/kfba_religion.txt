@@ -47,23 +47,23 @@ hawaiian = {
 					country_admin_power = 1
 				}
 				teachings = {
-					onipaa = {
+					aia_hiikua = {
 						type = ADM
 						cost = 50
 
-						global_unrest = -1
+						church_loyalty_modifier = 0.05
 					}
-					work_honestly = {
+					hookahinola = {
 						type = DIP
 						cost = 50
 
 						production_efficiency = 0.05
 					}
-					recite_his_name = {
+					onipaa = {
 						type = MIL
 						cost = 50
 
-						global_regiment_cost = -0.025
+						global_unrest = -1
 					}
 				}
 			}
@@ -100,19 +100,19 @@ hawaiian = {
 					country_military_power = 1
 				}
 				teachings = {
-					gurmukhi_script_teaching = {
+					ma_ka_hana = {
 						type = ADM
 						cost = 50
 
 						technology_cost = -0.025
 					}
-					temple_langar = {
+					aohepauka = {
 						type = DIP
 						cost = 50
 
-						church_loyalty_modifier = 0.05
+						global_institution_spread = 0.1
 					}
-					wrestling_akhara = {
+					aoikekoa = {
 						type = MIL
 						cost = 50
 
@@ -153,19 +153,19 @@ hawaiian = {
 					country_diplomatic_power = 1
 				}
 				teachings = {
-					treat_the_sick = {
+					ikaolelo = {
 						type = ADM
 						cost = 50
 
 						monarch_admin_power = 1
 					}
-					illiterate_recites_saloks = {
+					healiika = {
 						type = DIP
 						cost = 50
 
 						monarch_diplomatic_power = 1
 					}
-					young_humility = {
+					hookahiwale = {
 						type = MIL
 						cost = 50
 
@@ -206,19 +206,19 @@ hawaiian = {
 					country_diplomatic_power = 1
 				}
 				teachings = {
-					dasvandh_collection = {
+					aoopiopio = {
 						type = ADM
 						cost = 50
 
 						global_tax_modifier = 0.05
 					}
-					anand_karaj = {
+					auikekai = {
 						type = DIP
 						cost = 50
 
 						diplomatic_reputation = 1
 					}
-					sanghat_equality = {
+					pupukahi = {
 						type = MIL
 						cost = 50
 
@@ -261,7 +261,7 @@ hawaiian = {
 					country_admin_power = 1
 				}
 				teachings = {
-					legitimize_inheritance = {
+					imaikai = {
 						type = ADM
 						cost = 50
 
@@ -271,13 +271,13 @@ hawaiian = {
 						horde_unity = 0.25
 						meritocracy = 0.1
 					}
-					scripture_hymns = {
+					ahoemea = {
 						type = DIP
 						cost = 50
 
 						prestige = 0.5
 					}
-					masand_system = {
+					eolakoa = {
 						type = MIL
 						cost = 50
 
@@ -318,23 +318,23 @@ hawaiian = {
 					country_diplomatic_power = 1
 				}
 				teachings = {
-					adi_granth = {
+					enanaana = {
 						type = ADM
 						cost = 50
 
-						global_institution_spread = 0.1
+						monarch_admin_power = 1
 					}
-					the_abode_of_god = {
+					ikeikeau = {
 						type = DIP
 						cost = 50
 
-						religious_unity = 0.1
+						monarch_diplomatic_power = 1
 					}
-					martyrdom = {
+					haikuumauma = {
 						type = MIL
 						cost = 50
 
-						land_morale = 0.05
+						monarch_military_power = 1
 					}
 				}
 			}
@@ -371,7 +371,7 @@ hawaiian = {
 					country_military_power = 1
 				}
 				teachings = {
-					throne_of_the_timeless_one = {
+					ahai = {
 						type = ADM
 						cost = 50
 
@@ -381,13 +381,13 @@ hawaiian = {
 						horde_unity = 0.25
 						meritocracy = 0.1
 					}
-					protection_of_the_poor = {
+					euhaiika = {
 						type = DIP
 						cost = 50
 
 						war_exhaustion = -0.025
 					}
-					miri_and_piri = {
+					hahainoka = {
 						type = MIL
 						cost = 50
 
@@ -428,19 +428,19 @@ hawaiian = {
 					country_diplomatic_power = 1
 				}
 				teachings = {
-					impartial_manjis = {
+					aohemalama = {
 						type = ADM
 						cost = 50
 
 						yearly_corruption = -0.05
 					}
-					the_fragrance_of_a_flower = {
+					haaleika = {
 						type = DIP
 						cost = 50
 
 						improve_relation_modifier = 0.1
 					}
-					one_guru = {
+					akakawale = {
 						type = MIL
 						cost = 50
 
@@ -483,23 +483,23 @@ hawaiian = {
 					country_admin_power = 1
 				}
 				teachings = {
-					the_word_of_sikh = {
+					namaka = {
 						type = ADM
 						cost = 50
 
 						missionaries = 1
 					}
-					all_kings_must_pass = {
+					anolani = {
 						type = DIP
 						cost = 50
 
-						tolerance_heretic = 2
+						tolerance_heathen = 2
 					}
-					resist_persecution = {
+					hehulu = {
 						type = MIL
 						cost = 50
 
-						hostile_attrition = 1
+						global_unrest = -1
 					}
 				}
 			}
@@ -536,19 +536,19 @@ hawaiian = {
 					country_admin_power = 1
 				}
 				teachings = {
-					pluralism = {
+					alakekai = {
 						type = ADM
 						cost = 50
 
 						advisor_cost = -0.1
 					}
-					dharam_yudh = {
+					ewehe = {
 						type = DIP
 						cost = 50
 
-						war_taxes_cost_modifier = -0.5
+						improve_relation_modifier = 0.1
 					}
-					the_khalsa_sikh = {
+					iuluno = {
 						type = MIL
 						cost = 50
 
@@ -590,23 +590,23 @@ hawaiian = {
 					drill_decay_modifier = -0.25
 				}
 				teachings = {
-					eternally_living_guru = {
+					olakainoa = {
 						type = ADM
 						cost = 50
 
 						development_cost = -0.1
 					}
-					divine_justice = {
+					kulia = {
 						type = DIP
 						cost = 50
 
-						trade_efficiency = 0.1
+						prestige = 0.5
 					}
-					the_unchanging_writing = {
+					uamau = {
 						type = MIL
 						cost = 50
 
-						drill_gain_modifier = 0.5
+						global_unrest = -1
 					} }
 				}
 			}
