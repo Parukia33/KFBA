@@ -1,0 +1,32 @@
+government = theocracy
+add_government_reform = papacy_reform
+government_rank = 2
+primary_culture = piedmontese
+religion = catholic
+capital = 47
+fixed_capital = 47	#Savoy
+technology_group = western
+add_army_professionalism = 0.05
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -30
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 5
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 5
+}
+
+1389.10.15 = {
+	monarch = {
+		name = "Felix V"
+		birth_date = 1383.9.4
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

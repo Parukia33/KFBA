@@ -27,6 +27,8 @@ theocracy_mechanic = {
 leading_clergy_reform = {
 	potential = {
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 	}
 	allow_normal_conversion = yes
 	legacy_equivalent = theocratic_government
@@ -53,6 +55,8 @@ leading_clergy_reform = {
 monastic_order_reform = {
 	potential = {
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 		NOT = { have_had_reform = teutonic_bishopric_reform }
 	}
 	modifiers = {
@@ -108,6 +112,8 @@ teutonic_bishopric_reform = {
 	icon = "soldiers_2"
 	potential = {
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 		OR = {
 			tag = PRU
 			have_had_reform = teutonic_bishopric_reform
@@ -255,7 +261,11 @@ holy_horde_reform = {
 
 papacy_reform = {
 	potential = {
-		tag = PAP
+		OR = {
+			tag = PAP	#Pope
+			tag = XXX	#Antipope
+			tag = FRT	#Fraticelli
+		}
 	}
 
 	modifiers = {
@@ -282,6 +292,8 @@ ikko_ikki_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 		OR = {
 			culture_group = japanese_g
 			culture = ainu
@@ -347,6 +359,8 @@ dutch_theocracy_reform = {
 			}
 		}
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -413,6 +427,8 @@ millennialistic_theocracy_reform = {
 	potential = {
 		has_dlc = "Domination"
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 		OR = {
 			religion = protestant
 			religion = anglican
@@ -445,6 +461,8 @@ hawaiian_theocracy_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { tag = PAP }
+		NOT = { tag = XXX }
+		NOT = { tag = FRT }
 		religion_group = hawaiian
 		primary_culture = polynesian
 	}
@@ -859,7 +877,11 @@ conciliarism_reform = {
 	icon = "conciliarism_reform"
 	allow_normal_conversion = yes
 	potential = {
-		tag = PAP
+		OR = {
+			tag = PAP
+			tag = XXX
+			tag = FRT
+		}
 	}
 	modifiers = {
 		appoint_cardinal_cost = -0.33
@@ -1030,7 +1052,11 @@ divine_guidance_reform = {
 		factor = 1
 		modifier = {
 			factor = 20	#High priority for the Papal State so they are always a Kingdom rank country
-			tag = PAP
+			OR = {
+				tag = PAP
+				tag = XXX
+				tag = FRT
+			}
 		}
 	}
 }
