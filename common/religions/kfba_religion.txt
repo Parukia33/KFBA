@@ -607,9 +607,10 @@ hawaiian = {
 						cost = 50
 
 						global_unrest = -1
-					} }
+					}
 				}
 			}
+		}
 	}
 
 	crusade_name = CRUSADE
