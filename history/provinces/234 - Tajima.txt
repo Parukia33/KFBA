@@ -3,7 +3,7 @@
 owner = ALP
 controller = ALP
 culture = braillian
-religion = animism
+religion = arceusism
 capital = "Tottori"
 trade_goods = grain
 hre = no

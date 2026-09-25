@@ -3,7 +3,7 @@
 owner = ALP
 controller = ALP
 culture = alphan
-religion = animism
+religion = arceusism
 capital = "Naoetsu"
 trade_goods = grain
 hre = no

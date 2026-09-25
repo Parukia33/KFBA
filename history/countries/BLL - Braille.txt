@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = daimyo
 government_rank = 2
 primary_culture = braillian
-religion = animism
+religion = arceusism
 technology_group = chinese
 capital = 231	# Settsu

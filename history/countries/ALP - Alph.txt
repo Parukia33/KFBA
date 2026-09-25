@@ -3,7 +3,7 @@ add_government_reform = shogunate
 government_rank = 3
 primary_culture = alphan
 add_accepted_culture = braillian
-religion = animism
+religion = arceusism
 technology_group = chinese
 capital = 228	# Suo
 
