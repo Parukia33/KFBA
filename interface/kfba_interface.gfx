@@ -1,0 +1,9 @@
+spriteTypes = {
+	#Disasters
+	spriteType = {
+		name = "GFX_disaster_kfba_fall_of_nippon_disaster"
+		texturefile = "gfx//interface//disasters//kfba_fall_of_nippon_disaster.tga"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+}

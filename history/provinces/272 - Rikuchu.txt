@@ -3,7 +3,7 @@
 owner = KTK
 controller = KTK
 culture = alphan
-religion = animism
+religion = arceusism
 capital = "Mossui"
 trade_goods = grain
 hre = no

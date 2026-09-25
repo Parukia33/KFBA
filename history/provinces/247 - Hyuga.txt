@@ -3,7 +3,7 @@
 owner = ITO
 controller = ITO
 culture = kyushuan
-religion = shinto
+religion = mahayana
 capital = "Obi"
 trade_goods = livestock
 hre = no

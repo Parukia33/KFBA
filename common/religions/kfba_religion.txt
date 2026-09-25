@@ -616,3 +616,42 @@ hawaiian = {
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_hawaiian
 }
+
+otherworldly = {
+	flags_with_emblem_percentage = 0
+	flag_emblem_index_range = { 1 57 }
+	
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	
+	#So a center of reformation can appear in Europe
+	#center_of_religion = 1025	#Uzen/Sinjoh
+	#center_of_religion = 104	#Aurora
+	
+	arceusism = {
+		icon = 5
+		color = { 178 178 127 }
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_own = 3
+			global_heathen_missionary_strength = 0.01
+		}
+		country_as_secondary = {
+			land_morale = 0.10
+		}
+		
+		
+		#fetishist_cult = yes
+		#hre_religion = yes
+		#declare_war_in_regency = yes
+		#misguided_heretic = yes
+		heretic = { REFORMERS MEWISTS BULBASAURITES RHYDONERS }
+		
+	}
+
+	harmonized_modifier = harmonized_arceusism
+	
+	crusade_name = OUTSIDE_CONQUEST
+}
