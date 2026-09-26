@@ -46,11 +46,6 @@ kfba_fall_of_nippon_disaster = {
 			kfba_fall_of_nippon_disaster.4 # The rise of Mataram
 			kfba_fall_of_nippon_disaster.7 # Aid from Muslim merchants
 		}
-		random_events = {
-			360 = 0
-			10 = kfba_fall_of_nippon_disaster.5 # Tributary Breaks Away
-			10 = kfba_fall_of_nippon_disaster.8 # Spread of Islam in [province]
-		}
 	}
 }
 
