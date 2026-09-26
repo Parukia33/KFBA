@@ -370,7 +370,6 @@ country_event = {
 	trigger = {
 		has_dlc = "Golden Century"
 		religion = catholic
-		culture_group = iberian
 		capital_scope = {
 			continent = europe
 		}
@@ -449,14 +448,9 @@ country_event = {
 		PAP = {
 			add_opinion = { who = ROOT modifier = opinion_sublimis_deus }
 		}
-		if = {
-			limit = {
-				culture_group = iberian
-			}
-			add_country_modifier = {
-				name = "sublimis_deus"
-				duration = 36500
-			}
+		add_country_modifier = {
+			name = "sublimis_deus"
+			duration = 36500
 		}
 	}
 	
