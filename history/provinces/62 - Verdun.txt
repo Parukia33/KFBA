@@ -1,0 +1,19 @@
+# 4766 - Verdun
+
+owner = BAR
+controller = BAR
+capital = "Verdun"
+is_city = yes
+culture = burgundian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+add_core = BAR
+fort_15th = yes
+
+discovered_by = western
+
+1430.6.26 = { owner = PRO controller = PRO add_core = PRO }
