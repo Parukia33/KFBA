@@ -11641,42 +11641,6 @@ country_event = {
 	}
 }
 
-# The White Elephant
-country_event = {
-	id = random_event.12
-	title = "random_event.EVTNAME12"
-	desc = "random_event.EVTDESC12"
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			culture_group = southeastasian_group
-			culture_group = burman
-			culture_group = eastern_aryan
-			culture_group = hindusthani
-			culture_group = western_aryan
-			culture_group = dravidian
-			culture_group = central_indic
-		}
-		NOT = { primary_culture = tibetan }
-		NOT = { primary_culture = tibetan_new }
-		NOT = {
-			stability = 3
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "random_event.EVTOPTA12"
-		add_stability_or_adm_power = yes
-	}
-}
-
 # Profits in Mecca!
 country_event = {
 	id = random_event.13
