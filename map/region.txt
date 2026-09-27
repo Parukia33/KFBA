@@ -1,0 +1,79 @@
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+##########
+# RANSEI #
+##########
+
+western_ransei_region = {
+	areas = {
+		southwest_ransei_area
+		
+		toscana_nova_area
+		west_peninsula_area
+		cantonesia_area
+		genova_nova_area
+		cisalpina_area
+		lombardia_area
+		east_cantonesia_area
+	}
+}
+
+central_ransei_region = {
+	areas = {
+		central_ransei_area
+		ostgermania_area
+	}
+}
+
+northwestern_ransei_region = {
+	areas =  {
+		tail_area
+		germania_area
+		frankia_area
+	}
+}
+
+eastern_ransei_region = {
+	areas = {
+		southeast_ransei_area
+		northeast_ransei_area
+	}
+}
+
+##########
+# NIPPON #
+##########
+
+nippon_region = {
+	areas = {
+		
+	}
+}
+
+##########
+# HAWAII #
+##########
+
+hawaii_region = {
+	areas = {
+		big_island_area
+		maui_area
+		central_hawaii_area
+		oahu_area
+		northwest_hawaii_area
+	}
+}
+
+#######
+# SEA #
+#######
+
+ocean_region = {
+	areas = {
+		ocean_area
+	}
+}
