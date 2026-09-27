@@ -1,0 +1,33 @@
+# Waldensian spawn event
+country_event = {
+    id = app.1
+    title = "app.1.title"
+    desc = "app.1.desc"
+    picture = "LUTHER_eventPicture"
+
+    major = yes
+
+    trigger = {
+
+        tag = XXX
+
+        NOT = { is_religion_enabled = anticatholic }
+		is_defender_of_faith = no	
+		NOT = { has_reform = papacy_reform }
+		capital_scope = {
+			continent = ransei
+		}
+    }
+
+    mean_time_to_happen = {
+		days = 30
+	}
+    
+    option = {
+        name = "app.1.a"
+        13 = {
+            add_core = XXX
+		    cede_province = XXX 
+        }
+    }
+}
