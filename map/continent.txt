@@ -32,26 +32,33 @@ oceania = {
 }
 
 air_continent = {
-
+	#Wasteland
+	1001
 }
 
 grass_continent = {
-
+	#Wasteland
+	1002
 }
 
 mist_continent = {
-
+	#Wasteland
+	1003
 }
 
 water_continent = {
-
+	#Wasteland
+	1004
 }
-sand_continent = {
 
+sand_continent = {
+	#Wasteland
+	1005
 }
 
 mystery_continent = {
-
+	#Wasteland
+	1006
 }
 
 island_check_provinces = {

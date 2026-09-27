@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 59	# Nancy
+
+
+1390.1.1 = {
+	monarch = {
+		name = "Charles II"
+		dynasty = "de Metz"
+		birth_date = 1364.1.1
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}
+
+# 1431.1.25: Personal Union under René of Anjou

@@ -7,27 +7,14 @@ monarchy = {
 				autocracy_reform
 				elective_monarchy_reform
 				plutocratic_reform
-				indian_sultanate_reform
-				nayankara_reform
-				misl_confederacy_reform
-				rajput_kingdom
-				negusa_nagast
-				solomonic_empire
 				#Specific:
 				chinese_warlord
-				grand_duchy_reform
 				daimyo
 				indep_daimyo
 				elective_monarchy
-				iqta
-				ottoman_government
 				prussian_monarchy
 				prussian_monarchy_base
 				austrian_dual_monarchy
-				principality
-				tsardom
-				mamluk_government
-				feudal_theocracy
 				celestial_empire
 				shogunate
 				english_monarchy
@@ -35,49 +22,11 @@ monarchy = {
 				revolutionary_empire_reform
 				holy_state_reform
 				austrian_archduchy_reform
-				siamese_absolutism
-				confucian_bureaucracy
-				musa_rule
-				mossi_federal_kingdom
-				kalmar_union
-				danish_archkingdom
-				norwegian_parliamentary_monarchy
-				#Never again
-				livonian_military_monarchy
-				livonian_naval_monarchy
-				livonian_trade_monarchy
-				livonian_constitutional_monarchy
-				livonian_theocratic_monarchy
-				livonian_elective_monarchy
-				livonian_monarchy
-				livonian_diplomatic_monarchy
-				livonian_administrative_monarchy
-				livonian_mercenary_monarchy
-				livonian_admiral_monarchy
-				livonian_naval_controlled_monarchy
-				livonian_general_controlled_monarchy
-				livonian_absolute_monarchy
-				livonian_enlightened_monarchy
-				#Again
-				polish_great_sejm
-				polish_elective_monarchy
-				polish_autocratic_monarchy
-				lithuanian_grand_kingdom
-				lithuanian_grand_empire
 				#1.35
-				eyalet_government
-				barbary_eyalet_government
-				sultanate_of_rum_reform
-				modernized_ottoman_government
 				reorganized_ottoman_government
 				feudal_france_reform
 				absolutist_france_reform
 				appanage_reform
-				ruthenian_tsardom
-				russian_empire_reform
-				korean_monarchy
-				beylik_government
-				al_andalusia_government
 				absolute_shogunate_reform
 				japanese_divine_empire
 				land_christian_sun_reform
@@ -87,48 +36,19 @@ monarchy = {
 				byzantine_autocracy_reform
 				reformed_byzantine_monarchy_reform
 				margraviate_reform
-				serbian_despotate_reform
-				bulgarian_tsardom_reform
-				tanistry_reform
-				irish_highkingdom_reform
-				scottish_monarchy_reform
-				sharifate_reform
-				caliphate_reform
-				barbary_sultanate_reform
 				roman_empire_reform
-				persian_government_reform
-				zoroastrian_persian_government_reform
-				portuguese_monarchy_reform
 				holy_imperial_monarchy_reform
 				burgundian_state_reform
 				bohemian_elective_kingdom_reform
 				stadthalter_monarchy_reform
-				janissary_autocracy_reform
 				admiralty_regime_reform
 				system_of_councils_reform
 				courts_of_navarra
-				league_of_lezhe_reform
-				tibetan_dual_government_reform
 				#1.36
 				#Turkomen
-				turkoman_ottoman_institutions
 				pronoiar_monarchy_reform #custom nation
-				#Egypt 
-				egyptian_government_reform
 				#1.37
-				ayyubid_dynasty
-				arabic_plutocracy_reform
-				apostolic_kingdom
-				imperial_hungarian_government
-				andean_empire_reform
-				aztec_empire_reform
-				maya_confederation_reform
-				divine_kingship_reform
-				nahuatl_monarchy_reform
-				empire_of_trebizond
 				austrian_absolute_monarchy
-				merchant_aristocracy_reform
-				gothic_monarchy_reform
 			}
 		}
 		hereditary_vs_nobility = {
