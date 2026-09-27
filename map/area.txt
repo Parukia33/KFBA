@@ -57,7 +57,7 @@ east_cantonesia_area = {
 }
 
 tail_area = {
-	6 77 76 6 73 74 72 71 75 63	
+	6 77 76 73 74 72 71 75 63	
 }
 
 germania_area = {
