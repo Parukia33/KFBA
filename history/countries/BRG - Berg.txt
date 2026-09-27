@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = hessian
 religion = catholic
 technology_group = western
-capital = 84 # Berg
+capital = 99 # Berg
 
 1437.7.14 = {
 	monarch = {
