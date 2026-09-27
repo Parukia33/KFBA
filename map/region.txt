@@ -11,15 +11,12 @@ random_new_world_region = {
 western_ransei_region = {
 	areas = {
 		southwest_ransei_area
-		ostgermania_area
+		
 		toscana_nova_area
 		west_peninsula_area
 		cantonesia_area
-		tail_area
-		germania_area
 		genova_nova_area
 		cisalpina_area
-		frankia_area
 		lombardia_area
 		east_cantonesia_area
 	}
@@ -28,6 +25,15 @@ western_ransei_region = {
 central_ransei_region = {
 	areas = {
 		central_ransei_area
+		ostgermania_area
+	}
+}
+
+northwestern_ransei_region = {
+	areas =  {
+		tail_area
+		germania_area
+		frankia_area
 	}
 }
 
