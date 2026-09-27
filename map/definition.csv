@@ -66,7 +66,16 @@ province;red;green;blue;x;x
 65;137;34;0;Namur;x
 66;9;36;64;Hainaut;x
 67;137;38;128;Cambresis;x
-68;9;40;192;;
+68;9;40;192;Julich;x
+69;137;42;255;Aachen;x
+70;10;44;0;Upper Guelders;x
+71;138;46;64;Loon;x
+72;10;48;128;Brabant;x
+73;138;50;192;Breda;x
+74;10;52;255;Antwerpen;x
+75;138;54;0;Utrecht;x
+76;10;56;64;Den Haag;x
+77;139;58;128;Zeeland;x
 203;157;54;192;;
 204;29;56;255;;
 205;157;58;0;Shiribeshi;x
@@ -184,9 +193,9 @@ province;red;green;blue;x;x
 1292;43;220;250;Hokuriko Coast;x
 1293;44;250;250;Hisui Strait;x
 1294;45;200;200;Sevii Islands;x
-1295;46;200;250;Gulf of Valencia;
-1296;47;220;250;Gulf of Lion;
-1297;48;250;250;Cote D'Azur;
-1298;49;200;200;Ligurian Sea;
-1299;50;200;250;Shetland Straits;
-1300;51;220;250;Western Mediterranean;
+1295;46;200;250;West Hawaiian Sea;x
+1296;47;220;250;West-Central Hawaii Sea;x
+1297;48;250;250;Central Hawaiian Sea;x
+1298;49;200;200;East-Central Hawaii Sea;x
+1299;50;200;250;East Hawaiian Sea;x
+1300;51;220;250;South Hawaii Sea;x

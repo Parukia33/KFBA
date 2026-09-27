@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = flemish
+
+capital = 72
+
+1427.1.1 = {
+	monarch = {
+		name = "Philip I"
+		dynasty = "de Valois"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
