@@ -1,0 +1,23 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+# Hawaii unreformed malus
+unknown_currents = {
+	trade_range_modifier = -1
+	range = -1
+	naval_attrition = 1
+}
+
+moo_forbid_access = {
+	production_efficiency = -0.50
+}
+
+warriors_afriad = {
+	land_morale = -0.05
+	land_maintenance_modifier = 0.05
+}
+
+panic_hawaii = {
+	local_unrest = 10
+}
