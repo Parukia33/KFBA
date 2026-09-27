@@ -56,7 +56,7 @@ province;red;green;blue;x;x
 55;135;142;0;Parma;x
 56;8;144;64;Cremona;x
 57;136;146;128;Milan;x
-58;8;148;192;Franche-Comté;x
+58;8;148;192;Franche-Comtï¿½;x
 59;136;150;255;Lorraine;x
 60;8;152;0;Zweibrucken;x
 61;136;154;64;Metz;x
@@ -91,7 +91,6 @@ province;red;green;blue;x;x
 90;156;214;92;Zagreb;x
 203;157;54;192;Kranj;x
 204;29;56;255;Trst;x
-205;x
 205;157;58;0;Shiribeshi;x
 206;29;60;64;Kamikawa;x
 207;157;62;128;Oshima;x

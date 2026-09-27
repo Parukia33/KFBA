@@ -9,14 +9,14 @@ country_event = {
 
     trigger = {
 
-        tag = XXX
-
+        tag = SAV
         NOT = { is_religion_enabled = anticatholic }
 		is_defender_of_faith = no	
 		NOT = { has_reform = papacy_reform }
 		capital_scope = {
 			continent = ransei
 		}
+        
     }
 
     mean_time_to_happen = {
@@ -25,7 +25,8 @@ country_event = {
     
     option = {
         name = "app.1.a"
-        13 = {
+        change_religion = anticatholic
+        37 = {
             add_core = XXX
 		    cede_province = XXX 
         }
