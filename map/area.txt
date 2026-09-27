@@ -24,9 +24,6 @@ ocean_area = {
 # Ransei					 		   #
 ########################################
 
-southwest_ransei_area = {
-	34 35
-}
 
 toscana_nova_area = {
 	4 52 50 51 49 48
@@ -61,7 +58,7 @@ tail_area = {
 }
 
 germania_area = {
-	69 63 60 88 68 87 86 86 85 84 83 70
+	69 63 60 88 68 87 86 85 84 83 70
 }
 
 ostgermania_area = {
