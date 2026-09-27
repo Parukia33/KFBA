@@ -77,7 +77,7 @@ central_ransei_area = {
 }
 
 southeast_ransei_area = {
-	10 11 12 13
+	10 11 12 13 274
 }
 
 northeast_ransei_area = {
