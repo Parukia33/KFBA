@@ -1,0 +1,17 @@
+# 98 - Dortmund
+culture = hannoverian
+owner = RVA
+controller = RVA
+add_core = RVA
+capital = "Dortmund"
+religion = catholic
+trade_goods = cloth
+base_tax = 6
+base_production = 5
+base_manpower = 1
+is_city = yes
+hre = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western

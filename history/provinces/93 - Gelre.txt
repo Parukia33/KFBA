@@ -1,0 +1,16 @@
+# 93 Gelre - Principal cities: Arnhem & Nijmegen
+
+owner = GEL
+controller = GEL 
+capital = "Arnhem"
+is_city = yes
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = livestock
+base_manpower = 3
+add_core = GEL
+
+discovered_by = western

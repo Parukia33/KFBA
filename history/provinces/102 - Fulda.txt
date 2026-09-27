@@ -1,0 +1,15 @@
+#102 - Fulda
+owner = WBG
+controller = WBG
+add_core = WBG
+culture = hessian
+religion = catholic
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 1
+capital = "Fulda"
+hre = yes
+is_city = yes
+
+discovered_by = western

@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = dutch
 religion = catholic
 technology_group = western
-capital = 99	# Coevorde
+capital = 93	# Coevorde
 
 1423.6.29 = {
 	monarch = {
