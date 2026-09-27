@@ -15,7 +15,7 @@ country_event = {
     trigger = {
         AND = {
             tag = LAN
-            35 = { owned_by = LAN }
+            50 = { owned_by = LAN }
         }
         NOT = { is_religion_enabled = fraticelli }
 		religion = catholic
@@ -39,7 +39,7 @@ country_event = {
         name = "frat.1.a"
         enable_religion = fraticelli
 		root = {
-			35 = {
+			50 = {
 				change_religion = fraticelli
 				add_reform_center = fraticelli
 				add_permanent_province_modifier = {

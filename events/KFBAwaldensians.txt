@@ -15,7 +15,7 @@ country_event = {
     trigger = {
 		AND = {
 			tag = SWI
-			50 = {owned_by = SWI}
+			35 = {owned_by = SWI}
 		}
         
         NOT = { is_religion_enabled = waldensian }
