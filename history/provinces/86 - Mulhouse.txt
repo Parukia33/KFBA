@@ -1,0 +1,16 @@
+# 86 - Mulhouse. Primary city: Mülhausen
+
+owner = MLH
+controller = MLH
+capital = "Mülhausen"
+is_city = yes
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 3 
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+add_core = MLH
+
+discovered_by = western

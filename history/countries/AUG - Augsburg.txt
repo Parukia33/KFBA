@@ -1,0 +1,22 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+primary_culture = swabian
+religion = catholic
+technology_group = western
+capital = 81
+fixed_capital = 81 # Cannot move capital away from this province & no power cost to move to it
+
+1423.1.1 = {
+	monarch = {
+		name = "Peter von Schaumberg"
+		culture = franconian
+		birth_date = 1388.2.22
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = calm_personality
+	add_ruler_personality = pious_personality
+}

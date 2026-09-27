@@ -1,0 +1,17 @@
+# 82 - Ulm
+owner = ULM
+controller = ULM
+add_core = ULM
+culture = swabian
+religion = catholic
+base_tax = 5 
+base_production = 6
+trade_goods = cloth	#fustians
+base_manpower = 4
+capital = "Ulm"
+is_city = yes
+hre = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western
