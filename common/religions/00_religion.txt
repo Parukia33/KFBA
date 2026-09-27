@@ -132,6 +132,10 @@ christian = {
 		country = {
 			#TODO
 		}
+
+		will_get_center = {
+        	always = yes
+    	}
 		
 		country_as_secondary = {
 			#TODO
@@ -344,7 +348,8 @@ christian = {
 		}
 		
 		heretic = { CATHOLICISM WALDENSIANISM FRATICELLISN HUSSITISM }
-		
+
+		date = 1453.4.22    #easter
 	}
 	
 	hussite = {
@@ -415,6 +420,10 @@ christian = {
 			prestige = 0.75
 			build_cost = -0.1
 		}
+
+		will_get_center = {
+        	always = yes
+    	}
 		
 		country_as_secondary = {
 			build_cost = -0.1
@@ -627,11 +636,17 @@ christian = {
 				}
 			}
 		}
+
+		#date = 1453.5.31	#ascension of Christ feast day		
 	}
 	
 	waldensian = {
 		color = { 229 166 52 }
 		icon = 3
+
+		will_get_center = {
+        	always = yes
+    	}
 
 		allowed_center_conversion = {
 			anticatholic
@@ -660,10 +675,12 @@ christian = {
 				duration = 3650
 			}
 		}
-		
+
 		fervor = yes
 		
 		heretic = { TABORITE UTRAQUIST ORPHAN }
+
+		#date = 1453.5.31	#ascension of Christ feast day	
 	}
 	
 	papist = {
