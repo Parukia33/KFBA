@@ -76,6 +76,17 @@ province;red;green;blue;x;x
 75;138;54;0;Utrecht;x
 76;10;56;64;Den Haag;x
 77;139;58;128;Zeeland;x
+78;11;60;192;Trent;x
+79;139;62;255;Etschtal;x
+80;11;64;0;Inntal;x
+81;139;66;64;Augsburg;x
+82;11;68;128;Ulm;x
+83;139;70;192;Breisgau;x
+84;12;72;255;Baden;x
+85;140;74;0;Sundgao;x
+86;12;76;64;Mulhausen;x
+87;140;78;128;Strasbourg;x
+88;12;80;192;Pfalz;x
 203;157;54;192;;
 204;29;56;255;;
 205;157;58;0;Shiribeshi;x
