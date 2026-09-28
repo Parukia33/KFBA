@@ -11,7 +11,7 @@ ransei = {
 	
 	#Wasteland
 	1000
-	24 25 29 43
+	24 25 29 43 115
 }
 
 vesperia = {
