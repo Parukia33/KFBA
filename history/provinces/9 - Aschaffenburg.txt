@@ -1,16 +1,16 @@
 #9 - Aschaffenburg
 
-owner = SWI
-controller = SWI
-culture = swiss
-religion = catholic
-capital = "Schwyz"
-trade_goods = iron
-hre = yes
-base_tax = 4 
-base_production = 4
-base_manpower = 2
+owner = MAI
+controller = MAI
+capital = "Aschaffenburg"
 is_city = yes
-add_core = SWI
+culture = franconian
+religion = catholic
+hre = yes
+base_tax = 3 
+base_production = 2
+base_manpower = 2
+trade_goods = cloth
+add_core = MAI
 
 discovered_by = western

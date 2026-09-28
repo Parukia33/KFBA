@@ -1,0 +1,16 @@
+# - Ingolstadt + Neuburg
+
+owner = ING
+controller = ING
+add_core = ING
+culture = bavarian
+religion = catholic
+base_tax = 5 
+base_production = 5
+trade_goods = wine #Would shift to beer over time
+base_manpower = 3
+capital	= "Ingolstadt" 
+is_city = yes
+hre = yes
+
+discovered_by = western
