@@ -1,0 +1,6 @@
+if = {
+	limit = {
+		has_reform = junior_revolutionary_republic_reform
+	}
+	add_treasury = 1
+}
