@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = saxon
+religion = catholic
+technology_group = western
+capital = 4743	# Weimar
+
+1440.5.7 = {
+	monarch = {
+		name = "Friedrich V"
+		dynasty = "von Wettin"
+		birth_date = 1412.8.22
+		dip = 3
+		adm = 4
+		mil = 0
+	}
+}
+
+# Same as Friedrich II of Saxony.
+# Union with Saxony ends with the Altenburger Teilung 1445.
+
+1440.5.7 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm III"
+		dynasty = "von Wettin"
+		birth_date = 1425.4.30
+		death_date = 1482.9.17
+		claim = 95
+		dip = 3
+		adm = 1
+		mil = 3
+	}
+}

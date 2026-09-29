@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = franconian
+religion = catholic
+capital = 122	# Ansbach
+fixed_capital = 122 # Cannot move capital away from this province & no power cost to move to it
+
+1440.9.21 = {
+	monarch = {
+		name = "Albrecht I Achilles"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		dip = 2
+		adm = 2
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+}
+# remark = "Also ruler of Brandenburg."
