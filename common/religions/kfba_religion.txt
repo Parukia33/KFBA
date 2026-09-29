@@ -632,7 +632,7 @@ otherworldly = {
 		icon = 38
 		color = { 178 178 127 }
 		province = {
-			local_missionary_strength = 0.01
+			local_missionary_strength = -0.01
 		}
 		country = {
 			tolerance_own = 3
@@ -648,9 +648,25 @@ otherworldly = {
 		#misguided_heretic = yes
 		heretic = { REFORMERS MEWISTS BULBASAURITES RHYDONERS }
 		
+		harmonized_modifier = harmonized_arceusism
+		
 	}
-
-	harmonized_modifier = harmonized_arceusism
+	
+	pokemon_religion = {
+		icon = 40
+		color = { 0 0 0 }
+		province = {
+			local_missionary_strength = -0.03
+		}
+		country = {
+			#TODO
+		}
+		country_as_secondary = {
+			discipline = 0.025
+		}
+		
+	}
+	
 	
 	crusade_name = OUTSIDE_CONQUEST
 }
