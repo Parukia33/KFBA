@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+primary_culture = lower_saxon
+religion = catholic
+technology_group = western
+capital = 161	# Verden
+
+1441.7.9 = {
+	monarch = {
+		name = "Gerhard III"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
