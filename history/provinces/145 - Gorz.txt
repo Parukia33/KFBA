@@ -1,0 +1,21 @@
+# 145 - Görz
+owner = HAB
+controller = HAB
+add_core = HAB
+culture = slovene
+religion = catholic
+base_tax = 4
+base_production = 4
+trade_goods = iron
+base_manpower = 2
+capital = "Gorizia"
+is_city = yes
+hre = yes
+
+discovered_by = western
+
+
+1420.1.1 = {
+	add_core = STY
+	capital = "Görz"
+} # To the Habsburgs
