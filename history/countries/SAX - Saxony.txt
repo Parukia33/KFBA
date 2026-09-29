@@ -1,0 +1,51 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = saxon
+religion = catholic
+elector = yes
+technology_group = western
+capital = 169 # Leipzig
+
+1423.1.6 = { capital = 174 } # Meissen
+
+1428.1.4 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Wettin"
+		birth_date = 1412.8.22
+		dip = 3
+		adm = 4
+		mil = 0
+	}
+	queen = {
+		country_of_origin = HAB
+		name = "Margaret"
+		dynasty = "von Habsburg"
+		birth_date = 1416.6.3
+		death_date = 1464.9.7
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = industrious_personality
+}
+#Same as Friedrich II of Thuringia
+#Dukes of Saxony
+
+1443.7.31 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht I der Beherzte"
+		dynasty = "von Wettin"
+		birth_date = 1443.7.31
+		death_date = 1500.9.12
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}
