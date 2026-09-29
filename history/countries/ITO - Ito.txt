@@ -3,6 +3,8 @@ add_government_reform = indep_daimyo
 government_rank = 1
 primary_culture = kyushuan
 religion = shinto
+add_harmonized_religion = mahayana
+add_harmonized_religion = vajrayana
 technology_group = chinese
 capital = 247	# Hyuga
 

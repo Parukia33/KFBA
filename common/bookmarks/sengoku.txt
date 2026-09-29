@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "SENGOKU"
+	desc = "SENGOKU_DESC"
+	date = 1445.1.1
+	
+	center = 228
+	
+	country = ALP
+	country = ANU
+    country = UES
+    country = OUC
+    country = SOO
+	
+	easy_country = ALP
+    easy_country = ANU
+    easy_country = OUC
+}
