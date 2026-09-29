@@ -15,8 +15,8 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 1020
-				province_id = 1028
+				province_id = 228
+				province_id = 216
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -26,8 +26,8 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			num_of_cities = 25
-			owns = 1020
-			owns = 1028
+			owns = 228
+			owns = 216
 		}
 		effect = {
 			remove_government_reform = shogunate
@@ -104,8 +104,8 @@ country_decisions = {
 		allow = {
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
-			owns = 1020
-			owns = 1028
+			owns = 228
+			owns = 216
 			all_country = {
 				NOT = {
 					has_reform = daimyo
@@ -172,16 +172,16 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 1020
-				province_id = 1028
+				province_id = 228
+				province_id = 216
 			}
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
-			owns = 1020
-			owns = 1028
+			owns = 228
+			owns = 216
 			all_country = {
 				OR = {
 					tag = ROOT
@@ -319,7 +319,7 @@ country_decisions = {
 	restore_the_shrine_of_ise = {
 		potential = {
 			religion = shinto
-			4359 = {
+			224 = {
 				NOT = {
 					has_province_modifier = ise_grand_shrine
 				}
@@ -327,8 +327,8 @@ country_decisions = {
 		}
 		allow = {
 			treasury = 300
-			owns = 4359
-			4359 = {
+			owns = 224
+			224 = {
 				NOT = {
 					has_province_modifier = ise_grand_shrine
 				}
@@ -337,7 +337,7 @@ country_decisions = {
 		effect = {
 			add_treasury = -300
 			add_prestige = 20
-			4359 = {
+			224 = {
 				if = {
 					limit = {
 						NOT = { religion = shinto }

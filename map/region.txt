@@ -49,7 +49,19 @@ eastern_ransei_region = {
 
 nippon_region = {
 	areas = {
-		
+		hokkaido_area
+		hokuriku_area
+		kanto_area
+		eastern_kanto_area
+		kyushu_area
+		northern_kyushu
+		shikoku_area
+		eastern_chubu_area
+		chubu_area
+		kinai_area
+		thohoku_area
+		sanindo_area
+		saigoku_area
 	}
 }
 
