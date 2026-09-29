@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = hannoverian
+religion = catholic
+technology_group = western
+capital = 148	# Oldenburg
+fixed_capital = 148 # Cannot move capital away from this province & no power cost to move to it
+
+1440.2.14 = {
+	monarch = {
+		name = "Christian VI"
+		dynasty = "von Oldenburg"
+		birth_date = 1426.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = charismatic_negotiator_personality
+}
+
+1440.2.14 = {
+	heir = {
+		name = "Gerhard"
+		monarch_name = "Gerhard der Mutige"
+		dynasty = "von Oldenburg"
+		birth_date = 1430.1.1
+		death_date = 1500.2.22
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
