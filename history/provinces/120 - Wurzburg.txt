@@ -1,0 +1,16 @@
+#120 - Würzburg
+owner = WBG
+controller = WBG
+add_core = WBG
+culture = franconian
+religion = catholic
+base_tax = 4
+base_production = 4
+trade_goods = wine
+base_manpower = 3
+fort_15th = yes # Marienberg Fortress
+capital = "Würzburg"
+hre = yes
+is_city = yes
+
+discovered_by = western

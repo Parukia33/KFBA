@@ -1,0 +1,22 @@
+#For the record, LBV = Lower Bavaria
+
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 126	# Landshut
+
+1417.2.23 = {
+	heir = {
+		name = "Ludwig"
+		monarch_name = "Ludwig IX"
+		dynasty = "von Wittelsbach"
+		birth_date = 1417.2.23
+		death_date = 1479.1.18
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}

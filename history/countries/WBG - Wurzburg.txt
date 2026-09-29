@@ -4,8 +4,8 @@ government_rank = 1
 technology_group = western
 primary_culture = franconian
 religion = catholic
-capital = 79	# Würzburg
-fixed_capital = 79 # Cannot move capital away from this province & no power cost to move to it
+capital = 120	# Würzburg
+fixed_capital = 120 # Cannot move capital away from this province & no power cost to move to it
 
 1444.11.3 = {
 	monarch = {

@@ -1,0 +1,18 @@
+#125 - Regensburg
+
+owner = REG
+controller = REG
+add_core = REG
+culture = bavarian
+religion = catholic
+base_tax = 5
+base_production = 5
+trade_goods = cloth #Fustians
+base_manpower = 3
+capital	= "Regensburg" 
+is_city = yes
+hre = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western
