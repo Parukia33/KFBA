@@ -1,0 +1,17 @@
+#142 - Oberkärnten
+
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = STY
+culture	= austrian
+religion = catholic
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = iron 
+capital = "Villach" 
+is_city = yes
+hre = yes
+
+discovered_by = western

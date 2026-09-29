@@ -1682,195 +1682,195 @@ brandenburg_gate = {
 	}
 }
 
-# schonbrunn_palace = {
-	# start = 134 #Wien
-	# date = 1444.01.01	#1642
-	# time = { months = 0 }
-	# build_cost = 0
-	# can_be_moved = no
-	# move_days_per_unit_distance = 10
-	# starting_tier = 0
-	# type = monument
-	# build_trigger = {
-		# province_is_or_accepts_religion_group = {
-			# religion_group = christian
-		# }
-	# }
-	# on_built = {}
-	# on_destroyed = {}
-	# can_use_modifiers_trigger = {
-		# province_is_or_accepts_religion_group = {
-			# religion_group = christian
-		# }
-	# }
-	# can_upgrade_trigger = {
-		# province_is_or_accepts_religion_group = {
-			# religion_group = christian
-		# }
-	# }
-	# keep_trigger = {}
-	# tier_0 = {
-		# upgrade_time = { months = 0 }
-		# cost_to_upgrade = { factor = 0 }
-		# province_modifiers = {}
-		# area_modifier = {}
-		# country_modifiers = {}
-		# on_upgraded = {}
-	# }
-	# tier_1 = {
-		# upgrade_time = { months = 120 }
-		# cost_to_upgrade = { factor = 1000 }
-		# province_modifiers = {}
-		# area_modifier = {}
-		# country_modifiers = {
-			# diplomats = 1
-		# }
-		# on_upgraded = {}
-	# }
-	# tier_2 = {
-		# upgrade_time = { months = 240 }
-		# cost_to_upgrade = { factor = 2500 }
-		# province_modifiers = {}
-		# area_modifier = {}
-		# country_modifiers = {
-			# monthly_splendor = 1
-			# chance_to_inherit = 0.05
-			# diplomats = 1
-		# }
-		# on_upgraded = {}
-	# }
-	# tier_3 = {
-		# upgrade_time = { months = 480 }
-		# cost_to_upgrade = { factor = 5000 }
-		# province_modifiers = {}
-		# area_modifier = {}
-		# country_modifiers = {
-			# monthly_splendor = 2
-			# chance_to_inherit = 0.1 
-			# diplomats = 1
-			# years_to_integrate_personal_union = -5
-		# }
-		# on_upgraded = {}
-	# }
-# }
+schonbrunn_palace = {
+	start = 137 #Wien
+	date = 1444.01.01	#1642
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+	on_built = {}
+	on_destroyed = {}
+	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+	keep_trigger = {}
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {
+			diplomats = 1
+		}
+		on_upgraded = {}
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {
+			monthly_splendor = 1
+			chance_to_inherit = 0.05
+			diplomats = 1
+		}
+		on_upgraded = {}
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {
+			monthly_splendor = 2
+			chance_to_inherit = 0.1 
+			diplomats = 1
+			years_to_integrate_personal_union = -5
+		}
+		on_upgraded = {}
+	}
+}
 
-# prague = {
-	# start = 266 #Prague
-	# date = 700.01.01
-	# time = { months = 0	}
-	# build_cost = 0
-	# can_be_moved = no
-	# move_days_per_unit_distance = 10
-	# starting_tier = 2
-	# type = monument
+prague = {
+	start = 129 #Prague
+	date = 700.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
 
-	# build_trigger = {
-		# province_is_or_accepts_religion_group = {
-			# religion_group = christian
-		# }
-	# }
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
 
-	# on_built = {
-	# }
+	on_built = {
+	}
 
-	# on_destroyed = {
-	# }
+	on_destroyed = {
+	}
 
-	# can_use_modifiers_trigger = {
-		# province_is_or_accepts_religion_group = {
-			# religion_group = christian
-		# }
-	# }
+	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
 
-	# can_upgrade_trigger = {
-		# province_is_or_accepts_religion_group = {
-			# religion_group = christian
-		# }
-	# }
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
 
-	# keep_trigger = {		
-	# }
+	keep_trigger = {		
+	}
 
-	# tier_0 = {
-		# upgrade_time = {
-			# months = 0
-		# }
-		# cost_to_upgrade = {
-			# factor = 0
-		# }
-		# province_modifiers = {
-		# }
-		# area_modifier = {
-		# }
-		# country_modifiers = {
-		# }
-		# on_upgraded = {
-		# }
-	# }
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
 
-	# tier_1 = {
-		# upgrade_time = {
-			# months = 120
-		# }
-		# cost_to_upgrade = {
-			# factor = 1000
-		# }
-		# province_modifiers = {
-		# }
-		# area_modifier = {
-		# }
-		# country_modifiers = {
-			# imperial_authority_value = 0.05
-			# tolerance_own = 0.25
-			# tolerance_heretic = 0.25
-		# }
-		# on_upgraded = {
-		# }
-	# }
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			imperial_authority_value = 0.05
+			tolerance_own = 0.25
+			tolerance_heretic = 0.25
+		}
+		on_upgraded = {
+		}
+	}
 
-	# tier_2 = {
-		# upgrade_time = {
-			# months = 240
-		# }
-		# cost_to_upgrade = {
-			# factor = 2500
-		# }
-		# province_modifiers = {
-		# }
-		# area_modifier = {
-		# }
-		# country_modifiers = {
-			# imperial_authority_value = 0.1
-			# tolerance_own = 0.25
-			# tolerance_heretic = 0.25
-			# papal_influence = 0.5
-			# monthly_fervor_increase = 0.25
-			# church_power_modifier = 0.05
-		# }
-		# on_upgraded = {
-		# }
-	# }
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			imperial_authority_value = 0.1
+			tolerance_own = 0.25
+			tolerance_heretic = 0.25
+			papal_influence = 0.5
+			monthly_fervor_increase = 0.25
+			church_power_modifier = 0.05
+		}
+		on_upgraded = {
+		}
+	}
 
-	# tier_3 = {
-		# upgrade_time = {
-			# months = 480
-		# }
-		# cost_to_upgrade = {
-			# factor = 5000
-		# }
-		# province_modifiers = {
-		# }
-		# area_modifier = {
-		# }
-		# country_modifiers = {
-			# imperial_authority_value = 0.15
-			# tolerance_own = 0.5
-			# tolerance_heretic = 0.5
-			# papal_influence = 1
-			# monthly_fervor_increase = 0.5
-			# church_power_modifier = 0.1
-		# }
-		# on_upgraded = {
-		# }
-	# }
-# }
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			imperial_authority_value = 0.15
+			tolerance_own = 0.5
+			tolerance_heretic = 0.5
+			papal_influence = 1
+			monthly_fervor_increase = 0.5
+			church_power_modifier = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+}

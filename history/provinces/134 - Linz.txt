@@ -1,0 +1,16 @@
+#134 - Linz
+
+owner = HAB
+controller = HAB
+add_core = HAB
+culture = austrian
+religion = catholic
+base_tax = 4
+base_production = 4
+trade_goods = grain
+base_manpower = 3
+capital = "Linz" 
+is_city = yes
+hre = yes
+
+discovered_by = western

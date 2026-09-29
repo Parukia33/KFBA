@@ -1,0 +1,21 @@
+#129 - Bohemia
+
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Praha"
+culture = czech
+religion = hussite
+trade_goods = cloth 
+hre = yes
+base_tax = 8
+base_production = 8
+base_manpower = 6
+is_city = yes
+fort_15th = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western
+
+add_province_triggered_modifier = religious_center
