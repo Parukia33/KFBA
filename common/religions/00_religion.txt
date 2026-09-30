@@ -821,7 +821,7 @@ christian = {
 		
 		heretic = { CATHOLICISM WALDENSIANISM FRATICELLISN HUSSITISM }
 
-		date = 1453.4.22    #easter
+		#date = 1453.4.22    #easter
 	}
 	
 	fraticelli = {
@@ -1395,7 +1395,7 @@ christian = {
 			}
 		}
 		
-		has_patriarchs = yes
+		fervor = yes
 		
 		heretic = { PAPISM EPISCOPALIANISM }
 	}
