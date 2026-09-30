@@ -1,0 +1,32 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = lower_saxon
+religion = catholic
+technology_group = western
+capital = 182	# Kiel
+
+1427.5.29 = {
+	monarch = {
+		name = "Adolf VIII"
+		dynasty = "von Schauenburg"
+		birth_date = 1401.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Christian I"
+		dynasty = "von Oldenburg"
+		birth_date = 1426.2.1
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}

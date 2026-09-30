@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = lower_saxon
+religion = catholic
+capital = 183	# Lauenburg
+fixed_capital = 183 # Cannot move capital away from this province & no power cost to move to it
+
+1426.1.1 = {
+	monarch = {
+		name = "Bernhard II"
+		dynasty = "Askanier"
+		birth_date = 1385.1.1
+		dip = 3
+		mil = 3
+		adm = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = benevolent_personality
+}
+
+1439.7.18 = {
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann V"
+		dynasty = "Askanier"
+		birth_date = 1439.7.18
+		death_date = 1507.8.15
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}

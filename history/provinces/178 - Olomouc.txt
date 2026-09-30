@@ -1,0 +1,22 @@
+#178 - Olomouc
+
+latent_trade_goods = {
+	coal
+}
+
+owner = BOH
+controller = BOH
+capital = "Olomouc"
+culture = czech
+religion = hussite
+trade_goods = grain 
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = BOH
+add_core = MVA
+fort_15th = yes
+
+discovered_by = western
