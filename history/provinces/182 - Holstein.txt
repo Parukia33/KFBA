@@ -1,0 +1,18 @@
+#182 - Holstein
+
+owner = SHL
+controller = SHL
+add_core = SHL
+culture = lower_saxon
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 2
+capital = "Kiel"
+is_city = yes
+extra_cost = 8
+center_of_trade = 1
+
+discovered_by = western

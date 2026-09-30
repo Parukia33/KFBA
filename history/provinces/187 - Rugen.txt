@@ -1,0 +1,19 @@
+# 187 - Rügen
+
+owner = WOL
+controller = WOL
+add_core = RUG
+add_core = WOL
+culture = pommeranian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Bergen auf Rügen"
+is_city = yes
+
+unrest = 8 #pirate independence of thought
+
+discovered_by = western
