@@ -1,0 +1,16 @@
+#201 - Potsdam
+
+owner = BRA
+controller = BRA
+add_core = BRA
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Potsdam"
+is_city = yes
+
+discovered_by = western
