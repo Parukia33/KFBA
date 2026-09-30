@@ -306,18 +306,9 @@ polynesian_missions_slot2 = {
 			legitimacy_equivalent = 90
 		}
 		effect = {
-			if = {
-				limit = {
-					government = tribal
-					NOT = { has_reform = polynesian_kingdom }
-				}
-				add_government_reform = polynesian_kingdom
-			}
-			else = {
-				add_adm_power = 50
-				add_dip_power = 50
-				add_mil_power = 50
-			}
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
 			add_prestige_or_monarch_power = {
 				amount = 20
 			}
