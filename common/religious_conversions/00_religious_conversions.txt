@@ -130,7 +130,7 @@ waldensian_center_of_reformation = {
 
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 75.0
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -223,7 +223,7 @@ fraticelli_center_of_reformation = {
 
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0
+	max_distance = 75.0
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -316,7 +316,7 @@ hussite_center_of_reformation = {
 
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -441,7 +441,7 @@ anglican_center_of_reformation = {
 
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2
 
 	target_province_weights = {
@@ -569,7 +569,7 @@ protestant_center_of_reformation = {
 
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -690,7 +690,7 @@ reformed_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -811,7 +811,7 @@ catholic_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -932,7 +932,7 @@ coptic_center_of_reformation = {
 	
 	map_icon = GFX_religious_conversion_center_protestant
 
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 
 	target_province_weights = {
@@ -1053,7 +1053,7 @@ coptic_center_of_reformation = {
 shiite_center_of_reformation = {
 	religion = shiite
 	map_icon = GFX_religious_conversion_center_protestant
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 	target_province_weights = {
 		factor = 2
@@ -1130,7 +1130,7 @@ shiite_center_of_reformation = {
 zoroastrian_center_of_reformation = {
 	religion = zoroastrian
 	map_icon = GFX_religious_conversion_center_protestant
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	max_distance = 75.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
 	base_conversion_speed = 2.5
 	target_province_weights = {
 		factor = 2

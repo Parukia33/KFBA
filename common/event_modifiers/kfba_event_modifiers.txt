@@ -5,7 +5,7 @@
 # Hawaii unreformed malus
 unknown_currents = {
 	trade_range_modifier = -1
-	range = -1
+	range = -0.2
 	naval_attrition = 1
 }
 
@@ -20,4 +20,24 @@ warriors_afriad = {
 
 panic_hawaii = {
 	local_unrest = 10
+}
+
+# Alph events
+
+entei_roar = {
+	reduced_liberty_desire = 20	
+}
+
+raikoh_cunning = {
+	legitimacy = 1
+}
+
+suicune_grace ={
+	legitimacy = 1
+	reduced_liberty_desire = 10
+}
+
+hooh_ashes ={
+	legitimacy = 1
+	reduced_liberty_desire = 10
 }

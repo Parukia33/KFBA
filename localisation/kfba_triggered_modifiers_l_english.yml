@@ -1,0 +1,10 @@
+﻿l_english:
+ NOT_COMES_FROM_ANOTHER_WORLD:0 "Is NOT a Real World Country"
+ COMES_FROM_ANOTHER_WORLD:0 "Is a Real World Country"
+ control_of_pokemon:0 "Control of Pokémon"
+ desc_control_of_pokemon:0 "This world is the world of Pokémon, magical creatures with incredible powers. To control them is to have an unfathomable advantage in battle."
+ navy_unsuitable_to_pokemon_world:0 "Unsuitable Navy"
+ desc_navy_unsuitable_to_pokemon_world:0 "Our naval knowledge is appropriate for other waters, not these ones which are infested by monsters. We will struggle to maintain a navy."
+ navy_suitable_to_pokemon_world:0 "Suitable Navy"
+ desc_navy_suitable_to_pokemon_world:0 "Our ships and sailors are prepared to deal with most kinds of beasts in the waters. Although it would be easier to sail if they didn't exist, we have the naval knowledge to do most things."
+ HAS_ADAPTED_NAVY_TOOLTIP:0 "Has adapted navy to Pokémon World"

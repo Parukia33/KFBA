@@ -3,39 +3,6 @@
 #
 # Effects are fully scriptable here.
 
-###########################################
-# Discovery of the East Indian trade route.
-###########################################
-east_indian_trade_route = {
-	potential = {
-		num_of_ports = 1
-		NOT = {
-			capital_scope = {
-				continent = asia
-			}
-		}
-		NOT = {
-			capital_scope = {
-				continent = oceania
-			}
-		}
-	}
-
-	trigger = {
-		has_discovered = 1460 # Cape of Good Hope
-		num_of_ports = 4
-		has_idea = quest_for_the_new_world
-		OR = {
-			1361 = { has_merchant = ROOT } #Straits of Johor
-			1343 = { has_merchant = ROOT } #Ganges Delta
-			504 = { has_merchant = ROOT } #Sind
-			1340 = { has_merchant = ROOT } #Comorin Cape
-		}
-	}
-
-	trade_efficiency = 0.05	
-}
-
 ######################################
 # Vajrayana control of Lhasa.
 ######################################
@@ -174,6 +141,8 @@ submission_to_emperor = {
 	prestige = -1
 }
 
+
+
 ######################################
 # Counter Revolution
 ######################################
@@ -211,6 +180,8 @@ counter_revolution = {
 	stability_cost_modifier = 0.3
 	global_unrest = 5
 }
+
+
 
 ######################################
 # Reaction
@@ -281,7 +252,6 @@ crusader = {
 excommunication = {
 	potential = {
 		OR = {
-			religion = catholic
 			religion = anticatholic
 			religion = fraticelli
 		}
