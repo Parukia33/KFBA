@@ -1,0 +1,73 @@
+######################################
+# Control of Pokémon
+######################################
+control_of_pokemon = {
+	potential = {
+		OR = {
+			is_or_was_real_nation = no
+			any_known_country = {
+				culture_group = pokemon_culture
+				is_or_was_real_nation = no
+			}
+		}
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = NOT_COMES_FROM_ANOTHER_WORLD
+			is_or_was_real_nation = no
+		}
+	}
+
+	military_tactics = 0.5
+}
+
+
+######################################
+# Navy Preparedness
+######################################
+navy_unsuitable_to_pokemon_world = {
+	potential = {
+		num_of_ports = 1
+		is_or_was_real_nation = yes
+		NOT = { has_country_modifier = navy_suitable_to_pokemon_world }
+	}
+
+	trigger = {
+		is_or_was_real_nation = yes
+		num_of_ports = 1
+	}
+
+	navy_tradition = -1
+	naval_maintenance_modifier = 2
+	sailor_maintenance_modifer = 1
+	naval_attrition = 2
+	ship_durability = -0.5
+	range = -0.5
+}
+
+navy_suitable_to_pokemon_world = {
+	potential = {
+		num_of_ports = 1
+	}
+
+	trigger = {
+		num_of_ports = 1
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = NOT_COMES_FROM_ANOTHER_WORLD
+				is_or_was_real_nation = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = HAS_ADAPTED_NAVY_TOOLTIP
+				has_country_flag = kfba_adapted_navy
+			}
+		}
+	}
+
+	naval_maintenance_modifier = 1
+	sailor_maintenance_modifer = 0.5
+	naval_attrition = 1
+	ship_durability = -0.25
+	range = -0.25
+}

@@ -257,7 +257,7 @@ country_event = {
 	}
 }
 
-# Pretender to Majapahit
+# Pretender to Nippon
 country_event = {
 	id = kfba_fall_of_nippon_disaster.5
 	title = kfba_fall_of_nippon_disaster.5.title
@@ -268,7 +268,7 @@ country_event = {
 	
 	trigger = {
 		has_disaster = kfba_fall_of_nippon_disaster
-		NOT = { has_country_flag = maj_no_more_pretenders }
+		NOT = { has_country_flag = alp_no_more_pretenders }
 		any_owned_province = {
 			region = nippon_region
 			controlled_by = ROOT
@@ -277,7 +277,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_saved_name = {
-				key = maj_pretender
+				key = alp_pretender
 				type = leader
 			}
 			random_owned_province = {
@@ -285,24 +285,24 @@ country_event = {
 					region = nippon_region
 					controlled_by = ROOT
 				}
-				save_event_target_as = maj_pretender_province
+				save_event_target_as = alp_pretender_province
 				spawn_rebels = {
 					type = pretender_rebels
-					leader = maj_pretender
+					leader = alp_pretender
 					size = 2
 				}
 			}
-			set_country_flag = maj_pretender_event
+			set_country_flag = alp_pretender_event
 		}
 	}
 	
 	option = {
 		name = kfba_fall_of_nippon_disaster.5.a
 		tooltip = {
-			event_target:maj_pretender_province = {
+			event_target:alp_pretender_province = {
 				spawn_rebels = {
 					type = pretender_rebels
-					leader = maj_pretender
+					leader = alp_pretender
 					size = 2
 				}
 			}

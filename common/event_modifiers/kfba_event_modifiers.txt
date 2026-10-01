@@ -5,7 +5,7 @@
 # Hawaii unreformed malus
 unknown_currents = {
 	trade_range_modifier = -1
-	range = -1
+	range = -0.2
 	naval_attrition = 1
 }
 

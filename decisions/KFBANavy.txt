@@ -1,0 +1,25 @@
+country_decisions = {
+
+   	kfba_adapt_navy_to_pokemon_world = {
+		major = yes
+		potential = {
+			num_of_ports = 1
+			is_or_was_real_nation = yes
+			NOT = { has_country_flag = kfba_adapted_navy }
+		}
+		allow = {
+			is_or_was_real_nation = yes
+            num_of_ports = 1
+			dip_tech = 12
+			dip_power = 500
+		}
+		effect = {
+			add_dip_power = -500
+			add_country_flag = kfba_adapted_navy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
