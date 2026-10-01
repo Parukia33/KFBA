@@ -21,3 +21,23 @@ warriors_afriad = {
 panic_hawaii = {
 	local_unrest = 10
 }
+
+# Alph events
+
+entei_roar = {
+	reduced_liberty_desire = 20	
+}
+
+raikoh_cunning = {
+	legitimacy = 1
+}
+
+suicune_grace ={
+	legitimacy = 1
+	reduced_liberty_desire = 10
+}
+
+hooh_ashes ={
+	legitimacy = 1
+	reduced_liberty_desire = 10
+}

@@ -63,86 +63,75 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		NOT = { has_country_flag = maj_no_more_bad_religion_events }
-		NOT = { exists = DMK }
-		NOT = { legitimacy = 75 }
-		629 = {
-			religion = sunni
-			owned_by = ROOT
-		}
-		num_of_owned_provinces_with = {
-			value = 4
-			religion = sunni
-			region = indonesia_region
-		}
+		NOT = { exists = ABC }
+		is_year = 1446
 	}
 	
 	immediate = {
 		hidden_effect = {
-			DMK = {
-				set_saved_name = {
-					key = demak_sultan
-					type = leader
-				}
+			214 = {
+				add_core = ABC
 			}
-			629 = {
-				add_core = DMK
+			221 = {
+				add_core = ABC
 			}
-			if = {
-				limit = {
-					4792 = {
-						owned_by = ROOT
-					}
-				}
-				4792 = {
-					add_core = DMK
-				}
+			226 = {
+				add_core = ABC
+			}
+			214 = {
+				add_core = ABC
 			}
 			if = {
 				limit = {
-					4793 = {
+					213 = {
 						owned_by = ROOT
 					}
 				}
-				4793 = {
-					add_core = DMK
+				213 = {
+					add_core = ABC
 				}
 			}
 			if = {
 				limit = {
-					2689 = {
+					212 = {
 						owned_by = ROOT
 					}
 				}
-				2689 = {
-					add_core = DMK
+				212 = {
+					add_core = ABC
 				}
 			}
-			release = DMK
-			DMK = {
-				change_religion = sunni
+			if = {
+				limit = {
+					211 = {
+						owned_by = ROOT
+					}
+				}
+				211 = {
+					add_core = ABC
+				}
+			}
+			release = ABC
+			ABC = {
+				change_religion = arceusism
 				change_government = monarchy
-				add_government_reform = mandala_reform
-				define_ruler = {
-					name = demak_sultan
-					dynasty = ROOT
-					claim = 95
-				}
+				add_government_reform = daimyo
 			}
-			add_truce_with = DMK	
+			add_truce_with = ABC	
 		}
 	}
 	
 	option = {
 		name = kfba_fall_of_nippon_disaster.3.a
+		vassalize = ABC
 		every_owned_province = {
 			limit = {
-				region = indonesia_region
+				region = nippon_region
 			}
-			add_claim = DMK
+			add_claim = ABC
 		}
 		hidden_effect = {
-			DMK = {
+			ABC = {
 				capital_scope = {
 					build_to_forcelimit = {
 						infantry = 0.6
@@ -177,75 +166,75 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		NOT = { legitimacy = 75 }
-		NOT = { has_country_flag = maj_no_more_bad_religion_events }
-		NOT = { exists = MTR }
-		2690 = {
-			religion = sunni
-			owned_by = ROOT
-		}
-		num_of_owned_provinces_with = {
-			value = 4
-			religion = sunni
-			region = indonesia_region
-		}
+		is_year = 1446
+		NOT = { exists = BLL }
 	}
 	
 	immediate = {
 		hidden_effect = {
-			2690 = {
-				add_core = MTR
+			239 = {
+				add_core = BLL
+			}
+			241 = {
+				add_core = BLL
+			}
+			242 = {
+				add_core = BLL
+			}
+			240 = {
+				add_core = BLL
 			}
 			if = {
 				limit = {
-					626 = {
+					238 = {
 						owned_by = ROOT
 					}
 				}
-				626 = {
-					add_core = MTR
+				238 = {
+					add_core = BLL
 				}
 			}
 			if = {
 				limit = {
-					2691 = {
+					237 = {
 						owned_by = ROOT
 					}
 				}
-				2691 = {
-					add_core = MTR
+				237 = {
+					add_core = BLL
 				}
 			}
 			if = {
 				limit = {
-					4793 = {
+					236 = {
 						owned_by = ROOT
 					}
 				}
-				4793 = {
-					add_core = MTR
+				236 = {
+					add_core = BLL
 				}
 			}
-			release = MTR
-			MTR = {
-				change_religion = sunni
+			release = BLL
+			BLL = {
+				change_religion = arceusism
 				change_government = monarchy
-				add_government_reform = mandala_reform
+				add_government_reform = daimyo
 			}
-			add_truce_with = MTR	
+			add_truce_with = BLL	
 		}
 	}
 	
 	option = {
 		name = kfba_fall_of_nippon_disaster.4.a
+		vassalize = BLL
 		every_owned_province = {
 			limit = {
-				region = indonesia_region
+				region = nippon_region
 			}
-			add_claim = MTR
+			add_claim = BLL
 		}
 		hidden_effect = {
-			MTR = {
+			BLL = {
 				capital_scope = {
 					build_to_forcelimit = {
 						infantry = 0.6
@@ -281,7 +270,7 @@ country_event = {
 		has_disaster = kfba_fall_of_nippon_disaster
 		NOT = { has_country_flag = maj_no_more_pretenders }
 		any_owned_province = {
-			region = indonesia_region
+			region = nippon_region
 			controlled_by = ROOT
 		}
 	}
@@ -293,7 +282,7 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					region = indonesia_region
+					region = nippon_region
 					controlled_by = ROOT
 				}
 				save_event_target_as = maj_pretender_province
