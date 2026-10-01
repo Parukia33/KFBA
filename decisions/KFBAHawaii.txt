@@ -1,5 +1,257 @@
 country_decisions = {
 
+	unite_hawaii_island = {
+		major = yes
+		potential = {
+			NOT = { exists = HAW }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = UHW }
+			primary_culture = polynesian
+			capital_scope = {
+				area = big_island_area
+				is_core = ROOT
+			}
+			big_island_area = {
+				owned_by = ROOT
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 2	
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = big_island_area
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				area = big_island_area
+				is_core = ROOT
+			}
+			big_island_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				is_state = yes
+			}
+			NOT = { exists = HAW }
+		}
+		effect = {
+			change_tag = HAW
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = hawaiian_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_maui = {
+		major = yes
+		potential = {
+			NOT = { exists = MAU }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = UHW }
+			primary_culture = polynesian
+			capital_scope = {
+				OR = {
+				area = maui_area
+				area = central_hawaii_area
+				}
+				is_core = ROOT
+			}
+			OR = {
+			maui_area = {
+				owned_by = ROOT
+			}
+			central_hawaii_area = {
+				owned_by = ROOT
+			}
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 2	
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = maui_area
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				OR = {
+				area = maui_area
+				area = central_hawaii_area
+				}
+				is_core = ROOT
+			}
+			maui_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				is_state = yes
+			}
+			NOT = { exists = MAU }
+		}
+		effect = {
+			change_tag = MAU
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = hawaiian_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_oahu = {
+		major = yes
+		potential = {
+			NOT = { exists = OAH }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = UHW }
+			primary_culture = polynesian
+			capital_scope = {
+				area = oahu_area
+				is_core = ROOT
+			}
+			oahu_area = {
+				owned_by = ROOT
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 2	
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = oahu_area
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				area = oahu_area
+				is_core = ROOT
+			}
+			oahu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				is_state = yes
+			}
+			NOT = { exists = OAH }
+		}
+		effect = {
+			change_tag = OAH
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = hawaiian_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_kauai = {
+		major = yes
+		potential = {
+			NOT = { exists = KAA }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = UHW }
+			primary_culture = polynesian
+			capital_scope = {
+				area = northwest_hawaii_area
+				is_core = ROOT
+			}
+			northwest_hawaii_area = {
+				owned_by = ROOT
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 2	
+				}
+			}
+		}
+		provinces_to_highlight = {
+			region = northwest_hawaii_area
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				area = northwest_hawaii_area
+				is_core = ROOT
+			}
+			northwest_hawaii_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				is_state = yes
+			}
+			NOT = { exists = KAA }
+		}
+		effect = {
+			change_tag = KAA
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = hawaiian_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	perform_appeasement_ritual_1 = {
 		major = yes
 		potential = {

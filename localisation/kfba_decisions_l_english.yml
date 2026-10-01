@@ -7,4 +7,14 @@
  perform_appeasement_ritual_3_desc:0 "The Ali'i will host a luau and hula competition to exorcise the mischevous spirits plaguing our warriors."
  perform_appeasement_ritual_4_title:0 "Stabilize Moku"
  perform_appeasement_ritual_4_desc:0 "The Ali'i and Kahuna will send out new laws to better manage the Kapus of interacting so closely with the 'Aumakua."
+ unite_hawaii_island_title:0 "Unite Hawaii Island"
+ unite_hawaii_island_desc:0 "Claim control over the Moku of the Big Island as high chief"
+ unite_maui_title:0 "Unite Maui"
+ unite_maui_desc:0 "Claim control over the Moku of Maui as high chief"
+ unite_oahu_title:0 "Unite Oahu"
+ unite_oahu_desc:0 "Claim control over the Moku of Oahu as high chief"
+ unite_kauai_title:0 "Unite Kauai"
+ unite_kauai_desc:0 "Claim control over the Moku of Kauai as high chief"
+
+
  

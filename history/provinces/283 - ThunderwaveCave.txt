@@ -1,0 +1,14 @@
+# 283 - Thunder-Wave Cave
+culture = slovene
+religion = totemism
+capital = "Thunder-Wave Cave"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 6
+
+# discovered_by = north_american
