@@ -1,6 +1,6 @@
 # 302 - Lake above Tiny Woods
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Tiny Woods Lake"
 trade_goods = unknown
 hre = no

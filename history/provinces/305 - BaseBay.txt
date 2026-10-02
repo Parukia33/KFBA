@@ -1,6 +1,6 @@
 # 305 - bay and estuary outside the rescue team base
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Bay"
 trade_goods = unknown
 hre = no

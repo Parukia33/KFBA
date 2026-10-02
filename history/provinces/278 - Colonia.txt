@@ -1,6 +1,6 @@
 # 278 - Colonia
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Colonia"
 trade_goods = unknown
 hre = no

@@ -1,6 +1,6 @@
 # 303 - Volcano below Tiny Woods
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Tiny Woods Volcano"
 trade_goods = unknown
 hre = no

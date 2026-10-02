@@ -1,6 +1,6 @@
 # 287 - Mount Steel
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Mt. Steel"
 trade_goods = unknown
 hre = no

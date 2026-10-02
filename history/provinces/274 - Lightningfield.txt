@@ -1,7 +1,7 @@
 # 274 - Lightning Field
 
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Lightning Field"
 trade_goods = unknown
 hre = no

@@ -1,6 +1,6 @@
 # 276 - Mt. Faraway
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Mt. Faraway"
 trade_goods = unknown
 hre = no

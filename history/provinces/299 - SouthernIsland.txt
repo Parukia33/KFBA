@@ -1,6 +1,6 @@
 # 299 - Southern Island latias latios
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Southern Island"
 trade_goods = unknown
 hre = no

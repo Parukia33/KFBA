@@ -1,6 +1,6 @@
 # 300 - Final Island Mew
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Final Island"
 trade_goods = unknown
 hre = no

@@ -1,6 +1,6 @@
 # 281 - Northern Range
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Northern Range"
 trade_goods = unknown
 hre = no

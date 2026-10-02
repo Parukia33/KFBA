@@ -1,6 +1,6 @@
 # 298 - Silver Peninsula
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Silver Peninsula"
 trade_goods = unknown
 hre = no
