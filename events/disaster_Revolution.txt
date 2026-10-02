@@ -1356,6 +1356,122 @@ country_event = {
 	}
 }
 
+#Swedish version of the Revolution
+country_event = {
+	id = revolution.32
+	title = revolution.32.name
+	desc = {
+		trigger = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					NOT = { was_tag = DAN }
+					NOT = { was_tag = NOR }
+				}
+			}
+		}
+		desc = revolution.32.desc.swedish
+	}
+	desc = {
+		trigger = {
+			OR = {
+				tag = DAN
+				AND = {
+					tag = SCA
+					was_tag = DAN
+				}
+			}
+		}
+		desc = revolution.32.desc.danish
+	}
+	desc = {
+		trigger = {
+			OR = {
+				tag = NOR
+				AND = {
+					tag = SCA
+					was_tag = NOR
+				}
+			}
+		}
+		desc = revolution.32.desc.norwegian
+	}
+	
+	picture = REVOLUTION_eventPicture
+	
+	trigger = {
+		OR = {
+			tag = SWE
+			tag = DAN
+			tag = NOR
+			tag = SCA
+		}
+		revolution_event_can_happen_trigger = yes
+	}
+	is_triggered_only = yes
+	major = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = revolution.32.A.swedish
+		trigger = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					NOT = { was_tag = DAN }
+					NOT = { was_tag = NOR }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_had_revolution_bringing_someone_to_power_timer
+				duration = 2
+				hidden = yes
+			}
+		}
+		enact_revolution_effect = yes
+
+		define_ruler = {
+			name = "Lars Johan Hierta"
+			adm = 5
+			dip = 3
+			mil = 0
+		}
+	}
+	option = {
+		name = revolution.32.A.norwegian
+		trigger = {
+			OR = {
+				tag = NOR
+				AND = {
+					tag = SCA
+					was_tag = NOR
+				}
+			}
+		}
+		enact_revolution_effect = yes
+	}
+	option = {
+		name = revolution.32.A.danish
+		trigger = {
+			OR = {
+				tag = DAN
+				AND = {
+					tag = SCA
+					was_tag = DAN
+				}
+			}
+		}
+		enact_revolution_effect = yes
+	}
+}
+
 
 #British version of the Revolution
 country_event = {
@@ -1396,6 +1512,94 @@ country_event = {
 			dip = 3
 			mil = 1
 		}
+	}
+}
+
+
+#Ottoman version of the Revolution
+country_event = {
+	id = revolution.34
+	title = revolution.34.name
+	desc = {
+		trigger = {
+			OR = {
+				has_heir = no
+				NOT = { government = monarchy }
+			}
+		}
+		desc = revolution.34.desc
+	}
+	desc = {
+		trigger = {
+			has_heir = yes
+			government = monarchy
+		}
+		desc = revolution.34.desc.heir
+	}
+	picture = REVOLUTION_eventPicture
+	
+	trigger = {
+		tag = TUR
+		revolution_event_can_happen_trigger = yes
+	}
+	is_triggered_only = yes
+	major = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_saved_name = {
+				key = new_supreme_vizier
+				type = advisor
+			}
+		}
+	}
+
+	option = {
+		name = revolution.34.A
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_had_revolution_bringing_someone_to_power_timer
+				duration = 2
+				hidden = yes
+			}
+		}
+		if = {
+			limit = {
+				has_heir = yes
+				government = monarchy
+			}
+			random_owned_province = {
+				limit = {
+					continent = root
+					is_capital = no
+					highest_supply_limit_in_area = yes
+					development = 10
+				}
+				spawn_rebels = {
+					size = 3
+					type = pretender_rebels
+					use_heir_as_leader = yes
+				}
+			}
+		}
+		enact_revolution_effect = yes
+
+		define_ruler = { #Get a random ruler with +1 in each stat
+			name = new_supreme_vizier
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+		}
+		override_country_name = REV_TURKEY_STRING
+		set_country_flag = is_revolutionary_turkey_flag
+	}
+
+	after = {
+		clear_saved_name = new_supreme_vizier
 	}
 }
 
@@ -1691,5 +1895,172 @@ country_event = {
 			tradition = 70
 			name = "Herman Willem Daendels"
 		}
+	}
+}
+
+
+#Chinese Revolution
+country_event = {
+	id = revolution.40
+	title = revolution.40.name
+	desc = revolution.40.desc
+	
+	picture = REVOLUTION_eventPicture
+	
+	trigger = {
+		culture_group = east_asian
+		is_emperor_of_china = yes
+		revolution_event_can_happen_trigger = yes
+
+		#Alternative DLC versions
+		NOT = {
+			tag = RUS #flavor_rus.2000
+			tag = FRA #revolution.15
+			#revolution.31
+			tag = CAS
+			tag = ARA
+			tag = SPA
+			#revolution.32
+			tag = SWE
+			tag = DAN
+			tag = NOR
+			tag = SCA
+			#revolution.33
+			AND = {
+				owns_core_province = 236 #London
+				OR = {
+					tag = ENG
+					tag = GBR
+				}
+			}
+			#revolution.34
+			tag = TUR
+			#revolution.37
+			tag = GER
+			tag = PRU
+			tag = BAV
+			tag = SWA
+			tag = FKN
+			tag = HAN
+			tag = WES
+			tag = SAX
+			tag = POM
+			#revolution.38
+			tag = HAB
+			tag = HLR
+			#revolution.39
+			tag = NED
+			#revolution.41
+			tag = MUG
+			tag = HIN
+			tag = BHA
+		}
+	}
+	is_triggered_only = yes
+	major = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_saved_name = {
+				key = new_ruler
+				type = advisor
+			}
+		}
+	}
+
+	option = {
+		name = revolution.40.A
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_had_revolution_bringing_someone_to_power_timer
+				duration = 2
+				hidden = yes
+			}
+		}
+		enact_revolution_effect = yes
+		
+		define_ruler = { #Random ruler with +1 in each category
+			name = new_ruler
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+		}
+		override_country_name = REV_CHINA_STRING
+		set_country_flag = is_revolutionary_china_flag
+	}
+	after = {
+		clear_saved_name = new_ruler
+	}
+}
+
+#Indian Revolution
+country_event = {
+	id = revolution.41
+	title = revolution.41.name
+	desc = {
+		desc = revolution.41.desc
+		trigger = { NOT = { tag = MUG } }
+	}
+	desc = {
+		desc = revolution.41.desc2
+		trigger = { tag = MUG }
+	}
+	
+	picture = REVOLUTION_eventPicture
+	
+	trigger = {
+		revolution_event_can_happen_trigger = yes
+		OR = {
+			tag = MUG
+			tag = HIN
+			tag = BHA
+		}
+	}
+	is_triggered_only = yes
+	major = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_saved_name = {
+				key = new_ruler
+				type = advisor
+			}
+			set_country_flag = use_french_disaster_exile_effect
+		}
+	}
+
+	option = {
+		name = revolution.41.A
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_had_revolution_bringing_someone_to_power_timer
+				duration = 2
+				hidden = yes
+			}
+		}
+		enact_revolution_effect = yes
+		
+		define_ruler = { #Random ruler with +1 in each category
+			name = new_ruler
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+		}
+		if = {
+			limit = { tag = MUG }
+			override_country_name = REV_GURKANI_EMPIRE_STRING
+			set_country_flag = is_revolutionary_gurkani_flag
+		}
+	}
+	after = {
+		clear_saved_name = new_ruler
 	}
 }

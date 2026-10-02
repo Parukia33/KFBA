@@ -3395,8 +3395,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { religion = shinto }
-		owns = 4359
-		4359 = {
+		owns = 224
+		224 = {
 			has_province_modifier = ise_grand_shrine
 		}
 	}
@@ -3408,7 +3408,7 @@ country_event = {
 	option = { #Interesting.
 		name = flavor_jap.59.a
 		ai_chance = { factor = 1 }
-		4359 = {
+		224 = {
 			remove_province_modifier = ise_grand_shrine
 			add_province_modifier = {
 				name = "religious_center"
@@ -3436,7 +3436,7 @@ country_event = {
 		trigger = { full_idea_group = humanist_ideas }
 		ai_chance = { factor = 0 }
 		add_stability = -1
-		4359 = {
+		224 = {
 			remove_province_modifier = ise_grand_shrine
 			add_province_modifier = {
 				name = "religious_center"

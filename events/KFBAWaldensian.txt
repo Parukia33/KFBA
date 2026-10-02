@@ -1,52 +1,74 @@
-namespace = wald
+namespace = kfba_waldensian
 
-# Waldensian spawn event
+###########################
+#### Waldensian Events ####
+###########################
 
+#Waldensian Resurgence
 country_event = {
-    id = wald.1
-    title = "wald.1.title"
-    desc = "wald.1.desc"
+    id = kfba_waldensian.1
+    title = "kfba_waldensian.1.title"
+    desc = "kfba_waldensian.1.desc"
     picture = "LUTHER_eventPicture"
 
     major = yes
 	fire_only_once = yes
 
     trigger = {
-		AND = {
-			tag = SWI
-			35 = {owned_by = SWI}
-		}
-        
+		tag = SWI
         NOT = { is_religion_enabled = waldensian }
-		religion = catholic
-		is_defender_of_faith = no	
-		NOT = { has_reform = papacy_reform }
-		capital_scope = {
-			continent = ransei
-		}
-		any_owned_province = {
-			can_have_center_of_reformation_trigger = {
-				RELIGION = waldensian
-			}
-		}
+		is_defender_of_faith = no
+        35 = { owned_by = ROOT }
+		has_global_flag = kfba_the_pope_is_gone_flag
     }
 
     mean_time_to_happen = {
-		days = 30
+		months = 12
 	}
     
+	#Heretics!
     option = {
-        name = "wald.1.a"
+        name = "kfba_waldensian.1.a"
+		ai_chance = {
+			factor = 1
+		}
         enable_religion = waldensian
-		root = {
-			35 = {
-				change_religion = waldensian
-				add_reform_center = waldensian
-				add_permanent_province_modifier = {
-					name = "religious_zeal_at_conv"
-					duration = 9000
-				}
+		35 = {
+			change_religion = waldensian
+			add_reform_center = waldensian
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
 			}
+			add_province_triggered_modifier = {
+				name = "religious_center"
+				duration = -1
+			}
+		}
+    }
+	#They see the light!
+    option = {
+        name = "kfba_waldensian.1.b"
+		ai_chance = {
+			factor = 0
+		}
+        enable_religion = waldensian
+		change_religion = waldensian
+		35 = {
+			change_religion = waldensian
+			add_reform_center = waldensian
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			add_province_triggered_modifier = {
+				name = "religious_center"
+				duration = -1
+			}
+		}
+		add_fervor = 50
+		capital_scope = {
+			change_religion = waldensian
 		}
     }
 }

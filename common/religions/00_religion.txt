@@ -99,6 +99,10 @@ christian = {
 			global_heretic_missionary_strength = 0.02
 		}
 		
+		will_get_center = {
+        	has_country_flag = kfba_hussite_center_allowed_flag
+    	}
+		
 		country_as_secondary = {
 			shock_damage_received = -0.025
 		}
@@ -141,10 +145,6 @@ christian = {
 		color = { 0 0 178 }
 		icon = 2
 
-		allowed_conversion = {
-			reformed
-			catholic
-		}
 		allowed_center_conversion = {
 			catholic
 		}
@@ -282,10 +282,7 @@ christian = {
 	reformed = {
 		color = { 76 76 229 }
 		icon = 3
-		allowed_conversion = {
-			protestant
-			catholic
-		}
+
 		allowed_center_conversion = {
 			catholic
 		}
@@ -1154,18 +1151,10 @@ christian = {
 		icon = 33
 		
 		allowed_conversion = {
-			catholic
 			episcopalian
 			imperialist
 		}
 		
-		allowed_center_conversion = {
-			catholic
-			anticatholic
-			hussite
-			fraticelli
-			waldensian
-		}
 		country = {
 			ae_impact = -0.1
 			dip_tech_cost_modifier = -0.1
@@ -1387,6 +1376,8 @@ christian = {
 			}
 		}
 		
+		misguided_heretic = yes		# Other christians hate them less
+		
 		heretic = { EPISCOPALIANISM IMPERIALISM }
 		
 		date = 1460.1.1	
@@ -1397,18 +1388,10 @@ christian = {
 		icon = 34
 
 		allowed_conversion = {
-			catholic
 			papist
 			imperialist
 		}
 
-		allowed_center_conversion = {
-			catholic
-			anticatholic
-			hussite
-			fraticelli
-			waldensian
-		}
 		country = {
 			church_loyalty_modifier = 0.1
 			monthly_reform_progress_modifier = 0.1
@@ -1439,6 +1422,7 @@ christian = {
 		}
 		
 		has_patriarchs = yes
+		misguided_heretic = yes		# Other christians hate them less
 		
 		heretic = { PAPISM IMPERIALISM }
 		
@@ -1450,18 +1434,10 @@ christian = {
 		icon = 35
 
 		allowed_conversion = {
-			catholic
 			papist
 			episcopalian
 		}
 
-		allowed_center_conversion = {
-			catholic
-			anticatholic
-			hussite
-			fraticelli
-			waldensian
-		}
 		country = {
 			global_autonomy = -0.05
 			years_of_nationalism = -5
@@ -1493,6 +1469,7 @@ christian = {
 		}
 		
 		fervor = yes
+		misguided_heretic = yes		# Other christians hate them less
 		
 		heretic = { PAPISM EPISCOPALIANISM }
 		

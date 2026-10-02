@@ -1,0 +1,50 @@
+namespace = kfba_setup
+
+#############################
+#### Old Catholic Events ####
+#############################
+
+#The Light Returns
+country_event = {
+	id = kfba_setup.1
+	title = "kfba_setup.1.title"
+	desc = "kfba_setup.1.desc"
+	picture = COMET_SIGHTED_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		capital_scope = {
+			continent = ransei
+		}
+		is_or_was_real_nation = yes
+		NOT = { has_global_flag = kfba_the_light_returns_flag }
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+		modifier = {
+			factor = 0.1
+			ai = no
+		}
+	}
+	
+	#Where are we?
+	option = {
+		name = "kfba_setup.1.a"
+		set_global_flag = kfba_the_light_returns_flag
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+			}
+			every_country = {
+				limit = {
+					is_part_of_hre = yes
+					NOT = { tag = PREV }
+				}
+				add_truce_with = PREV
+			}
+		}
+	}
+}

@@ -1,0 +1,301 @@
+namespace = kfba_old_catholic
+
+#############################
+#### Old Catholic Events ####
+#############################
+
+#The Pope Is Gone
+country_event = {
+	id = kfba_old_catholic.1
+	title = "kfba_old_catholic.1.title"
+	desc = "kfba_old_catholic.1.desc"
+	picture = POPE_PREACHING_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		is_emperor = yes
+		# NOT = { exists = PAP }
+		# religion = catholic
+		has_global_flag = kfba_the_light_returns_flag
+		NOT = { has_global_flag = kfba_the_pope_is_gone_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	#What will become of Catholicism?
+	option = {
+		name = "kfba_old_catholic.1.a"
+		set_global_flag = kfba_the_pope_is_gone_flag
+		set_hre_religion_treaty = yes
+		every_country = {
+			limit = {
+				religion = catholic
+				government = theocracy
+			}
+			add_stability = -1
+		}
+	}
+}
+
+#The New World and the Catholic Faith
+country_event = {
+	id = kfba_old_catholic.2
+	title = "kfba_old_catholic.2.title"
+	desc = "kfba_old_catholic.2.desc"
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		OR = {
+			is_emperor = yes
+			AND = {
+				emperor = {
+					NOT = { religion = catholic }
+				}
+				religion = catholic
+			}
+		}
+		is_year = 1460
+		NOT = { has_global_flag = counter_reformation }
+	}
+	
+	mean_time_to_happen = {
+		years = 1
+	}
+	
+	#Convene the Council of Trent
+	option = {
+		name = "kfba_old_catholic.2.a"
+		set_global_flag = counter_reformation
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = { id = kfba_old_catholic.3 }
+		}
+		every_country = {
+			limit = {
+				religion = catholic
+				government = theocracy
+			}
+			add_prestige = 5
+			add_years_of_income = -0.05
+			if = {
+				limit = {
+					corruption = 0.01
+				}
+				add_corruption = -0.1
+			}
+		}
+		enable_religion = papist
+		enable_religion = episcopalian
+		enable_religion = imperialist
+	}
+}
+
+#The Council of Trent
+country_event = {
+	id = kfba_old_catholic.3
+	title = "kfba_old_catholic.3.title"
+	desc =	"kfba_old_catholic.3.desc"
+	picture = {	
+		trigger = {
+			has_dlc = "Emperor"
+		}
+		picture = COUNCIL_TRENT_eventPicture
+	}
+	picture = {	
+		trigger = {
+			NOT = { has_dlc = "Emperor" }
+		}
+		picture = RELIGION_eventPicture
+	}
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = catholic
+	}
+	
+	#We must elect a Pope!
+	option = {
+		name = "kfba_old_catholic.3.a"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					NOT = { religion = catholic }
+					NOT = { religion = papist }
+					NOT = { religion = episcopalian }
+					NOT = { religion = imperialist }
+				}
+			}
+		}
+		change_religion = papist
+		every_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			change_religion = papist	
+		}
+	}
+	#Conciliarism is the answer!
+	option = {
+		name = "kfba_old_catholic.3.b"
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 5
+				government = theocracy
+				is_elector = yes
+			}
+			modifier = {
+				factor = 2
+				government = theocracy
+			}
+		}
+		change_religion = episcopalian
+		every_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			change_religion = episcopalian	
+		}
+	}
+	#The Emperor reigns supreme!
+	option = {
+		name = "kfba_old_catholic.3.c"
+		highlight = yes
+		trigger = {
+			OR = {
+				is_emperor = yes
+				is_elector = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 10
+				is_emperor = yes
+			}
+			modifier = {
+				factor = 2
+				is_elector = yes 
+			}
+		}
+		change_religion = imperialist
+		every_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			change_religion = imperialist	
+		}
+	}
+}
+
+#Old Catholic Holdouts
+country_event = {
+	id = kfba_old_catholic.4
+	title = "kfba_old_catholic.4.title"
+	desc = "kfba_old_catholic.4.desc"
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		religion = catholic
+		had_country_flag = {
+			flag = counter_reformation
+			days = 365
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 1
+	}
+	
+	#We stand with the new Pope!
+	option = {
+		name = "kfba_old_catholic.4.a"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					NOT = { religion = catholic }
+					NOT = { religion = papist }
+					NOT = { religion = episcopalian }
+					NOT = { religion = imperialist }
+				}
+			}
+		}
+		change_religion = papist
+		every_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			change_religion = papist	
+		}
+	}
+	#The Bishops will guide us!
+	option = {
+		name = "kfba_old_catholic.4.b"
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 5
+				government = theocracy
+				is_elector = yes
+			}
+			modifier = {
+				factor = 2
+				government = theocracy
+			}
+		}
+		change_religion = episcopalian
+		every_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			change_religion = episcopalian	
+		}
+	}
+	#Only the Emperor can lead us!
+	option = {
+		name = "kfba_old_catholic.4.c"
+		highlight = yes
+		trigger = {
+			is_part_of_hre = yes
+			OR = {
+				is_emperor = yes
+				is_elector = yes
+				any_known_country = {
+					religion = imperialist
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 10
+				is_emperor = yes
+			}
+			modifier = {
+				factor = 2
+				is_elector = yes 
+			}
+		}
+		change_religion = imperialist
+		every_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			change_religion = imperialist	
+		}
+	}
+}

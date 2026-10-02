@@ -19,7 +19,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 7
+		days = 15
 	}
 	
 	#We pray that he survived somehow.

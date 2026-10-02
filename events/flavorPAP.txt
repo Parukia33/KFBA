@@ -246,6 +246,7 @@ country_event = {
 	}
 	
 	trigger = {
+		always = no
 		tag = PAP
 		
 		OR = {

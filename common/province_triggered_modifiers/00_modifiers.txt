@@ -1,0 +1,1245 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Just random test modifier
+###########################################
+test_modifier = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 0
+		}
+	}
+
+	local_build_cost = 0.05	
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+
+catholic_rome = {
+	potential = {
+		normal_or_historical_nations = yes
+		owner = {
+			religion = catholic
+			NOT = { tag = PAP }
+		}
+	}
+
+	trigger = {	
+		owner = {
+			NOT = { overlord_of = PAP }
+			NOT = { tag = ITA }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			custom_trigger_tooltip = {
+				tooltip = no_dip_malus_reward_tt
+				NOT = { has_country_flag = general_flag_Rome_flag }			
+			}
+		}
+	}
+
+	papal_influence = -10
+	diplomatic_reputation = -1
+	#icon = 9
+}
+
+non_catholic_rome = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			NOT = { religion = catholic }
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+			}
+		}
+	}
+
+	prestige = 0.5
+	missionaries = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+religious_center = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		if = {
+			limit = {
+				province_id = 42 # Cuneo
+			}
+			religion = anticatholic
+		}
+		else_if = {
+			limit = {
+				province_id = 50	#Firenze
+			}
+			religion = fraticelli
+		}
+		else_if = {
+			limit = {
+				province_id = 35	#Bern
+			}
+			religion = waldensian
+		}
+		# else_if = {
+			# limit = {
+				# province_id = 677
+			# }
+			# religion = vajrayana
+		# }
+		# else_if = {
+			# limit = {
+				# province_id = 2099
+			# }
+			# religion = buddhism
+		# }
+		else_if = {
+			limit = {
+				province_id = 224	#Ise
+			}
+			religion = shinto
+		}
+		else_if = {
+			limit = {
+				province_id = 129	#Prague
+			}
+			religion = hussite
+		}
+	}
+
+	local_missionary_strength = -0.05
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+# Perpetual Diet
+perpetual_diet = {
+	potential = {
+	}
+	
+	trigger = {
+		owner = {
+			is_part_of_hre = yes
+		}
+		controller = {
+			OR = {
+				is_part_of_hre = yes
+				NOT = { war_with = emperor }
+			}
+		}
+	}
+
+	prestige = 0.5
+	local_development_cost = -0.05
+	is_imperial_modifier = yes
+
+	on_activation = {
+		emperor = {
+			remove_country_modifier = diet_occupied
+		}
+	}
+	
+	on_deactivation = {
+		emperor = {
+			add_country_modifier = { name = diet_occupied duration = -1 }
+		}
+	}
+}
+
+#Therevada Control of sacred tooth
+
+theravada_kotte = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			religion = buddhism
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+#Vajrayana Control of Lhasa
+
+vajrayana_lhasa = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			religion = vajrayana
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+#Mahayana control of Louyang
+
+mahayana_louyang = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			religion = mahayana
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	tolerance_own = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+#Buddhist control of Bodh Gaya
+
+buddhist_bodh_gaya = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			OR = {
+				religion = buddhism
+				religion = vajrayana
+				religion = mahayana
+			}
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	global_heretic_missionary_strength = 0.02
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+# Vatican Library
+adm_vatican_library = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	adm_tech_cost_modifier = -0.05
+	global_unrest = -2
+}
+
+dip_vatican_library = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	dip_tech_cost_modifier = -0.05
+	diplomatic_reputation = 1
+}
+
+mil_vatican_library = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	
+	mil_tech_cost_modifier = -0.05
+	army_tradition_from_battle = 0.5
+}
+
+pap_sistine_chapel = {
+	potential = {
+		normal_or_historical_nations = yes
+		NOT = { has_global_flag = sistine_chapel_decorated }
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	
+	devotion = 0.1
+}
+
+pap_sistinechapel_botticelli = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	devotion = 0.1
+	global_unrest = -1
+}
+
+pap_sistinechapel_ghirlandaio = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	devotion = 0.1
+	prestige = 0.5
+}
+
+pap_sistinechapel_perugino = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	devotion = 0.1
+	improve_relation_modifier = 0.1
+}
+
+pap_sistinechapel_michelangelo = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	devotion = 0.1
+	idea_cost = -0.05
+}
+
+pap_sistinechapel_decorated = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	devotion = 0.1
+	global_missionary_strength = 0.01
+}
+
+krantor_crane = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			estate_loyalty = { 
+				estate = estate_burghers 
+				loyalty = 50 
+			}
+		}
+		if = { 
+			limit = { has_dlc = "Mandate of Heaven" }
+			NOT = { devastation = 5 } 
+		}
+	}
+	province_trade_power_value = 5 
+	trade_efficiency = 0.1
+	
+}
+
+#Province modifiers, which have become monuments
+
+#Mountain of Riches - Potosí Silver Mines
+cerro_rico_modifier = {
+	potential = {
+		NOT = { has_dlc = "Leviathan" }
+	}
+	trigger = {
+		#always
+	}
+	trade_goods_size = 3.0
+}
+
+# Restored Great Mosque of Djenné for people without Leviathan
+great_mosque_djenne_modifier = {
+	potential = {
+		NOT = { has_dlc = "Leviathan" }
+	}
+	trigger = {
+		religion_group = muslim
+		has_owner_religion = yes
+	}
+	missionaries = 1
+	global_heathen_missionary_strength = 0.01
+	monthly_piety = 0.003
+}
+
+promised_land_modifier = {
+	potential = {}
+	trigger = {
+		owner = {
+			religion = jewish
+			owns_core_province = 379
+			owns_core_province = 364
+			owns_core_province = 1854
+		}
+		religion = jewish
+	}
+	land_morale = 0.1
+	naval_morale = 0.1
+	tolerance_own = 2
+	church_loyalty_modifier = 0.1
+}
+
+holy_horde_capital = {
+	potential = {
+		owner = { has_country_flag = teu_crusader_has_holy_horde_gov }
+	}
+	trigger = {
+		owner = {
+			has_reform = holy_horde_reform
+			full_idea_group = religious_ideas
+		}
+	}
+	manpower_in_true_faith_provinces = 0.25
+}
+
+teutonic_headquarter = {
+	potential = {
+		owner = { has_country_flag = teu_liv_alliance_flag }
+	}
+	trigger = {
+		owner = {
+			OR = {
+				tag = TEU
+				was_tag = TEU
+			}
+			alliance_with = LIV
+		}
+	}
+	diplomatic_upkeep = 1
+	yearly_army_professionalism = 0.01
+	local_manpower_modifier = 0.25
+	local_development_cost = -0.05
+}
+
+heddal_stave_church_modifier_leviathan_catholic = {
+	potential = {
+		has_dlc = "Leviathan"
+	}
+	trigger = {
+		has_owner_religion = yes
+		religion = catholic
+		has_tax_building_trigger = yes
+	}
+	local_tax_modifier = 0.75
+	local_religious_conversion_resistance = 1
+	papal_influence = 0.25
+}
+
+heddal_stave_church_modifier_non_leviathan_catholic = {
+	potential = {
+		NOT = { has_dlc = "Leviathan" }
+	}
+	trigger = {
+		has_owner_religion = yes
+		religion = catholic
+		has_tax_building_trigger = yes
+	}
+	local_unrest = -1
+	stability_cost_modifier = -0.05
+	missionaries = 1
+	missionary_maintenance_cost = -0.1
+
+	local_tax_modifier = 0.75
+	local_religious_conversion_resistance = 1
+	papal_influence = 0.25
+}
+
+heddal_stave_church_modifier_leviathan_reformation = {
+	potential = {
+		has_dlc = "Leviathan"
+	}
+	trigger = {
+		has_owner_religion = yes
+		religion_group = christian
+		NOT = { religion = catholic }
+		has_tax_building_trigger = yes
+	}
+	church_loyalty_modifier = 0.1
+	church_power_modifier = 0.1
+	monthly_fervor_increase = 0.25
+	local_tax_modifier = 0.25
+}
+
+heddal_stave_church_modifier_non_leviathan_reformation = {
+	potential = {
+		NOT = { has_dlc = "Leviathan" }
+	}
+	trigger = {
+		has_owner_religion = yes
+		religion_group = christian
+		NOT = { religion = catholic }
+		has_tax_building_trigger = yes
+	}
+	local_unrest = -1
+	stability_cost_modifier = -0.05
+	missionaries = 1
+	missionary_maintenance_cost = -0.1
+
+	church_loyalty_modifier = 0.1
+	church_power_modifier = 0.1
+	monthly_fervor_increase = 0.25
+	local_tax_modifier = 0.25
+}
+
+BYZ_heart_of_the_empire = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 2
+		}
+		controlled_by = owner
+	}
+
+	movement_speed = 0.05
+	free_land_leader_pool = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+BYZ_illustrious_court = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 2
+		}
+		controlled_by = owner
+	}
+
+	reform_progress_growth = 0.1
+	monthly_splendor = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+BYZ_seat_of_a_patriarch = {
+	potential = {
+		owner = {
+			mission_completed = BYZ_pentarchy
+		}
+	}
+
+	trigger = {
+		owner = {
+			stability = 1
+		}
+		controlled_by = owner
+		all_neighbor_province = {
+			controlled_by = owner
+		}
+		NOT = { devastation = 1 }
+		has_tax_building_trigger = yes
+	}
+
+	tax_income = 12
+	local_tax_modifier = 0.25
+	local_development_cost = -0.1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+BYZ_bosphorus_toll = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			owns = 151
+			owns = 316
+		}
+		controlled_by = owner
+		all_neighbor_province = {
+			controlled_by = owner
+		}
+		NOT = { devastation = 1 }
+		has_coast_defense_building_trigger = yes
+	}
+
+	province_trade_power_value = 10
+	province_trade_power_modifier = 0.5
+}
+
+BYZ_megalopolis_updater = {
+	potential = {
+		always = yes
+	}
+
+	hidden = yes
+	
+	trigger = {
+		if = {
+			limit = {
+				has_province_modifier = BYZ_megalopolis_modifier_1
+			}
+			development = 70
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = BYZ_megalopolis_modifier_2
+			}
+			OR = {
+				development = 75
+				NOT = { development = 70 }
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = BYZ_megalopolis_modifier_3
+			}
+			NOT = { development = 75 }
+		}
+		else = { }
+	}
+	
+	on_activation = {
+		remove_province_modifier = BYZ_megalopolis_modifier_1
+		remove_province_modifier = BYZ_megalopolis_modifier_2
+		remove_province_modifier = BYZ_megalopolis_modifier_3
+		
+		if = {
+			limit = {
+				development = 75
+			}
+			add_province_modifier = {
+				name = BYZ_megalopolis_modifier_3
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				development = 70
+			}
+			add_province_modifier = {
+				name = BYZ_megalopolis_modifier_2
+				duration = -1
+			}
+		}
+		else = {
+			add_province_modifier = {
+				name = BYZ_megalopolis_modifier_1
+				duration = -1
+			}
+		}
+	}
+}
+
+BYZ_galata = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		owned_by = BYZ
+		NOT = {
+			owner = {
+				navy_size = GEN
+			}
+		}
+	}
+	
+	province_trade_power_value = -5
+	province_trade_power_modifier = -0.75
+	on_activation = {
+		151 = {
+			add_trade_modifier = {
+				who = GEN
+				duration = -1
+				power = 20
+				key = BYZ_colony_in_galata
+			}
+		}
+	}
+	on_deactivation = {
+		remove_trade_modifier = {
+			who = GEN
+			key = BYZ_colony_in_galata
+		}
+	}
+}
+
+ITA_all_roads_lead_to_rome = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 3
+		}
+		controlled_by = owner
+	}
+
+	local_development_cost_modifier = -0.25
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+ITA_crusader_kings = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			if = {
+				limit = {
+					religion = catholic
+				}
+				calc_true_if = {
+					AND = {
+						has_country_modifier = papal_sanction_for_church_taxes
+						has_country_modifier = papal_blessing
+						has_country_modifier = papal_indulgence
+						has_country_modifier = usury_forgiven
+						has_country_modifier = papal_sanction_for_holy_war
+						has_country_modifier = papal_legate
+					}
+					amount = 3
+				}
+			}
+			else = {
+				
+			}
+		}
+		controlled_by = owner
+	}
+
+	warscore_cost_vs_other_religion = -0.1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+ITA_flowering_of_renaissance = {
+	potential = {
+		owner = {
+			has_country_flag = ITA_flowering_of_renaissance_flag
+		}
+	}
+
+	trigger = {
+		if = {
+			limit = {
+				owner = {
+					has_country_flag = ITA_train_of_thought_flag
+				}
+			}
+			owner = {
+				OR = {
+					is_ahead_of_time_in_technology = { tech = adm }
+					is_ahead_of_time_in_technology = { tech = dip }
+					is_ahead_of_time_in_technology = { tech = mil }
+				}
+			}
+		}
+		else = {
+			owner = {
+				is_ahead_of_time_in_technology = { tech = adm }
+				is_ahead_of_time_in_technology = { tech = dip }
+				is_ahead_of_time_in_technology = { tech = mil }
+			}
+		}
+		controlled_by = owner
+	}
+
+	yearly_innovativeness = 0.25
+	institution_growth = 3
+	global_prosperity_growth = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+ITA_superior_trade_center = {
+	potential = {
+		owner = {
+			has_country_flag = ITA_node_flag
+		}
+	}
+
+	trigger = {
+		owned_by = owner
+		highest_value_trade_node = yes
+		trade_share = {
+			country = owner
+			share = 90
+		}
+		trade_node_value = 150
+		province_trade_power = 75
+		controlled_by = owner
+	}
+	
+	local_development_cost_modifier = -0.15
+	
+	
+	#Province scope
+	on_activation = {
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			custom_tooltip = ITA_higher_likelihood_of_entrepeneur
+		}
+		owner = {
+			set_country_flag = ITA_higher_likelihood_of_entrepeneur_flag
+		}
+	}
+	
+	on_deactivation = {
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			custom_tooltip = ITA_higher_likelihood_of_entrepeneur_no_longer
+		}
+		owner = {
+			clr_country_flag = ITA_higher_likelihood_of_entrepeneur_flag
+		}
+	}
+	
+}
+
+GER_early_coal_mining = {
+	potential = {
+		owner = {
+			has_country_flag = GER_protected_markets_flag
+		}
+	}
+
+	trigger = {
+		development = 45
+		controlled_by = owner
+	}
+
+	global_trade_goods_size_modifier = 0.05
+	trade_goods_size = 1 #intended
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+GER_treaty_port = {
+	potential = {
+		owner = {
+			has_country_flag = JHC_GER_overseas_empire_flag
+		}
+	}
+
+	trigger = {
+		controlled_by = owner
+		has_merchant = ROOT
+	}
+
+	global_trade_goods_size_modifier = 0.05
+	trade_goods_size = 1 #intended
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+
+GER_staying_in_lubeck = {
+	potential = {
+		owner = {
+			has_country_flag = JHC_GER_lowlands_flag
+		}
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = GER_home_trade_node_is_in_the_province
+			owner = {
+				home_trade_node = {
+					province_id = PREV_PREV
+				}
+			}
+		}
+		controlled_by = owner
+	}
+
+	trade_efficiency = 0.1
+	global_prov_trade_power_modifier = 0.1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+ned_dutch_admirality = {
+	potential = {}
+	trigger = {
+		owner = {
+			estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 60
+			}
+		}
+	}
+
+	navy_tradition = 0.15
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+ned_cape_city = {
+	potential = {}
+	trigger = {
+		country_or_non_sovereign_subject_holds = NED
+	}
+	
+	trade_goods_size_modifier = 0.2
+	local_defensiveness = 0.15
+	
+	#Province scope
+	on_activation = {
+		add_trade_modifier = {
+			who = NED
+			duration = -1
+			power = 75
+			key = CAPE_CITY
+		}
+	}
+	
+	on_deactivation = {
+		remove_trade_modifier = {
+			who = NED
+			key = CAPE_CITY
+		}
+	}
+}
+
+ned_dutch_traders = {
+	potential = {}
+	trigger = {
+		owner = {
+			has_opinion = {
+				who = NED
+				value = 125
+			}
+		}
+	}
+	
+	technology_cost = -0.05
+	global_prov_trade_power_modifier = -0.05
+	
+	#Province scope
+	on_activation = {
+		add_trade_modifier = {
+			who = NED
+			duration = -1
+			power = 55
+			key = DUTCH_TRADERS
+		}
+	}
+	
+	on_deactivation = {
+		remove_trade_modifier = {
+			who = NED
+			key = DUTCH_TRADERS
+		}
+	}
+}
+
+hab_vienna_ballrooms = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		owner = {
+			prestige = 80
+			if = {
+				limit = {
+					has_estate = estate_nobles
+				}
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 60
+				}
+			}
+		}
+	}
+	
+	all_estate_loyalty_equilibrium = 0.1
+	monthly_splendor = 4
+}
+
+ned_sound_toll_ties = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		owner = {
+			has_opinion = {
+				who = NED
+				value = 125
+			}
+		}
+    } 
+	
+	local_development_cost = -0.1
+	
+	#Province scope
+	on_activation = {
+		add_trade_modifier = {
+			who = NED
+			duration = -1
+			power = 70
+			key = DUTCH_TRADERS
+		}
+	}
+	
+	on_deactivation = {
+		remove_trade_modifier = {
+			who = NED
+			key = DUTCH_TRADERS
+		}
+	}
+}
+
+ITA_flowering_of_renaissance_no_dlc = {
+    potential = {
+        owner = {
+            has_country_flag = ITA_flowering_of_renaissance_flag
+        }
+    }
+    trigger = {
+        if = {
+            limit = {
+                owner = {
+                    has_country_flag = ITA_train_of_thought_flag
+                }
+            }
+            owner = {
+                OR = {
+                    is_ahead_of_time_in_technology = { tech = adm }
+                    is_ahead_of_time_in_technology = { tech = dip }
+                    is_ahead_of_time_in_technology = { tech = mil }
+                }
+            }
+        }
+        else = {
+            owner = {
+                is_ahead_of_time_in_technology = { tech = adm }
+                is_ahead_of_time_in_technology = { tech = dip }
+                is_ahead_of_time_in_technology = { tech = mil }
+            }
+        }
+        controlled_by = owner
+    }
+
+    institution_growth = 3
+    stability_cost_modifier = -0.25
+    
+    #Province scope
+    on_activation = {
+    
+    }
+    
+    on_deactivation = {
+    
+    }
+    
+}
