@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = alphan
 religion = arceusism
 technology_group = chinese
-capital = 203	# Kitakami
+capital = 272	# Kitakami
 
 1445.1.1 = { 
 	monarch = {
