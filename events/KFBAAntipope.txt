@@ -1,34 +1,131 @@
-# Waldensian spawn event
+namespace = kfba_anticatholic
+
+#############################
+#### Anticatholic Events ####
+#############################
+
+#The Last Antipope
 country_event = {
-    id = app.1
-    title = "app.1.title"
-    desc = "app.1.desc"
+    id = kfba_anticatholic.1
+    title = "kfba_anticatholic.1.title"
+    desc = "kfba_anticatholic.1.desc"
     picture = "LUTHER_eventPicture"
 
     major = yes
+	fire_only_once = yes
 
     trigger = {
-
         tag = SAV
         NOT = { is_religion_enabled = anticatholic }
 		is_defender_of_faith = no	
-		NOT = { has_reform = papacy_reform }
+		42 = {
+			owned_by = ROOT
+		}
 		capital_scope = {
 			continent = ransei
 		}
-        
     }
 
     mean_time_to_happen = {
-		days = 30
+		months = 6
 	}
     
+	#God has chosen Felix V!
     option = {
-        name = "app.1.a"
+        name = "kfba_anticatholic.1.a"
+		ai_chance = {
+			factor = 1
+		}
+		enable_religion = anticatholic
         change_religion = anticatholic
-        37 = {
+        42 = {
             add_core = XXX
-		    cede_province = XXX 
+			change_religion = anticatholic
+			add_reform_center = anticatholic
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
         }
+		release = XXX
+		add_papal_influence = 100
+		capital_scope = {
+			change_religion = anticatholic
+			add_cardinal = yes
+		}
+		vassalize = XXX
+		hidden_effect = {
+			XXX = {
+				define_ruler = {
+					name = "Felix V"
+					dynasty = "di Savoia"
+					adm = 3
+					dip = 4
+					mil = 2
+					age = 63
+				}
+				if = {
+					limit = {
+						has_heir = yes
+					}
+					kill_heir = { allow_new_heir = no }
+				}
+			}
+		}
+    }
+	#We must not make rash decisions.
+    option = {
+        name = "kfba_anticatholic.1.b"
+		ai_chance = {
+			factor = 0
+		}
+		#
+    }
+	#God has chosen me!
+    option = {
+        name = "kfba_anticatholic.1.c"
+		highlight = yes
+		trigger = {
+			ai = no
+		}
+		ai_chance = {
+			factor = 0
+		}
+		 change_religion = anticatholic
+        42 = {
+            add_core = XXX
+			change_religion = anticatholic
+			add_reform_center = anticatholic
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+        }
+		release = XXX
+		add_papal_influence = 100
+		capital_scope = {
+			change_religion = anticatholic
+			add_cardinal = yes
+		}
+		vassalize = XXX
+		change_tag = XXX
+		hidden_effect = {
+			XXX = {
+				define_ruler = {
+					name = "Felix V"
+					dynasty = "di Savoia"
+					adm = 3
+					dip = 4
+					mil = 2
+					age = 63
+				}
+				if = {
+					limit = {
+						has_heir = yes
+					}
+					kill_heir = { allow_new_heir = no }
+				}
+			}
+		}
     }
 }

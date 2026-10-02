@@ -19,19 +19,23 @@ christian = {
 		icon = 1
 		allowed_conversion = {
 			hussite
+			anticatholic
 			fraticelli
 			waldensian
-			anticatholic
 		}
 		country = {
 			tolerance_own = -1
 			global_missionary_strength = -0.01
-			papal_influence = -10
+			# papal_influence = -10
 		}
 		
 		country_as_secondary = {
 			diplomatic_reputation = 2
 			advisor_pool = 2
+		}
+		
+		province = {
+			local_missionary_strength = 0.03
 		}
 		
 		hre_religion = yes
@@ -74,7 +78,7 @@ christian = {
 		
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 		
-		date = 1534.11.3 # act of supremacy
+		# date = 1534.11.3 # act of supremacy
 	}
 	
 	hussite = {
@@ -272,7 +276,7 @@ christian = {
 		
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 		
-		date = 1517.10.31
+		# date = 1517.10.31
 	}
 
 	reformed = {
@@ -391,7 +395,7 @@ christian = {
 		
 		date = 1536.5.1
 		
-		fervor = yes
+		# fervor = yes
 	}
 
 	orthodox = {
@@ -601,8 +605,16 @@ christian = {
 			fraticelli
 			waldensian
 		}
+		allowed_center_conversion = {
+			catholic
+		}
 		country = {
-			#TODO
+			diplomatic_reputation = 2
+			legitimacy = 1
+			devotion = 1
+			republican_tradition = 0.3
+			meritocracy = 1
+			horde_unity = 1
 		}
 
 		will_get_center = {
@@ -610,16 +622,29 @@ christian = {
     	}
 		
 		country_as_secondary = {
-			#TODO
+			diplomatic_reputation = 2
+			legitimacy = 1
+			devotion = 1
+			republican_tradition = 0.3
+			meritocracy = 1
+			horde_unity = 1
+		}
+		
+		province = {
+			local_missionary_strength = 0.02
 		}
 		
 		on_convert = {
 			change_religion = anticatholic
 			add_prestige = -100
-			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -630,7 +655,7 @@ christian = {
 		papacy = {
 			papal_tag = XXX
 			election_cost = 5
-			seat_of_papacy = 47 #Savoy
+			seat_of_papacy = 42 #Cuneo
 			
 			# Papal Actions below!
 			
@@ -821,7 +846,7 @@ christian = {
 		
 		heretic = { CATHOLICISM WALDENSIANISM FRATICELLISN HUSSITISM }
 
-		#date = 1453.4.22    #easter
+		date = 1446.1.1
 	}
 	
 	fraticelli = {
@@ -832,8 +857,11 @@ christian = {
 			waldensian
 			anticatholic
 		}
+		allowed_center_conversion = {
+			catholic
+		}
 		country = {
-			prestige = 0.75
+			prestige = 1
 			build_cost = -0.1
 		}
 
@@ -842,16 +870,25 @@ christian = {
     	}
 		
 		country_as_secondary = {
+			prestige = 1
 			build_cost = -0.1
+		}
+		
+		province = {
+			local_missionary_strength = 0.01
 		}
 		
 		on_convert = {
 			change_religion = fraticelli
 			add_prestige = -100
-			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1053,38 +1090,51 @@ christian = {
 			}
 		}
 
-		#date = 1453.5.31	#ascension of Christ feast day		
+		date = 1447.1.1
 	}
 	
 	waldensian = {
 		color = { 229 166 52 }
 		icon = 32
-
-		will_get_center = {
-        	always = yes
-    	}
-
-		allowed_center_conversion = {
-			anticatholic
+	
+		allowed_conversion = {
+			catholic
 			hussite
-			fraticelli
+			anticatholic
 		}
+		allowed_center_conversion = {
+			catholic
+		}
+
 		country = {
-			diplomatic_reputation = 1
+			development_cost = -0.1
 			global_unrest = -2
 		}
 		
+		will_get_center = {
+        	always = yes
+    	}
+		
 		country_as_secondary = {
-			diplomatic_reputation = 1
+			development_cost = -0.1
+			global_unrest = -2
+		}
+		
+		province = {
+			local_missionary_strength = 0.01
 		}
 		
 		on_convert = {
 			change_religion = waldensian
 			add_prestige = -100
-			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1096,34 +1146,48 @@ christian = {
 		
 		heretic = { TABORITE UTRAQUIST ORPHAN }
 
-		#date = 1453.5.31	#ascension of Christ feast day	
+		date = 1447.1.1	
 	}
 	
 	papist = {
 		color = { 155 124 64 }
 		icon = 33
-
+		
+		allowed_conversion = {
+			catholic
+			episcopalian
+			imperialist
+		}
+		
 		allowed_center_conversion = {
+			catholic
 			anticatholic
 			hussite
 			fraticelli
 			waldensian
 		}
 		country = {
-			
+			ae_impact = -0.1
+			dip_tech_cost_modifier = -0.1
 		}
 		
 		country_as_secondary = {
-			
+			ae_impact = -0.1
+			dip_tech_cost_modifier = -0.1
 		}
 		
 		on_convert = {
 			change_religion = papist
-			add_prestige = -100
+			#add_prestige = -100
 			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1324,33 +1388,49 @@ christian = {
 		}
 		
 		heretic = { EPISCOPALIANISM IMPERIALISM }
+		
+		date = 1460.1.1	
 	}
 	
 	episcopalian = {
 		color = { 229 166 52 }
 		icon = 34
 
+		allowed_conversion = {
+			catholic
+			papist
+			imperialist
+		}
+
 		allowed_center_conversion = {
+			catholic
 			anticatholic
 			hussite
 			fraticelli
+			waldensian
 		}
 		country = {
-			diplomatic_reputation = 1
-			global_unrest = -2
+			church_loyalty_modifier = 0.1
+			monthly_reform_progress_modifier = 0.1
 		}
 		
 		country_as_secondary = {
-			diplomatic_reputation = 1
+			church_loyalty_modifier = 0.1
+			monthly_reform_progress_modifier = 0.1
 		}
 		
 		on_convert = {
-			change_religion = episcopalianist
-			add_prestige = -100
+			change_religion = episcopalian
+			#add_prestige = -100
 			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1361,33 +1441,50 @@ christian = {
 		has_patriarchs = yes
 		
 		heretic = { PAPISM IMPERIALISM }
+		
+		date = 1460.1.1	
 	}
 	
 	imperialist = {
 		color = { 229 166 52 }
 		icon = 35
 
+		allowed_conversion = {
+			catholic
+			papist
+			episcopalian
+		}
+
 		allowed_center_conversion = {
+			catholic
 			anticatholic
 			hussite
 			fraticelli
+			waldensian
 		}
 		country = {
-			diplomatic_reputation = 1
-			global_unrest = -2
+			global_autonomy = -0.05
+			years_of_nationalism = -5
+			imperial_authority = 0.05
 		}
 		
 		country_as_secondary = {
-			diplomatic_reputation = 1
+			global_autonomy = -0.05
+			years_of_nationalism = -5
 		}
 		
 		on_convert = {
 			change_religion = imperialist
 			add_prestige = -100
 			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -1398,6 +1495,8 @@ christian = {
 		fervor = yes
 		
 		heretic = { PAPISM EPISCOPALIANISM }
+		
+		date = 1460.1.1	
 	}
 	
 	harmonized_modifier = harmonized_christian
