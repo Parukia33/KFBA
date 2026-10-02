@@ -18,6 +18,9 @@ western_ransei_region = {
 		cisalpina_area
 		lombardia_area
 		east_cantonesia_area
+		tail_area
+		germania_area
+		frankia_area
 	}
 }
 
@@ -25,14 +28,6 @@ central_ransei_region = {
 	areas = {
 		central_ransei_area
 		ostgermania_area
-	}
-}
-
-northwestern_ransei_region = {
-	areas =  {
-		tail_area
-		germania_area
-		frankia_area
 	}
 }
 
