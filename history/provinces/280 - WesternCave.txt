@@ -1,6 +1,6 @@
 # 280 - Western Cave
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Western Cave"
 trade_goods = unknown
 hre = no

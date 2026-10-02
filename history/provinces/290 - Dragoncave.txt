@@ -1,6 +1,6 @@
 # 290 - Dragon Cave
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Dragon Cave"
 trade_goods = unknown
 hre = no

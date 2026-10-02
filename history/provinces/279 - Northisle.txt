@@ -1,6 +1,6 @@
 # 279 - Northisle
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = Northisle
 trade_goods = unknown
 hre = no

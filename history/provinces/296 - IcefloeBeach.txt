@@ -1,6 +1,6 @@
 # 296 - Icefloe Beach
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Icefloe Beach"
 trade_goods = unknown
 hre = no

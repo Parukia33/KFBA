@@ -1,6 +1,6 @@
 # 288 - Mystic Lakes
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Mystic Lakes"
 trade_goods = unknown
 hre = no

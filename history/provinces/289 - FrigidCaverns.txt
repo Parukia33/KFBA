@@ -1,6 +1,6 @@
 # 289 - Frigid Caverns
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Frigid Caverns"
 trade_goods = unknown
 hre = no

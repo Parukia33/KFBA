@@ -1,6 +1,6 @@
 # 306 - Peanut Swamp
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Peanut Swamp"
 trade_goods = unknown
 hre = no

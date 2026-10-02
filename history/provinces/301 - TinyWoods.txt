@@ -1,6 +1,6 @@
 # 301 - Tiny Woods
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Tiny Woods"
 trade_goods = unknown
 hre = no

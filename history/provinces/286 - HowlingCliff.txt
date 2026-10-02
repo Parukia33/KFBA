@@ -1,6 +1,6 @@
 # 286 - Howling Cliffs
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Howling Cliffs"
 trade_goods = unknown
 hre = no

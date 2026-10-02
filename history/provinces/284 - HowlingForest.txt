@@ -1,6 +1,6 @@
 # 284 - Howling Forest
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Howling Forest"
 trade_goods = unknown
 hre = no

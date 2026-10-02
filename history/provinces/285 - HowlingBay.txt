@@ -1,6 +1,6 @@
 # 285 - Howling Bay
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Howling Bay"
 trade_goods = unknown
 hre = no

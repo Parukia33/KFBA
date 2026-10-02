@@ -1,6 +1,6 @@
 # 304 - PMD Rescue Team Base
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Rescue Team Base"
 trade_goods = unknown
 hre = no

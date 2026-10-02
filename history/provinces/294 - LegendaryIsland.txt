@@ -1,6 +1,6 @@
 # 294 - Legendary Island
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Legendary Island"
 trade_goods = unknown
 hre = no

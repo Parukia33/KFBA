@@ -1,6 +1,6 @@
 # 291 Boulder cave
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Boulder Cave"
 trade_goods = unknown
 hre = no

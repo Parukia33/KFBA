@@ -1,6 +1,6 @@
 # 297 - Shallow Beach
-culture = slovene
-religion = totemism
+culture = pokemon
+religion = pokemon_religion
 capital = "Shallow Beach"
 trade_goods = unknown
 hre = no
