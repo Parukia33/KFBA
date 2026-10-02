@@ -9,7 +9,6 @@ country_event = {
     picture = "LUTHER_eventPicture"
 
     major = yes
-	is_triggered_only = yes
 	fire_only_once = yes
 
     trigger = {

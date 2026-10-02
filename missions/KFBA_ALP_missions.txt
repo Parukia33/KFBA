@@ -184,7 +184,7 @@ kfba_alp_2 = {
 		}
 		effect = {
 			custom_tooltip = maj_no_more_pretenders_tt
-			set_country_flag = maj_no_more_pretenders
+			set_country_flag = alp_no_more_pretenders
 			add_country_modifier = {
 				name = raikoh_cunning
 				duration = 7300

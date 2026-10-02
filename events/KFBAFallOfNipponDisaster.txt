@@ -51,7 +51,7 @@ country_event = {
 	}
 }
 
-# The Rise of Demak
+# The Rise of Alphabet
 country_event = {
 	id = kfba_fall_of_nippon_disaster.3
 	title = kfba_fall_of_nippon_disaster.3.t
@@ -154,7 +154,7 @@ country_event = {
 	}
 }
 
-# The Rise of Mataram
+# The Rise of Braille
 country_event = {
 	id = kfba_fall_of_nippon_disaster.4
 	title = kfba_fall_of_nippon_disaster.4.title

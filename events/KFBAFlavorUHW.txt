@@ -4,7 +4,7 @@ namespace = kfba_flavor_uhw
 #### Hawaiian Events ####
 #########################
 
-#TITLE
+#Auwe!
 country_event = {
 	id = kfba_flavor_uhw.1
 	title = "kfba_flavor_uhw.1.title"
@@ -20,7 +20,7 @@ country_event = {
 		days = 3
 	}
 	
-	#OPTION
+	#Only a leader with great mana could see us through.
 	option = {
 		name = "kfba_flavor_uhw.1.a"
 		ai_chance = { 

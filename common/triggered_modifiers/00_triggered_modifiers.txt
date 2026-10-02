@@ -68,14 +68,37 @@
 papal_subjugation = {
 	potential = {
 		normal_or_historical_nations = yes
-		has_discovered = 118	# Roma
-		religion = catholic
-		NOT = { tag = PAP }
+		OR = {
+			AND = {
+				religion = anticatholic
+				NOT = { tag = XXX }
+			}
+			AND = {
+				religion = fraticelli
+				NOT = { tag = FRT }
+			}
+			AND = {
+				religion = papist
+				NOT = { tag = PAP }
+			}
+		}
 	}
 
 	trigger = {	
-		overlord_of = PAP
-		NOT = { tag = ITA }
+		OR = {
+			AND = {
+				religion = anticatholic
+				overlord_of = XXX
+			}
+			AND = {
+				religion = fraticelli
+				overlord_of = FRT
+			}
+			AND = {
+				religion = papist
+				overlord_of = PAP
+			}	
+		}
 		NOT = { tag = HLR }
 		if = {
 			limit = {
@@ -107,7 +130,7 @@ papal_subjugation = {
 		}
 	}
 
-	diplomatic_reputation = -2
+	diplomatic_reputation = -1
 	#icon = 9
 }
 

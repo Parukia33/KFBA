@@ -12,15 +12,27 @@ country_decisions = {
 			NOT = { has_idea = liberty_egalite_fraternity }
 			OR = {
 				has_country_flag = can_always_embrace_the_counter_reformation
-				NOT = { religion_years = { protestant = 150 } }
+				NOT = { religion_years = { anticatholic = 10 } }
 			}
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = papist
+				religion = episcopalian
+				religion = imperialist
+			}
 		}
 		allow = {
 			OR = {
 				tag = PAP
 				is_emperor = yes
-				has_opinion = { who = PAP value = -50 }
+				AND = {
+					religion = papist
+					OR = {
+						has_opinion = { who = PAP value = -50 }
+						PAP = { exists = no }
+					}
+				}
+				NOT = { religion = papist }
 			}
 			NOT = { has_country_modifier = edict_de_nantes }
 		}
@@ -28,13 +40,14 @@ country_decisions = {
 			if = {
 				limit = {
 					NOT = { tag = PAP }
+					PAP = { religion = ROOT }
 				}
 				reverse_add_opinion = { who = PAP modifier = opinion_embraced_counter_reformation }
 			}
 			if = {
 				limit = {
 					is_emperor = no
-					emperor = { religion = catholic }
+					emperor = { religion = ROOT }
 				}
 				emperor = { add_opinion = { who = ROOT modifier = opinion_embraced_counter_reformation } }
 			}
@@ -47,37 +60,17 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.0
-				dominant_religion = reformed
+				dominant_religion = anticatholic
 				is_emperor = no
 			}
 			modifier = {
 				factor = 0.0
-				dominant_religion = protestant
+				dominant_religion = fraticelli
 				is_emperor = no
 			}
 			modifier = {
 				factor = 0.0
-				has_country_flag = protestant_reformation
-				is_emperor = no
-			}
-			modifier = {
-				factor = 0.0
-				has_country_flag = calvinist_reformation
-				is_emperor = no
-			}
-			modifier = {
-				factor = 0.0
-				NOT = { has_opinion = { who = PAP value = -10 } }
-				NOT = { culture_group = latin }
-				NOT = { culture_group = iberian }
-				is_emperor = no
-			}
-			modifier = {
-				factor = 0.0
-				adm = 2
-				NOT = { has_opinion = { who = PAP value = 100 } }
-				NOT = { culture_group = latin }
-				NOT = { culture_group = iberian }
+				dominant_religion = waldensian
 				is_emperor = no
 			}
 		}
