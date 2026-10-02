@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = ainu
 religion = kamuy_nomi
 technology_group = chinese
-capital = 204
+capital = 206
 
 
 1444.11.11 = {
