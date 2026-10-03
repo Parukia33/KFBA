@@ -648,8 +648,6 @@ otherworldly = {
 		#misguided_heretic = yes
 		heretic = { REFORMERS MEWISTS BULBASAURITES RHYDONERS }
 		
-		harmonized_modifier = harmonized_arceusism
-		
 	}
 	
 	pokemon_religion = {
@@ -667,6 +665,7 @@ otherworldly = {
 		
 	}
 	
+	harmonized_modifier = harmonized_otherworldly
 	
 	crusade_name = OUTSIDE_CONQUEST
 }

@@ -10,31 +10,65 @@ random_new_world_region = {
 
 western_ransei_region = {
 	areas = {
-		southwest_ransei_area
 		toscana_nova_area
 		west_peninsula_area
-		cantonesia_area
+		west_cantonesia_area
 		genova_nova_area
 		cisalpina_area
 		lombardia_area
 		east_cantonesia_area
-		tail_area
-		germania_area
-		frankia_area
+		west_tail_area
+		east_tail_area
+		west_frankia_area
+		east_frankia_area
 	}
 }
 
 central_ransei_region = {
 	areas = {
+		germania_area
 		central_ransei_area
 		ostgermania_area
+		westgermania_area
+		central_cantonesia_area
+		east_cantonesia_area
+		west_spine_area
+		east_spine_area
+		ransei_belly_area
+		ransei_barrel_area
 	}
 }
 
-eastern_ransei_region = {
+south_eastern_ransei_region = {
 	areas = {
+		ransei_elbow_area
+		ransei_pastern_area
+		ransei_coronet_area
+		ransei_hoof_area
+		ransei_chestnut_area
+		ransei_knee_area
 		southeast_ransei_area
+		south_frankonia_area
+		north_frankonia_area
+		ransei_chest_area
+		ransei_shoulder_area
+	}
+}
+
+north_eastern_ransei_region = {
+	areas = {
+		ransei_withers_area
+		ransei_neck_area
+		ransei_throat_area
+		ransei_jaw_area
 		northeast_ransei_area
+		northeast_ransei_coast_area
+		ransei_eye_area
+		ransei_cheek_area
+		ransei_crest_area
+		ransei_poll_area
+		ransei_west_mane_area
+		ransei_east_mane_area
 	}
 }
 
@@ -74,6 +108,84 @@ hawaii_region = {
 	}
 }
 
+########################################
+# Air Continent					 	   #
+########################################
+
+zephyrus_region = {
+	areas = {
+		faraway_area
+		final_island_area
+		north_range_area
+		howling_area
+		silver_peninsula_area
+		echo_cave_area
+		team_base_area
+		base_bay_area
+		rubadub_area
+		tadpole_area
+	}
+}
+
+boreas_region = {
+	areas = {
+		frosty_forest_area
+		mt_freeze_area
+		frozen_peninsula_area
+		skytower_area
+		lookout_island_area
+		kalt_area
+		amateratsu_area
+		kano_area
+		lapis_area
+	}
+}
+
+aeolus_region = {
+	areas = {
+		uproar_area
+		mt_thunder_area
+		deepgreen_area
+		fridgid_mountains_area
+		silent_chasm_area
+		waterfall_area
+		big_plains_area
+		huge_hills_area
+		thunder_valley_area
+	}
+}
+
+eurus_region = {
+	areas = {
+		kromveld_area
+		zandmeer_area
+		relic_area
+		ha_islands_area
+		lanikoa_area
+		wyvern_area 
+		montalengo_area
+		castellone_area
+		dark_hill_area
+		dark_peninsula_area
+		vision_coast_area
+	}
+}
+
+notus_region = {
+	areas = {
+		murky_area
+		lake_valley_area
+		big_pond_area
+		dove_coast_area
+		unknown_area
+		rocky_coast_area
+		safari_area
+		thunder_meadow_area
+		great_canyon_area
+		lake_north_area
+	}
+}
+
 #######
 # SEA #
 #######
@@ -83,3 +195,193 @@ ocean_region = {
 		ocean_area
 	}
 }
+
+
+
+###############
+# OLD REGIONS #
+###############
+
+france_region = {}
+
+scandinavia_region = {}
+
+low_countries_region = {}
+
+italy_region = {}
+
+north_german_region = {}
+
+south_german_region = {}
+
+russia_region = {}
+
+ural_region = {}
+
+iberia_region = {}
+
+british_isles_region = {}
+
+baltic_region = {}
+
+poland_region = {}
+
+ruthenia_region = {}
+
+crimea_region = {}
+
+balkan_region = {}
+
+carpathia_region = {}
+
+egypt_region = {}
+
+maghreb_region = {}
+
+mashriq_region = {}
+
+anatolia_region = {}
+
+persia_region = {}
+
+khorasan_region = {}
+
+caucasia_region = {}
+
+arabia_region = {}
+
+niger_region = {}
+
+guinea_region = {}
+
+sahel_region = {}
+
+horn_of_africa_region = {}
+
+east_africa_region = {}
+
+central_africa_region = {}
+
+kongo_region = {}
+
+central_asia_region = {}
+
+south_africa_region = {}
+
+west_siberia_region = {}
+
+east_siberia_region = {}
+
+mongolia_region = {}
+
+manchuria_region = {}
+
+korea_region = {}
+
+tibet_region = {}
+
+hindusthan_region = {}
+
+bengal_region = {}
+
+west_india_region = {}
+
+deccan_region = {}
+
+coromandel_region = {}
+
+burma_region = {}
+
+japan_region = {}
+
+australia_region = {}
+
+south_china_region = {}
+
+xinan_region = {}
+
+north_china_region = {}
+
+brazil_region = {}
+
+la_plata_region = {}
+
+colombia_region = {}
+
+peru_region = {}
+
+upper_peru_region = {}
+
+malaya_region = {}
+
+moluccas_region = {}
+
+indonesia_region = {}
+
+oceanea_region = {}
+
+indo_china_region = {}
+
+canada_region = {}
+
+great_lakes_region = {}
+
+northeast_america_region = {}
+
+southeast_america_region =  {}
+
+mississippi_region = {}
+
+great_plains_region = {}
+
+california_region = {}
+
+cascadia_region = {}
+
+hudson_bay_region = {}
+
+mexico_region = {}
+
+rio_grande_region = {}
+
+central_america_region = {}
+
+carribeans_region = {}
+
+baltic_sea_region = {}
+
+north_atlantic_region = {}
+
+american_east_coast_region = {}
+
+mediterrenean_region = {}
+
+caribbean_sea_region = {}
+
+west_african_sea_region = {}
+
+west_indian_ocean_region = {}
+
+arabian_sea_region = {}
+
+east_indian_ocean_region = {}
+
+south_indian_ocean_region = {}
+
+south_china_sea_region = {}
+
+east_china_sea_region = {}
+
+north_west_pacific_region = {}
+
+south_west_pacific_region = {}
+
+south_east_pacific_region = {}
+
+north_east_pacific_region = {}
+
+pacific_south_america_region = {}
+
+atlantic_south_america_region = {}
+
+south_atlantic_region = {}
