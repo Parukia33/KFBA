@@ -5,7 +5,17 @@ ransei_superregion = {
 	
 	western_ransei_region
 	central_ransei_region
-	eastern_ransei_region
+	#eastern_ransei_region
+	south_eastern_ransei_region
+	north_eastern_ransei_region
+}
+
+air_continent_superregion = {
+	zephyrus_region
+	boreas_region
+	aeolus_region
+	eurus_region
+	notus_region
 }
 
 new_world_superregion = {
@@ -16,3 +26,55 @@ new_world_superregion = {
 ocean_superregion = {
 	ocean_region
 }
+
+
+
+# OLD
+
+india_superregion = {}
+
+east_indies_superregion = {}
+
+oceania_superregion = {}
+
+china_superregion = {}
+
+europe_superregion = {}
+
+eastern_europe_superregion = {}
+
+tartary_superregion = {}
+
+far_east_superregion = {}
+
+africa_superregion = {}
+
+southern_africa_superregion = {}
+
+south_america_superregion = {}
+
+andes_superregion = {}
+
+north_america_superregion = {}
+
+central_america_superregion = {}
+
+near_east_superregion = {}
+
+persia_superregion = {}
+
+west_american_sea_superregion = {}
+
+east_american_sea_superregion = {}
+
+north_european_sea_superregion = {}
+
+south_european_sea_superregion = {}
+
+west_african_sea_superregion = {}
+
+east_african_sea_superregion = {}
+
+indian_pacific_sea_superregion = {}
+
+north_pacific_sea_superregion = {}

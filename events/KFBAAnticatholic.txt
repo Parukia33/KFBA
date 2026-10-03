@@ -42,10 +42,7 @@ country_event = {
 				name = "religious_zeal_at_conv"
 				duration = 9000
 			}
-			add_province_triggered_modifier = {
-				name = "religious_center"
-				duration = -1
-			}
+			add_province_triggered_modifier = religious_center
         }
 		release = XXX
 		add_papal_influence = 100
@@ -100,10 +97,7 @@ country_event = {
 				name = "religious_zeal_at_conv"
 				duration = 9000
 			}
-			add_province_triggered_modifier = {
-				name = "religious_center"
-				duration = -1
-			}
+			add_province_triggered_modifier = religious_center
         }
 		release = XXX
 		add_papal_influence = 100
