@@ -2197,10 +2197,6 @@ eastern = {
 	shinto = {
 		color = { 204 0 0 }
 		icon = 10
-		allowed_conversion = {
-			mahayana
-			vajrayana
-		}
 		country = {
 			land_morale = 0.1
 			tolerance_heretic = 2

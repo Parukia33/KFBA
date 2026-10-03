@@ -309,3 +309,56 @@ country_event = {
 		}
 	}
 }
+
+# Pretender to Nippon
+# country_event = {
+# 	id = kfba_fall_of_nippon_disaster.7
+# 	title = kfba_fall_of_nippon_disaster.7.title
+# 	desc = kfba_fall_of_nippon_disaster.7.desc
+# 	picture = NUSANTARA_THRONE_eventPicture
+	
+# 	is_triggered_only = yes
+	
+# 	trigger = {
+# 		has_disaster = kfba_fall_of_nippon_disaster
+# 		NOT = { has_country_flag = alp_no_more_pretenders }
+# 		any_owned_province = {
+# 			region = nippon_region
+# 			controlled_by = ROOT
+# 		}
+# 	}
+# 	immediate = {
+# 		hidden_effect = {
+# 			set_saved_name = {
+# 				key = alp_pretender
+# 				type = leader
+# 			}
+# 			random_owned_province = {
+# 				limit = {
+# 					region = nippon_region
+# 					controlled_by = ROOT
+# 				}
+# 				save_event_target_as = alp_pretender_province
+# 				spawn_rebels = {
+# 					type = pretender_rebels
+# 					leader = alp_pretender
+# 					size = 2
+# 				}
+# 			}
+# 			set_country_flag = alp_pretender_event
+# 		}
+# 	}
+	
+# 	option = {
+# 		name = kfba_fall_of_nippon_disaster.5.a
+# 		tooltip = {
+# 			event_target:alp_pretender_province = {
+# 				spawn_rebels = {
+# 					type = pretender_rebels
+# 					leader = alp_pretender
+# 					size = 2
+# 				}
+# 			}
+# 		}
+# 	}
+# }

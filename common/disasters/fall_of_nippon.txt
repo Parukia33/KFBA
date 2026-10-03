@@ -44,8 +44,12 @@ kfba_fall_of_nippon_disaster = {
 		events = {
 			kfba_fall_of_nippon_disaster.3 # The Rise of Demak
 			kfba_fall_of_nippon_disaster.4 # The rise of Mataram
-			kfba_fall_of_nippon_disaster.7 # Aid from Muslim merchants
 		}
+		random_events = { 
+            1000 = 0
+            10 = kfba_fall_of_nippon_disaster.5 # Pretender
+            # 100 = kfba_fall_of_nippon_disaster.7
+        }
 	}
 }
 
