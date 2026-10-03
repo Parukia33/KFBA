@@ -93,6 +93,7 @@ country_event = {
 				add_corruption = -0.1
 			}
 		}
+		country_event = { id = kfba_old_catholic.3 }
 		enable_religion = papist
 		enable_religion = episcopalian
 		enable_religion = imperialist
@@ -209,7 +210,7 @@ country_event = {
 	
 	trigger = {
 		religion = catholic
-		had_country_flag = {
+		had_global_flag = {
 			flag = counter_reformation
 			days = 365
 		}

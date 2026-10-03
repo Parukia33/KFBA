@@ -1,0 +1,66 @@
+namespace = kfba_imperialist
+
+############################
+#### Imperialist Events ####
+############################
+
+#The Last Imperialists
+country_event = {
+	id = kfba_imperialist.1
+	title = "kfba_imperialist.1.title"
+	desc = "kfba_imperialist.1.desc"
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		religion = imperialist
+		NOT = { any_country = { is_emperor = yes } }
+		NOT = { any_country = { is_part_of_hre = yes } }
+		NOT = { any_province = { is_part_of_hre = yes } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	#Only the Pope is truly holy.
+	option = {
+		name = "kfba_imperialist.1.a"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					NOT = { religion = catholic }
+					NOT = { religion = papist }
+					NOT = { religion = episcopalian }
+					NOT = { religion = imperialist }
+				}
+			}
+		}
+		change_religion = papist
+		every_owned_province = {
+			limit = {
+				religion = imperialist
+			}
+			change_religion = papist	
+		}
+	}
+	#Only the Bishops are truly legitimate.
+	option = {
+		name = "kfba_imperialist.1.b"
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				government = theocracy
+			}
+		}
+		change_religion = episcopalian
+		every_owned_province = {
+			limit = {
+				religion = imperialist
+			}
+			change_religion = episcopalian	
+		}
+	}
+}
