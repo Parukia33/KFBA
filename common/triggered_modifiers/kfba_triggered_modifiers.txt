@@ -44,6 +44,7 @@ navy_unsuitable_to_pokemon_world = {
 	naval_attrition = 2
 	ship_durability = -0.5
 	range = -0.5
+	global_prov_trade_power_modifier = 0.1
 }
 
 navy_suitable_to_pokemon_world = {
@@ -70,4 +71,5 @@ navy_suitable_to_pokemon_world = {
 	naval_attrition = 1
 	ship_durability = -0.25
 	range = -0.25
+	global_prov_trade_power_modifier = 0.25
 }
