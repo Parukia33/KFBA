@@ -847,7 +847,7 @@ christian = {
 	}
 	
 	fraticelli = {
-		color = { 204 0 0 }
+		color = { 204 204 204 }
 		icon = 31
 		allowed_conversion = {
 			hussite
@@ -1384,7 +1384,7 @@ christian = {
 	}
 	
 	episcopalian = {
-		color = { 229 166 52 }
+		color = { 26 89 203 }
 		icon = 34
 
 		allowed_conversion = {
@@ -1430,7 +1430,7 @@ christian = {
 	}
 	
 	imperialist = {
-		color = { 229 166 52 }
+		color = { 247 216 132 }
 		icon = 35
 
 		allowed_conversion = {

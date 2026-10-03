@@ -38,6 +38,15 @@
  kfba_fraticelli.1.desc:0 "Although the Fraticelli heresy had been contained, the sudden lack of Church authority seemed to have enboldened the heretics. They now demand their right to follow and spread their religious ideas, and consider themselves chosen by God, who would've struck down the false Pope. This development is a cause of great concern in an already weakened Holy Roman Empire."
  kfba_fraticelli.1.a:0 "Heretics!"
  kfba_fraticelli.1.b:0 "They see the light!"
+ kfba_fraticelli.2.title:0 "The Fraticelli Papacy"
+ kfba_fraticelli.2.desc:0 "For too long the Fraticelli were considered deviants and persecuted. No more. As $COUNTRY$ establishes the Fraticelli Papal State, we now stand equal with the other Christians as a religion with our own legitimate head of faith."
+ kfba_fraticelli.2.a:0 "God is with us!"
+ kfba_fraticelli.2.b:0 "God is with me!"
+ 
+ kfba_imperialist.1.title:0 "The Last Imperialists"
+ kfba_imperialist.1.desc:0 "With the Holy Roman Empire dissolved, the title of Emperor of the Romans is gone. Without it, the Imperialist has met its end. We must pick another ultimate authority for the Catholic Church."
+ kfba_imperialist.1.a:0 "Only the Pope is truly holy."
+ kfba_imperialist.1.b:0 "Only the Bishops are truly legitimate."
  
  kfba_old_catholic.1.title:0 "The Pope Is Gone"
  kfba_old_catholic.1.desc:0 "It has come to the attention of the Catholic world, which now is limited to the Holy Roman Empire, that the Papal State, the Pope and all the College of Cardinals has disappeared. Without a head of faith to guide us and even lacking the members that can elect a new Pope, it is uncertain what will become of the Catholic faith. A crisis unlike any other has began and we can only pray to God, assuming He still exists in this world, to give us an answer."

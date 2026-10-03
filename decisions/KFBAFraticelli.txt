@@ -1,0 +1,68 @@
+country_decisions = {
+
+   	kfba_create_fraticelli_papacy = {
+		major = yes
+		potential = {
+			religion = fraticelli
+			NOT = { has_global_flag = kfba_fraticelli_papacy_created }
+		}
+		allow = {
+			num_of_cities = 5
+			total_development = 100
+			50 = {
+				owned_by = ROOT
+				religion = fraticelli
+			}
+		}
+		effect = {
+			50 = {
+				add_core = FRT
+				remove_core = ROOT
+			}
+			release = FRT
+			FRT = { adopt_reform_progress = ROOT }
+			if = {
+				limit = { ai = yes }
+				create_guarantee = FRT
+				create_alliance = FRT
+			}
+			add_opinion = {
+				who = FRT
+				modifier = kfba_created_papacy
+			}
+			reverse_add_opinion = {
+				who = FRT
+				modifier = kfba_created_papacy
+			}
+			hidden_effect = {
+				FRT = {
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						kill_heir = { allow_new_heir = no }
+					}
+					if = {
+						limit = { NOT = { government = theocracy } }
+						change_government = theocracy
+					}
+					add_government_reform = papacy_reform
+					change_primary_culture = ROOT
+					change_religion = fraticelli
+					capital_scope = {
+						build_to_forcelimit = {
+							infantry = 1
+						}
+					}
+				}
+			}
+			country_event = { id = kfba_fraticelli.2 }
+			set_country_flag = kfba_created_fraticelli_papacy
+			set_global_flag = kfba_fraticelli_papacy_created
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
