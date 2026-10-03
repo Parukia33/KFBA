@@ -48,6 +48,11 @@
  kfba_imperialist.1.a:0 "Only the Pope is truly holy."
  kfba_imperialist.1.b:0 "Only the Bishops are truly legitimate."
  
+ kfba_papist.1.title:0 "The First New World Pope"
+ kfba_papist.1.desc:0 ""
+ kfba_papist.1.a:0 "In the name of the Father, and of the Son, and of the Holy Spirit... Amen."
+ kfba_papist.1.b:0 "I don't think I'm up to the task..."
+ 
  kfba_old_catholic.1.title:0 "The Pope Is Gone"
  kfba_old_catholic.1.desc:0 "It has come to the attention of the Catholic world, which now is limited to the Holy Roman Empire, that the Papal State, the Pope and all the College of Cardinals has disappeared. Without a head of faith to guide us and even lacking the members that can elect a new Pope, it is uncertain what will become of the Catholic faith. A crisis unlike any other has began and we can only pray to God, assuming He still exists in this world, to give us an answer."
  kfba_old_catholic.1.a:0 "What will become of Catholicism?"

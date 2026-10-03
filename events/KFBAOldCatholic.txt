@@ -217,7 +217,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		years = 1
+		months = 1
 	}
 	
 	#We stand with the new Pope!

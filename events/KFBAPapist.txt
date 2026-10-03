@@ -1,0 +1,115 @@
+namespace = kfba_papist
+
+###########################
+#### Fraticelli Events ####
+###########################
+
+#The First New World Pope
+country_event = {
+    id = kfba_papist.1
+    title = "kfba_papist.1.title"
+    desc = "kfba_papist.1.desc"
+    picture = "POPE_PREACHING_eventPicture"
+
+    major = yes
+	fire_only_once = yes
+
+    trigger = {
+		always = no
+		NOT = { exists = PAP }
+		religion = papist
+		had_global_flag = {
+			flag = counter_reformation
+			days = 365
+		}
+		capital_scope = { continent = ransei }
+		OR = {
+			AND = {
+				government = theocracy
+				religion = papist
+				is_part_of_hre = yes
+				NOT = { has_country_flag = kfba_rejected_papacy_flag }
+				NOT = {
+					any_country = {
+						government = theocracy
+						religion = papist
+						is_part_of_hre = yes
+						total_development = ROOT
+						NOT = { has_country_flag = kfba_rejected_papacy_flag }
+					}
+				}
+			}
+			AND = {
+				NOT = {
+					any_country = {
+						government = theocracy
+						religion = papist
+						is_part_of_hre = yes
+						NOT = { has_country_flag = kfba_rejected_papacy_flag }
+						NOT = {
+							any_country = {
+								government = theocracy
+								religion = papist
+								is_part_of_hre = yes
+								total_development = ROOT
+								NOT = { has_country_flag = kfba_rejected_papacy_flag }
+							}
+						}
+					}
+				}
+				NOT = { government = theocracy }
+				religion = papist
+				is_part_of_hre = yes
+				num_of_cities = 6
+				NOT = { has_country_flag = kfba_rejected_papacy_flag }
+			}
+		}
+		NOT = { has_country_flag = kfba_rejected_papacy_flag }
+		NOT = { has_global_flag = kfba_first_pope_was_chosen }
+    }
+
+    mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		set_global_flag = kfba_first_pope_was_chosen
+	}
+    
+	#In the name of the Father, and of the Son, and of the Holy Spirit... Amen.
+    option = {
+        name = "kfba_papist.1.a"
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					has_heir = yes
+				}
+				kill_heir = { allow_new_heir = no }
+			}
+		}
+		if = {
+			limit = { government = theocracy }
+			change_tag = PAP
+		}
+		else = {
+			
+		}
+		PAP = {
+			change_religion = papist
+			add_government_reform = papacy_reform
+			change_primary_culture = ROOT
+		}
+    }
+	#I don't think I'm up to the task...
+    option = {
+        name = "kfba_papist.1.b"
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = kfba_rejected_papacy_flag
+		clr_global_flag = kfba_first_pope_was_chosen
+    }
+}
