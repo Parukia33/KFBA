@@ -9,6 +9,11 @@ bookmark =
 	
 	country = HAB
 	country = BRA
+	country = BOH
+	country = SAV
+	country = LAN
+	country = SWI
+	country = BUR
 	
 	easy_country = HAB
 }

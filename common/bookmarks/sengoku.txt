@@ -7,12 +7,10 @@ bookmark =
 	center = 228
 	
 	country = ALP
-	country = ANU
     country = UES
-    country = OUC
+    country = ODA
+	country = KTB
     country = SOO
+	country = ANU
 	
-	easy_country = ALP
-    easy_country = ANU
-    easy_country = OUC
 }
