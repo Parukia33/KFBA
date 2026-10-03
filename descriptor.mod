@@ -1,4 +1,5 @@
-version="0.1"
+version="0.0.1"
+picture="thumbnail.png"
 tags={
 	"Alternative History"
 }
@@ -12,6 +13,5 @@ replace_path="history/countries"
 replace_path="history/wars"
 replace_path="history/provinces"
 replace_path="history/advisors"
-picture="thumbnail.png"
 supported_version="v1.37.5.0"
 remote_file_id="3812293416"

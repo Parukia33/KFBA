@@ -11,8 +11,4 @@ bookmark =
     country = H10
     country = H16
     country = H19
-	
-	easy_country = H19
-    easy_country = H10
-    easy_country = H08
 }
